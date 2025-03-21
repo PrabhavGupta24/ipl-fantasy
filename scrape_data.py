@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 
 DOMAIN = 'https://www.cricbuzz.com'
@@ -60,7 +61,7 @@ def get_player_num(player_link_section):
     return player_num
 
 
-def clean_name_and_initialize(unfiltered_link_section, squad, player_entries):
+def clean_name_and_initialize(unfiltered_link_section, squad, player_entries, match_number):
     unfiltered_name = unfiltered_link_section.text
     is_captain = 1 if '(c)' in unfiltered_name.lower() else 0
     is_keeper = 1 if '(wk)' in unfiltered_name.lower() else 0
@@ -70,6 +71,7 @@ def clean_name_and_initialize(unfiltered_link_section, squad, player_entries):
 
     if name not in player_entries:
         player_entries[name] = {'Match Number': match_number,
+                                'Name': name,
                                 'Role': role,
                                 'Captain': is_captain,
                                 'Wicketkeeper': is_keeper}
@@ -83,7 +85,7 @@ def get_card_data(raw_card, match_number, player_entries, sqauds, batting=True):
             break
         entry_contents = entry.findAll('div')
         unfiltered_name = entry_contents[0].find('a')
-        name = clean_name_and_initialize(unfiltered_name, sqauds, player_entries)
+        name = clean_name_and_initialize(unfiltered_name, sqauds, player_entries, match_number)
         
         player_entry = player_entries[name]
         
@@ -91,9 +93,9 @@ def get_card_data(raw_card, match_number, player_entries, sqauds, batting=True):
         if batting:
             out_string = entry_contents[1].find('span').text
             print(out_string)
-            player_entry["Out String"] = out_string
+            player_entry['Out String'] = out_string
 
-            player_entry['Runs'] = entry_contents[2].text
+            player_entry['Batting Runs'] = entry_contents[2].text
             player_entry['Balls'] = entry_contents[3].text
             player_entry['4s'] = entry_contents[4].text
             player_entry['6s'] = entry_contents[5].text
@@ -102,7 +104,7 @@ def get_card_data(raw_card, match_number, player_entries, sqauds, batting=True):
         else:
             player_entry['Overs'] = entry_contents[1].text
             player_entry['Maidens'] = entry_contents[2].text
-            player_entry['Runs'] = entry_contents[3].text
+            player_entry['Bowling Runs'] = entry_contents[3].text
             player_entry['Wickets'] = entry_contents[4].text
             player_entry['No Balls'] = entry_contents[5].text
             player_entry['Wides'] = entry_contents[6].text
@@ -111,12 +113,35 @@ def get_card_data(raw_card, match_number, player_entries, sqauds, batting=True):
     if batting:
         unfiltered_names = list(raw_card.findAll('div', class_='cb-scrd-itms'))[-1].findAll('a')
         for unfiltered_name in unfiltered_names:
-            clean_name_and_initialize(unfiltered_name, sqauds, player_entries)
+            clean_name_and_initialize(unfiltered_name, sqauds, player_entries, match_number)
         
+
+def initialize_output_file(filename, fieldnames):
+    with open(filename, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+    
+    print("Output File Created")
+
+def export_data(filename, fieldnames, player_entries):
+    with open(filename, 'a', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        for name in player_entries:
+            writer.writerow(player_entries[name])
+    
+    print("Data Exported to:", filename)
+
 
 
 match_links = get_tournament_match_links('https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches')
 
+filename = 'ipl_2024_scorecards.csv'
+fieldnames = ['Match Number', 'Name', 'Role', 'Captain', 'Wicketkeeper', 
+                  'Out String', 'Batting Runs', 'Balls', '4s', '6s', 'Strike Rate',
+                  'Overs', 'Maidens', 'Bowling Runs', 'Wickets', 'No Balls', 'Wides', 'Economy', 'Catches', 'Run Outs', 'Stumpings']
+
+initialize_output_file(filename, fieldnames)
 
 for match_number, link in enumerate(match_links):
     team1_squad_names, team2_squad_names = get_squad_names(link.replace('live-cricket-scorecard', 'cricket-match-squads'))
@@ -127,7 +152,6 @@ for match_number, link in enumerate(match_links):
 
     innings1 = match_data.find('div', id='innings_1')
     innings2 = match_data.find('div', id='innings_2')
-    
 
     innings1_parts = innings1.contents
     innings2_parts = innings2.contents
@@ -143,8 +167,7 @@ for match_number, link in enumerate(match_links):
     batting_card_2 = innings2_parts[1]
     bowling_card_2 = innings2_parts[6]
 
-    # print(player_entries)
-    #for now, merging the sqauds
+    #for now, merging the squads
     squads = team1_squad_names | team2_squad_names
     get_card_data(batting_card_1, match_number, player_entries, squads, batting=True)
     get_card_data(bowling_card_1, match_number, player_entries, squads, batting=False)
@@ -152,6 +175,8 @@ for match_number, link in enumerate(match_links):
     get_card_data(bowling_card_2, match_number, player_entries, squads, batting=False)
     print(player_entries.keys())
     print(len(player_entries))
+
+    export_data(filename, fieldnames, player_entries)
 
 
     

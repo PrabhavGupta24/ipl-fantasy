@@ -74,9 +74,26 @@ def clean_name_and_initialize(unfiltered_link_section, squad, player_entries, ma
                                 'Name': name,
                                 'Role': role,
                                 'Captain': is_captain,
-                                'Wicketkeeper': is_keeper}
+                                'Wicketkeeper': is_keeper,
+                                'Out String': 'Did Not Bat',
+                                'Batting Runs': 0,
+                                'Balls': 0,
+                                '4s': 0,
+                                '6s': 0,
+                                'Strike Rate': 0.00,
+                                'Overs': 0.0,
+                                'Maidens': 0,
+                                'Bowling Runs': 0,
+                                'Wickets': 0,
+                                'No Balls': 0,
+                                'Wides': 0,
+                                'Economy': 0.00,
+                                'Catches': 0,
+                                'Run Outs': 0.0,
+                                'Stumpings': 0}
     
     return name
+
 
 def get_card_data(raw_card, match_number, player_entries, sqauds, batting=True):
     
@@ -137,9 +154,9 @@ def export_data(filename, fieldnames, player_entries):
 match_links = get_tournament_match_links('https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches')
 
 filename = 'ipl_2024_scorecards.csv'
-fieldnames = ['Match Number', 'Name', 'Role', 'Captain', 'Wicketkeeper', 
-                  'Out String', 'Batting Runs', 'Balls', '4s', '6s', 'Strike Rate',
-                  'Overs', 'Maidens', 'Bowling Runs', 'Wickets', 'No Balls', 'Wides', 'Economy', 'Catches', 'Run Outs', 'Stumpings']
+fieldnames = ['Match Number', 'Name', 'Role', 'Captain', 'Wicketkeeper',
+              'Out String', 'Batting Runs', 'Balls', '4s', '6s', 'Strike Rate',
+              'Overs', 'Maidens', 'Bowling Runs', 'Wickets', 'No Balls', 'Wides', 'Economy', 'Catches', 'Run Outs', 'Stumpings']
 
 initialize_output_file(filename, fieldnames)
 

@@ -1,25 +1,144 @@
 import requests
 from bs4 import BeautifulSoup
 
-response = requests.get("https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches")
 
 DOMAIN = 'https://www.cricbuzz.com'
-print(response.status_code)
-bs_response = BeautifulSoup(response.content, 'html.parser')
-# print(bs_response.prettify())
-series_div = bs_response.find('div', id='series-matches')
-# print(series_div.prettify()[:1000])
-match_entries = list(series_div.findAll('div', class_='cb-series-matches'))
 
-# print(match_entries[0].prettify())
 
-match_links = []
-for match in match_entries:
-    link = match.find('a')['href']
-    link = DOMAIN + link.replace('cricket-scores', 'live-cricket-scorecard')
-    match_links.append(link)
+def get_tournament_match_links(tournament_link):
+    response = requests.get(tournament_link)
+    print(response.status_code)
 
-print(match_links)
-print(len(match_links))
+    bs_response = BeautifulSoup(response.content, 'html.parser')
+    series_div = bs_response.find('div', id='series-matches')
+    match_entries = list(series_div.findAll('div', class_='cb-series-matches'))
+
+    match_links = []
+    for match in match_entries:
+        link = match.find('a')['href']
+        link = DOMAIN + link.replace('cricket-scores', 'live-cricket-scorecard')
+        match_links.append(link)
+    
+    return match_links
+
+def get_squad_names(sqauds_link):
+    team1_squad_names = {}
+    team2_squad_names = {}
+    squad_data = requests.get(sqauds_link)
+    squad_data = BeautifulSoup(squad_data.content, 'html.parser')
+    
+    team1_data = squad_data.findAll('div', class_='cb-play11-lft-col')[:2]
+    team2_data = squad_data.findAll('div', class_='cb-play11-rt-col')[:2]
+    
+    for section in team1_data:
+        players = section.findAll('div', class_='cb-col-100')
+        # for player in players:
+
+        break
+
+    exit()
+
+def clean_name(unfiltered_name_link):
+    unfiltered_name = unfiltered_name_link.text
+    is_captain = 1 if '(c)' in unfiltered_name else 0
+    is_keeper = 1 if '(wk)' in unfiltered_name else 0
+    
+    player_page = requests.get(DOMAIN + unfiltered_name_link['href'])
+    player_page = BeautifulSoup(player_page.content, 'html.parser')
+
+    name = player_page.find('h1').text.strip()
+    return name, is_captain, is_keeper
+
+def get_card_data(raw_card, match_number, player_entries, batting=True):
+    
+    for entry in raw_card.findAll('div', class_='cb-scrd-itms'):
+        if entry.find('div', class_='cb-col-60'): #Got to Extras
+            break
+        entry_contents = entry.findAll('div')
+        unfiltered_name = entry_contents[0].find('a')
+        name, is_captain, is_keeper = clean_name(unfiltered_name)
+        if name not in player_entries:
+            player_entries[name] = {'Match Number': match_number,
+                                    'Captain': is_captain,
+                                    'Wicketkeeper': is_keeper}
+        
+        player_entry = player_entries[name]
+        
+        
+        
+        
+        if batting:
+            out_string = entry_contents[1].find('span').text
+            print(out_string)
+            player_entry["Out String"] = out_string
+
+            player_entry['Runs'] = entry_contents[2].text
+            player_entry['Balls'] = entry_contents[3].text
+            player_entry['4s'] = entry_contents[4].text
+            player_entry['6s'] = entry_contents[5].text
+            player_entry['Strike Rate'] = entry_contents[6].text
+
+        else:
+            player_entry['Overs'] = entry_contents[1].text
+            player_entry['Maidens'] = entry_contents[2].text
+            player_entry['Runs'] = entry_contents[3].text
+            player_entry['Wickets'] = entry_contents[4].text
+            player_entry['No Balls'] = entry_contents[5].text
+            player_entry['Wides'] = entry_contents[6].text
+            player_entry['Economy'] = entry_contents[7].text
+    
+    if batting:
+        unfiltered_names = list(raw_card.findAll('div', class_='cb-scrd-itms'))[-1].findAll('a')
+        for unfiltered_name in unfiltered_names:
+            name, is_captain, is_keeper = clean_name(unfiltered_name)
+            if name not in player_entries:
+                player_entries[name] = {'Match Number': match_number,
+                                        'Captain': is_captain,
+                                        'Wicketkeeper': is_keeper}
+        
+
+
+
+
+match_links = get_tournament_match_links('https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches')
+
+
+for match_number, link in enumerate(match_links):
+    team1_squad_names, team1_squad_names = get_squad_names(link.replace('live-cricket-scorecard', 'cricket-match-squads'))
+    
+    match_data = requests.get(link)
+    match_data = BeautifulSoup(match_data.content, 'html.parser')
+    player_entries = {}
+
+    innings1 = match_data.find('div', id='innings_1')
+    innings2 = match_data.find('div', id='innings_2')
+    
+
+    innings1_parts = innings1.contents
+    innings2_parts = innings2.contents
+    # 0, 2, 5, 7, 9 -> empty
+    # 1 -> batting card
+    # 3 -> Fall of Wickets header
+    # 4 -> Fall of Wickets card
+    # 6 -> bowling card
+    # 8 -> Powerplay card
+
+    batting_card_1 = innings1_parts[1]
+    bowling_card_1 = innings1_parts[6]
+    batting_card_2 = innings2_parts[1]
+    bowling_card_2 = innings2_parts[6]
+
+    # print(player_entries)
+    get_card_data(batting_card_1, match_number, player_entries, batting=True)
+    get_card_data(bowling_card_1, match_number, player_entries, batting=False)
+    get_card_data(batting_card_2, match_number, player_entries, batting=True)
+    get_card_data(bowling_card_2, match_number, player_entries, batting=False)
+    print(player_entries.keys())
+    print(len(player_entries))
+
+
+    
+
+    break
 
     

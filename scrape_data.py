@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 from thefuzz import process
+from tqdm import tqdm
 
 
 DOMAIN = 'https://www.cricbuzz.com'
@@ -48,10 +49,13 @@ def get_squad_names_helper(squad_names, team_data, side):
             
             
             player_info = player.find('div', class_='cb-player-name-' + side)
-            name = player_info.find('div').find(string=True, recursive=False).strip()
-            name = name.replace('(C)', '').replace('(WK)', '').strip()
+            # name = player_info.find('div').find(string=True, recursive=False).strip()
+            name, role = player_info.find('div').get_text().strip().split('  ')
 
-            role = player_info.find('span').text.strip()
+            name = name.replace('(C)', '').replace('(WK)', '').replace('(C & WK)', '').strip()
+
+            # role = player_info.find('span').text.strip()
+            role = role.strip()
             role = 'Allrounder' if 'Allrounder' in role else role
 
             squad_names[player_num] = (name, role)
@@ -105,47 +109,65 @@ def initialize_player_entry(player_entries, name, match_number):
                                 'Stumpings': 0}
 
 def clean_field_name_and_init(name, squads, player_entries, match_num):
+    if name.startswith('(sub)'):
+        return None
     name_options = [x[0] for x in squads.values()]
     full_name, score = process.extractOne(name, name_options)
     if score < 70:
+        print(name_options)
         print(f'{name} -> {full_name}, score: {score}')
+        exit()
+
     initialize_player_entry(player_entries, full_name, match_num)
     return full_name
 
 def parse_out_string(out_string, player_entries, squads, match_num):
+    name = None
     out_string = out_string.strip()
 
     if out_string == 'not out' or out_string == "did not bat":
         return
 
     if out_string.startswith('c and b '):
-        name = clean_field_name_and_init(out_string.replace('c and b', '').strip(), squads, player_entries, match_num)
-        player_entries[name]['Catches'] += 1
+        name = clean_field_name_and_init(out_string.replace('c and b', '', 1).strip(), squads, player_entries, match_num)
+        if name:
+            player_entries[name]['Catches'] += 1
     elif out_string.startswith('c '):
-        name = clean_field_name_and_init(out_string.replace('c ', '').rsplit(' b ', 1)[0].strip(), squads, player_entries, match_num)
-        player_entries[name]['Catches'] += 1
+        name = clean_field_name_and_init(out_string.replace('c ', '', 1).rsplit(' b ', 1)[0].strip(), squads, player_entries, match_num)
+        if name:
+            player_entries[name]['Catches'] += 1
     elif out_string.startswith('lbw b '):
-        name = clean_field_name_and_init(out_string.replace('lbw b ', '').strip(), squads, player_entries, match_num)
-        player_entries[name]['LBW/Bowled'] += 1
+        name = clean_field_name_and_init(out_string.replace('lbw b ', '', 1).strip(), squads, player_entries, match_num)
+        if name:
+            player_entries[name]['LBW/Bowled'] += 1
     elif out_string.startswith('b '):
-        name = clean_field_name_and_init(out_string.replace('b ', '').strip(), squads, player_entries, match_num)
-        player_entries[name]['LBW/Bowled'] += 1
+        name = clean_field_name_and_init(out_string.replace('b ', '', 1).strip(), squads, player_entries, match_num)
+        if name:
+            player_entries[name]['LBW/Bowled'] += 1
     elif out_string.startswith('st '):
-        name = clean_field_name_and_init(out_string.replace('st ', '').rsplit(' b ', 1)[0].strip(), squads, player_entries, match_num)
-        player_entries[name]['Stumpings'] += 1
+        name = clean_field_name_and_init(out_string.replace('st ', '', 1).rsplit(' b ', 1)[0].strip(), squads, player_entries, match_num)
+        if name:
+            player_entries[name]['Stumpings'] += 1
     elif out_string.startswith('run out '):
         if '/' in out_string:
             names = out_string.replace('run out (', '').strip()[:-1].split('/')
             name0 = clean_field_name_and_init(names[0], squads, player_entries, match_num)
             name1 = clean_field_name_and_init(names[1], squads, player_entries, match_num)
-            player_entries[name0]['Run Outs'] += 0.5
-            player_entries[name1]['Run Outs'] += 0.5
-            name = name0 + ", " + name1
+            name = ''
+            if name0:
+                player_entries[name0]['Run Outs'] += 0.5
+                name += name0
+            if name1:
+                player_entries[name1]['Run Outs'] += 0.5
+                name = name1 if name == '' else name + '/' + name1
+        
         else:
             name = clean_field_name_and_init(out_string.replace('run out (', '').strip()[:-1], squads, player_entries, match_num)
-            player_entries[name]['Run Outs'] += 1
+            if name:
+                player_entries[name]['Run Outs'] += 1
     
-    print(name)
+
+    
     return name
 
 def get_card_data(raw_card, match_number, player_entries, squads, batting=True):
@@ -203,7 +225,7 @@ def export_data(filename, fieldnames, player_entries):
         for name in player_entries:
             writer.writerow(player_entries[name])
     
-    print("Data Exported to:", filename)
+    # print("Data Exported to:", filename)
 
 
 
@@ -217,8 +239,11 @@ fieldnames = ['Match Number', 'Name', 'Role', 'Captain', 'Wicketkeeper',
 initialize_output_file(filename, fieldnames)
 
 for match_number, link in enumerate(match_links):
-    # if match_number >= 5:
+    # if match_number >= 2:
     #     break
+
+    # match_number = 56
+    # link = match_links[56]
     team1_squad_names, team2_squad_names = get_squad_names(link.replace('live-cricket-scorecard', 'cricket-match-squads'))
     
     match_data = requests.get(link)
@@ -228,8 +253,12 @@ for match_number, link in enumerate(match_links):
     innings1 = match_data.find('div', id='innings_1')
     innings2 = match_data.find('div', id='innings_2')
 
-    innings1_parts = innings1.contents
-    innings2_parts = innings2.contents
+    if not innings1 or not innings2:
+        print(match_number, 'Match Abandoned', sep=' -- ')
+        continue
+
+    # innings1_parts = innings1.contents
+    # innings2_parts = innings2.contents
     # 0, 2, 5, 7, 9 -> empty
     # 1 -> batting card
     # 3 -> Fall of Wickets header
@@ -237,10 +266,16 @@ for match_number, link in enumerate(match_links):
     # 6 -> bowling card
     # 8 -> Powerplay card
 
-    batting_card_1 = innings1_parts[1]
-    batting_card_2 = innings2_parts[1]
-    bowling_card_1 = innings1_parts[6]
-    bowling_card_2 = innings2_parts[6]
+    innings1_parts = innings1.findAll('div', class_='cb-ltst-wgt-hdr')
+    innings2_parts = innings2.findAll('div', class_='cb-ltst-wgt-hdr')
+
+    batting_card_1 = innings1_parts[0]
+    batting_card_2 = innings2_parts[0]
+    bowling_card_1 = innings1_parts[1]
+    bowling_card_2 = innings2_parts[1]
+
+
+
 
     #for now, merging the squads
     squads = team1_squad_names | team2_squad_names
@@ -249,13 +284,13 @@ for match_number, link in enumerate(match_links):
     get_card_data(batting_card_2, match_number, player_entries, squads, batting=True)
     get_card_data(bowling_card_2, match_number, player_entries, squads, batting=False)
     # print(player_entries.keys())
-    print(len(player_entries))
+    print(match_number, len(player_entries), sep=' -- ')
 
     export_data(filename, fieldnames, player_entries)
 
 
     
 
-    break
+    # break
 
     

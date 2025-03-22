@@ -23,3 +23,1678 @@ Match Number,Name,Role,Captain,Wicketkeeper,Out String,Out Name,Batting Runs,Bal
 0,Daryl Mitchell,Allrounder,0,0,c Rajat Patidar b Green,Rajat Patidar,22,18,0,2,122.22,0.0,0,0,0,0,0,0,0.0,0,0.0,0
 0,Shivam Dube,Allrounder,0,0,not out,,34,28,4,1,121.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
 0,Sameer Rizvi,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,David Warner,Batter,0,0,c Jitesh Sharma b Harshal Patel,Jitesh Sharma,29,21,3,2,138.10,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+1,Jitesh Sharma,WK-Batter,0,1,st Pant b Kuldeep Yadav,Rishabh Pant,9,9,1,0,100.00,0.0,0,0,0,0,0,0,0.0,3,0.5,0
+1,Mitchell Marsh,Allrounder,0,0,c Rahul Chahar b Arshdeep Singh,Rahul Chahar,20,12,2,2,166.67,4,0,52,0,0,0,1,13.00,0,0.0,0
+1,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,0,8.20,1,0.0,0
+1,Shai Hope,WK-Batter,0,0,c Harpreet Brar b Rabada,Harpreet Brar,33,25,2,2,132.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Harpreet Brar,Allrounder,0,0,not out,,2,2,0,0,100.00,3,0,14,1,0,0,0,4.70,1,0.0,0
+1,Rishabh Pant,WK-Batter,0,0,c Bairstow b Harshal Patel,Jonny Bairstow,18,13,2,0,138.46,0.0,0,0,0,0,0,0,0.0,1,0.0,1
+1,Jonny Bairstow,WK-Batter,0,0,run out (Ishant),Ishant Sharma,9,3,2,0,300.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+1,Ricky Bhui,Batter,0,0,c Jitesh Sharma b Harpreet Brar,Jitesh Sharma,3,7,0,0,42.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Tristan Stubbs,WK-Batter,0,0,c Shashank Singh b Rahul Chahar,Shashank Singh,5,8,0,0,62.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Shashank Singh,Batter,0,0,c Pant b Khaleel Ahmed,Rishabh Pant,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+1,Axar Patel,Allrounder,0,0,run out ((sub)T Thyagarajan/Jitesh Sharma),Jitesh Sharma,21,13,2,1,161.54,4,0,25,0,0,0,0,6.20,0,0.0,0
+1,Sumit Kumar,Allrounder,0,0,c Jitesh Sharma b Arshdeep Singh,Jitesh Sharma,2,9,0,0,22.22,1.2,0,19,0,0,0,2,14.20,0,0.0,0
+1,Abishek Porel,WK-Batter,0,0,not out,,32,10,4,2,320.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Kuldeep Yadav,Bowler,0,0,run out (Shashank Singh/Harshal Patel),Shashank Singh/Harshal Patel,1,2,0,0,50.00,4,0,20,2,0,0,0,5.00,0,0.0,0
+1,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,2,0,0,0,11.80,0,0.5,0
+1,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,2,1,0,0,10.80,0,0.0,0
+1,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,16,1,1,0,3,8.00,0,1.0,0
+1,Sam Curran,Allrounder,0,0,b Khaleel Ahmed,Khaleel Ahmed,63,47,6,1,134.04,1,0,10,0,0,0,1,10.00,0,0.0,0
+1,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,2,0,0,2,7.00,0,0.0,0
+1,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,1,0,0,1,9.00,0,0.0,0
+1,Shikhar Dhawan,Batter,1,0,b Ishant,Ishant Sharma,22,16,4,0,137.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Prabhsimran Singh,WK-Batter,0,0,c Warner b Kuldeep Yadav,David Warner,26,17,5,0,152.94,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+1,Liam Livingstone,Allrounder,0,0,not out,,38,21,2,3,180.95,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Philip Salt,WK-Batter,0,1,c Marco Jansen b Markande,Marco Jansen,54,40,3,3,135.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Marco Jansen,Allrounder,0,0,not out,,1,1,0,0,100.00,3,0,40,0,0,0,1,13.30,2,0.0,0
+2,Sunil Narine,Allrounder,0,0,run out (Shahbaz Ahmed),Shahbaz Ahmed,2,4,0,0,50.00,4,0,19,1,0,0,0,4.80,0,0.0,0
+2,Shahbaz Ahmed,Allrounder,0,0,c Shreyas Iyer b Harshit Rana,Shreyas Iyer,16,5,1,2,320.00,1,0,14,0,0,1,0,14.00,0,1.0,0
+2,Venkatesh Iyer,Allrounder,0,0,c Marco Jansen b T Natarajan,Marco Jansen,7,5,1,0,140.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+2,Shreyas Iyer,Batter,1,0,c Cummins b T Natarajan,Pat Cummins,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+2,Pat Cummins,Bowler,1,0,not out,,0,1,0,0,0.00,4,0,32,1,0,0,0,8.00,1,0.0,0
+2,Nitish Rana,Batter,0,0,c Tripathi b Markande,Rahul Tripathi,9,11,1,0,81.82,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Rahul Tripathi,Batter,0,0,c Harshit Rana b Narine,Harshit Rana,20,20,0,1,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+2,Ramandeep Singh,Batter,0,0,c Markande b Cummins,Mayank Markande,35,17,1,4,205.88,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,2,0,0,0,9.80,1,0.0,0
+2,Rinku Singh,Batter,0,0,c Markram b T Natarajan,Aiden Markram,23,15,3,0,153.33,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+2,Aiden Markram,Batter,0,0,c Rinku Singh b Chakaravarthy,Rinku Singh,18,13,2,0,138.46,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+2,Andre Russell,Allrounder,0,0,not out,,64,25,3,7,256.00,2,0,25,2,0,0,0,12.50,0,0.0,0
+2,Mitchell Starc,Bowler,0,0,not out,,6,3,1,0,200.00,4,0,53,0,0,0,6,13.20,0,0.0,0
+2,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,3,0,0,0,8.20,1,0.0,0
+2,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,55,1,0,0,0,13.80,1,0.0,0
+2,Suyash Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,18,0,0,0,0,9.00,1,0.0,0
+2,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,51,0,0,1,2,12.80,0,0.0,0
+2,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,3,0,0,3,8.00,0,0.0,0
+2,Mayank Agarwal,Batter,0,0,c Rinku Singh b Harshit Rana,Rinku Singh,32,21,4,1,152.38,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Abhishek Sharma,Allrounder,0,0,c Chakaravarthy b Russell,Varun Chakaravarthy,32,19,4,2,168.42,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Heinrich Klaasen,WK-Batter,0,1,c Suyash Sharma b Harshit Rana,Suyash Sharma,63,29,0,8,217.24,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+2,Abdul Samad,Batter,0,0,c Venkatesh Iyer b Russell,Venkatesh Iyer,15,11,1,1,136.36,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Yashasvi Jaiswal,Batter,0,0,c Krunal Pandya b Mohsin Khan,Krunal Pandya,24,12,3,1,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Krunal Pandya,Allrounder,0,0,not out,,3,5,0,0,60.00,4,0,19,0,0,0,0,4.80,1,0.0,0
+3,Jos Buttler,WK-Batter,0,0,c Rahul b Naveen-ul-Haq,KL Rahul,11,9,2,0,122.22,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+3,KL Rahul,WK-Batter,0,0,c Dhruv Jurel b Sandeep Sharma,Dhruv Jurel,58,44,4,2,131.82,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+3,Sanju Samson,WK-Batter,0,0,not out,,82,52,3,6,157.69,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Riyan Parag,Allrounder,0,0,c Deepak Hooda b Naveen-ul-Haq,Deepak Hooda,43,29,1,3,148.28,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Deepak Hooda,Allrounder,0,0,c Dhruv Jurel b Chahal,Dhruv Jurel,26,13,2,2,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+3,Shimron Hetmyer,Batter,0,0,c Rahul b Ravi Bishnoi,KL Rahul,5,7,0,0,71.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Dhruv Jurel,WK-Batter,0,0,not out,,20,12,1,1,166.67,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+3,Ravichandran Ashwin,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,0,5,8.80,0,0.0,0
+3,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,22,1,0,0,1,7.30,0,0.0,0
+3,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,21,0,0,0,2,7.00,0,0.0,0
+3,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,2,1,0,0,8.80,0,0.0,0
+3,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,25,1,0,0,1,8.30,0,0.0,0
+3,Nandre Burger,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,1,0,0,0,10.00,1,0.0,0
+3,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,1,0,0,1,11.20,0,0.0,0
+3,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,2,0,0,4,10.20,0,0.0,0
+3,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,38,1,0,0,0,9.50,0,0.0,0
+3,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,43,0,0,1,1,14.30,0,0.0,0
+3,Ayush Badoni,Allrounder,0,0,c Jos Buttler b Nandre Burger,Jos Buttler,1,5,0,0,20.00,1,0,6,0,0,0,0,6.00,0,0.0,0
+3,Quinton de Kock,WK-Batter,0,0,c Nandre Burger b Boult,Nandre Burger,4,5,1,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Devdutt Padikkal,Batter,0,0,b Boult,Trent Boult,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Nicholas Pooran,WK-Batter,0,0,not out,,64,41,4,4,156.10,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+3,Marcus Stoinis,Allrounder,0,0,c Dhruv Jurel b Ashwin,Dhruv Jurel,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Wriddhiman Saha,WK-Batter,0,1,b Bumrah,Jasprit Bumrah,19,15,4,0,126.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+4,Jasprit Bumrah,Bowler,0,0,not out,,1,1,0,0,100.00,4,0,14,3,1,0,0,3.50,0,0.0,0
+4,Shubman Gill,Batter,1,0,c Rohit b Chawla,Rohit Sharma,31,22,3,1,140.91,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Rohit Sharma,Batter,0,0,lbw b Sai Kishore,Ravisrinivasan Sai Kishore,43,29,7,1,148.28,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+4,Sai Sudharsan,Batter,0,0,c Tilak Varma b Bumrah,Tilak Varma,45,39,3,1,115.38,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Tilak Varma,Batter,0,0,c (sub)Abhinav Manohar b Spencer Johnson,,25,19,1,1,131.58,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+4,Azmatullah Omarzai,Allrounder,0,0,c Tilak Varma b Gerald Coetzee,Tilak Varma,17,11,1,1,154.55,3,0,27,2,1,0,2,9.00,0,0.0,0
+4,David Miller,Batter,0,0,c Hardik Pandya b Bumrah,Hardik Pandya,12,11,1,0,109.09,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+4,Hardik Pandya,Allrounder,1,0,c Rahul Tewatia b Umesh,Rahul Tewatia,11,4,1,1,275.00,3,0,30,0,0,0,0,10.00,1,0.0,0
+4,Vijay Shankar,Allrounder,0,0,not out,,6,5,0,0,120.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Rahul Tewatia,Allrounder,0,0,c Naman Dhir b Gerald Coetzee,Naman Dhir,22,15,2,1,146.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+4,Naman Dhir,Batter,0,0,lbw b Azmatullah,Azmatullah Omarzai,20,10,3,1,200.00,1,0,13,0,0,0,0,13.00,1,0.0,0
+4,Rashid Khan,Allrounder,0,0,not out,,4,3,0,0,133.33,4,0,23,0,0,0,0,5.80,1,0.0,0
+4,Umesh Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,31,2,0,0,0,10.30,0,0.0,0
+4,Ravisrinivasan Sai Kishore,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,24,1,1,0,0,6.00,0,0.0,0
+4,Spencer Johnson,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,25,2,0,0,0,12.50,1,0.0,0
+4,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,2,0,0,1,8.00,1,0.0,0
+4,Luke Wood,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,25,0,0,1,1,12.50,0,0.0,0
+4,Shams Mulani,Allrounder,0,0,not out,,1,1,0,0,100.00,3,0,24,0,0,0,1,8.00,0,0.0,0
+4,Piyush Chawla,Bowler,0,0,c Rashid Khan b Umesh,Rashid Khan,0,1,0,0,0.00,3,0,31,1,0,0,5,10.30,0,0.0,0
+4,Gerald Coetzee,Bowler,0,0,c and b Spencer Johnson,Spencer Johnson,1,3,0,0,33.33,4,0,27,2,0,0,0,6.80,0,0.0,0
+4,Ishan Kishan,WK-Batter,0,1,c W Saha b Azmatullah,Wriddhiman Saha,0,4,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Dewald Brevis,Batter,0,0,c and b Mohit Sharma,Mohit Sharma,46,38,2,3,121.05,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+4,Tim David,Batter,0,0,c David Miller b Mohit Sharma,David Miller,11,10,1,0,110.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Shikhar Dhawan,Batter,1,0,c Kohli b Maxwell,Virat Kohli,45,37,5,1,121.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Virat Kohli,Batter,0,0,c Harpreet Brar b Harshal Patel,Harpreet Brar,77,49,11,2,157.14,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+5,Jonny Bairstow,WK-Batter,0,0,c Kohli b Siraj,Virat Kohli,8,6,2,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Prabhsimran Singh,WK-Batter,0,0,c Anuj Rawat b Maxwell,Anuj Rawat,25,17,2,2,147.06,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Anuj Rawat,WK-Batter,0,1,lbw b Sam Curran,Sam Curran,11,14,1,0,78.57,0.0,0,0,0,0,0,0,0.0,4,0.0,0
+5,Liam Livingstone,Allrounder,0,0,c Anuj Rawat b Alzarri Joseph,Anuj Rawat,17,13,1,1,130.77,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Sam Curran,Allrounder,0,0,c Anuj Rawat b Yash Dayal,Anuj Rawat,23,17,3,0,135.29,3,0,30,1,1,0,0,10.00,1,0.0,0
+5,Jitesh Sharma,WK-Batter,0,1,c Anuj Rawat b Siraj,Anuj Rawat,27,20,1,2,135.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+5,Shashank Singh,Batter,0,0,not out,,21,8,1,2,262.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Harpreet Brar,Bowler,0,0,not out,,2,2,0,0,100.00,4,0,13,2,2,0,0,3.20,1,0.0,0
+5,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,1,0,0,3,11.20,0,0.0,0
+5,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,2,0,0,1,5.80,0,0.0,0
+5,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,16,0,0,0,0,16.00,0,0.0,0
+5,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.2,0,40,0,0,0,3,12.00,0,0.0,0
+5,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,26,2,0,0,0,6.50,0,0.0,0
+5,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,1,0,0,2,5.80,0,0.0,0
+5,Alzarri Joseph,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,1,0,0,3,10.80,0,0.0,0
+5,Cameron Green,Allrounder,0,0,c Jitesh Sharma b Rabada,Jitesh Sharma,3,5,0,0,60.00,2,0,19,0,0,0,1,9.50,0,0.0,0
+5,Mayank Dagar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,0,0,11.30,0,0.0,0
+5,Glenn Maxwell,Allrounder,0,0,b Harpreet Brar,Harpreet Brar,3,5,0,0,60.00,3,0,29,2,0,0,0,9.70,0,0.0,0
+5,Faf du Plessis,Batter,1,0,c Sam Curran b Rabada,Sam Curran,3,7,0,0,42.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Rajat Patidar,Batter,0,0,b Harpreet Brar,Harpreet Brar,18,18,1,1,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Dinesh Karthik,WK-Batter,0,0,not out,,28,10,3,2,280.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+5,Mahipal Lomror,Allrounder,0,0,not out,,17,8,2,1,212.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+6,Ruturaj Gaikwad,Batter,1,0,c W Saha b Spencer Johnson,Wriddhiman Saha,46,36,5,1,127.78,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+6,Wriddhiman Saha,WK-Batter,0,1,c Tushar Deshpande b D Chahar,Tushar Deshpande,21,17,4,0,123.53,0.0,0,0,0,0,0,0,0.0,1,0.5,2
+6,Rachin Ravindra,Allrounder,0,0,st W Saha b Rashid Khan,Wriddhiman Saha,46,20,6,3,230.00,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+6,Ajinkya Rahane,Batter,0,0,st W Saha b Sai Kishore,Wriddhiman Saha,12,12,0,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+6,Shivam Dube,Allrounder,0,0,c Vijay Shankar b Rashid Khan,Vijay Shankar,51,23,2,5,221.74,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+6,Vijay Shankar,Allrounder,0,0,c Dhoni b Daryl Mitchell,MS Dhoni,12,12,0,1,100.00,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+6,Daryl Mitchell,Allrounder,0,0,not out,,24,20,2,0,120.00,2,0,18,1,0,0,1,9.00,0,0.0,0
+6,Sameer Rizvi,Batter,0,0,c David Miller b Mohit Sharma,David Miller,14,6,0,2,233.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+6,David Miller,Batter,0,0,c Ajinkya Rahane b Tushar Deshpande,Ajinkya Rahane,21,16,3,0,131.25,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+6,Ravindra Jadeja,Allrounder,0,0,run out (Vijay Shankar/W Saha),Vijay Shankar/Wriddhiman Saha,7,3,1,0,233.33,2,0,15,0,0,0,0,7.50,0,0.0,0
+6,MS Dhoni,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+6,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,2,1,0,3,7.00,0,0.0,0
+6,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,21,2,0,0,0,5.20,1,0.0,0
+6,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,2,0,0,0,7.50,0,0.0,0
+6,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,5,7.20,0,0.0,0
+6,Azmatullah Omarzai,Allrounder,0,0,c Rachin Ravindra b Tushar Deshpande,Rachin Ravindra,11,10,1,0,110.00,3,0,30,0,0,0,1,10.00,0,0.0,0
+6,Umesh Yadav,Bowler,0,0,not out,,10,11,0,1,90.91,2,0,27,0,0,0,1,13.50,0,0.0,0
+6,Rashid Khan,Allrounder,0,0,c Rachin Ravindra b Mustafizur,Rachin Ravindra,1,2,0,0,50.00,4,0,49,2,0,0,0,12.20,0,0.0,0
+6,Ravisrinivasan Sai Kishore,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,28,1,0,0,2,9.30,0,0.0,0
+6,Spencer Johnson,Bowler,0,0,not out,,5,5,1,0,100.00,4,0,35,1,0,0,0,8.80,0,0.0,0
+6,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,1,0,0,1,9.00,0,0.0,0
+6,Shubman Gill,Batter,1,0,lbw b D Chahar,Deepak Chahar,8,5,0,1,160.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+6,Sai Sudharsan,Batter,0,0,c Sameer Rizvi b Matheesha Pathirana,Sameer Rizvi,37,31,3,0,119.35,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+6,Rahul Tewatia,Allrounder,0,0,c Rachin Ravindra b Mustafizur,Rachin Ravindra,6,11,1,0,54.55,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Mayank Agarwal,Batter,0,0,c Tim David b Hardik Pandya,Tim David,11,13,1,0,84.62,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+7,Tim David,Batter,0,0,not out,,42,22,2,3,190.91,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+7,Travis Head,Batter,0,0,c Naman Dhir b Gerald Coetzee,Naman Dhir,62,24,9,3,258.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Naman Dhir,Batter,0,0,c Cummins b Jaydev Unadkat,Pat Cummins,30,14,2,2,214.29,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+7,Abhishek Sharma,Allrounder,0,0,c Naman Dhir b Chawla,Naman Dhir,63,23,3,7,273.91,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+7,Aiden Markram,Batter,0,0,not out,,42,28,2,1,150.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+7,Heinrich Klaasen,WK-Batter,0,1,not out,,80,34,4,7,235.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+7,Abdul Samad,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Shahbaz Ahmed,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,39,1,0,0,0,13.00,0,0.0,0
+7,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,35,2,0,0,1,8.80,1,0.0,0
+7,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,53,0,0,0,0,13.20,0,0.0,0
+7,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,52,0,0,1,1,13.00,0,0.0,0
+7,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,2,0,0,2,11.80,0,0.0,0
+7,Umran Malik,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,15,0,0,0,1,15.00,0,0.0,0
+7,Kwena Maphaka,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,66,0,0,0,3,16.50,0,0.0,0
+7,Hardik Pandya,Allrounder,1,0,c Klaasen b Jaydev Unadkat,Heinrich Klaasen,24,20,1,1,120.00,4,0,46,1,0,0,0,11.50,0,0.0,0
+7,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,0,0,1,1,9.00,0,0.0,0
+7,Gerald Coetzee,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,57,1,0,1,6,14.20,0,0.0,0
+7,Piyush Chawla,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,34,1,0,0,0,17.00,0,0.0,0
+7,Shams Mulani,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,33,0,0,0,2,16.50,0,0.0,0
+7,Rohit Sharma,Batter,0,0,c Abhishek Sharma b Cummins,Abhishek Sharma,26,12,1,3,216.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Ishan Kishan,WK-Batter,0,1,c Markram b Shahbaz Ahmed,Aiden Markram,34,13,2,4,261.54,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Tilak Varma,Batter,0,0,c Mayank Agarwal b Cummins,Mayank Agarwal,64,34,2,6,188.24,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+7,Romario Shepherd,Bowler,0,0,not out,,15,6,2,1,250.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Yashasvi Jaiswal,Batter,0,0,b Mukesh Kumar,Mukesh Kumar,5,7,1,0,71.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,49,1,1,0,1,12.20,0,0.0,0
+8,Jos Buttler,WK-Batter,0,0,lbw b Kuldeep Yadav,Kuldeep Yadav,11,16,0,0,68.75,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+8,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,1,1,0,2,10.20,0,0.0,0
+8,Sanju Samson,WK-Batter,0,0,c Pant b Khaleel Ahmed,Rishabh Pant,15,14,3,0,107.14,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+8,Rishabh Pant,WK-Batter,0,0,c Samson b Chahal,Sanju Samson,28,26,2,1,107.69,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+8,Riyan Parag,Allrounder,0,0,not out,,84,45,7,6,186.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Ravichandran Ashwin,Allrounder,0,0,c Tristan Stubbs b Axar,Tristan Stubbs,29,19,0,3,152.63,3,0,30,0,0,0,1,10.00,0,0.0,0
+8,Tristan Stubbs,WK-Batter,0,0,not out,,44,23,2,3,191.30,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+8,Dhruv Jurel,WK-Batter,0,0,b Nortje,Anrich Nortje,20,12,3,0,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Anrich Nortje,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,1,1,0,0,12.00,0,0.0,0
+8,Shimron Hetmyer,Batter,0,0,not out,,14,7,1,1,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,29,0,0,0,0,9.70,0,0.0,0
+8,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,19,2,0,0,0,6.30,0,0.0,0
+8,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,0,0,0,2,9.00,1,0.0,0
+8,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,1,7.20,0,0.0,0
+8,Nandre Burger,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,29,2,1,0,0,9.70,0,0.0,0
+8,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,24,1,0,0,2,6.00,0,0.0,0
+8,Axar Patel,Allrounder,0,0,not out,,15,13,1,0,115.38,4,0,21,1,0,0,0,5.20,0,0.0,0
+8,David Warner,Batter,0,0,c Sandeep Sharma b Avesh Khan,Sandeep Sharma,49,34,5,3,144.12,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Mitchell Marsh,Allrounder,0,0,b Nandre Burger,Nandre Burger,23,12,5,0,191.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Ricky Bhui,Batter,0,0,c Samson b Nandre Burger,Sanju Samson,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Abishek Porel,WK-Batter,0,0,c Jos Buttler b Chahal,Jos Buttler,9,10,0,0,90.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+8,Sumit Kumar,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Virat Kohli,Batter,0,0,not out,,83,59,4,4,140.68,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+9,Faf du Plessis,Batter,1,0,c Starc b Harshit Rana,Mitchell Starc,8,6,0,1,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,0,0,0,1,11.80,1,0.0,0
+9,Cameron Green,Allrounder,0,0,b Russell,Andre Russell,33,21,4,2,157.14,1,0,7,0,0,0,0,7.00,1,0.0,0
+9,Andre Russell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,1,0,1,7.20,0,0.0,0
+9,Glenn Maxwell,Allrounder,0,0,c Rinku Singh b Narine,Rinku Singh,28,19,3,1,147.37,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Rinku Singh,Batter,0,0,not out,,5,5,0,0,100.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+9,Rajat Patidar,Batter,0,0,c Rinku Singh b Russell,Rinku Singh,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Anuj Rawat,WK-Batter,0,1,c Salt b Harshit Rana,Philip Salt,3,3,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Philip Salt,WK-Batter,0,1,c Green b Vijaykumar Vyshak,Cameron Green,30,20,2,2,150.00,0.0,0,0,0,0,0,0,0.0,1,1.0,0
+9,Dinesh Karthik,WK-Batter,0,0,run out (Salt),Philip Salt,20,8,0,3,250.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Alzarri Joseph,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,34,0,0,0,0,17.00,0,0.0,0
+9,Mayank Dagar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.5,0,23,1,1,0,0,8.10,0,0.0,0
+9,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,46,0,0,0,2,15.30,0,0.0,0
+9,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,46,1,0,0,6,11.50,0,0.0,0
+9,Vijaykumar Vyshak,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,1,0,0,0,5.80,0,0.0,0
+9,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,2,0,0,1,9.80,0,0.0,0
+9,Anukul Roy,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,6,0,0,0,0,3.00,0,0.0,0
+9,Sunil Narine,Allrounder,0,0,b Mayank Dagar,Mayank Dagar,47,22,2,5,213.64,4,0,40,1,0,0,0,10.00,0,0.0,0
+9,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,20,0,0,0,0,10.00,0,0.0,0
+9,Venkatesh Iyer,Allrounder,0,0,c Kohli b Yash Dayal,Virat Kohli,50,30,3,4,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Shreyas Iyer,Batter,1,0,not out,,39,24,2,2,162.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Ramandeep Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+9,Angkrish Raghuvanshi,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Quinton de Kock,WK-Batter,0,1,c Jitesh Sharma b Arshdeep Singh,Jitesh Sharma,54,38,5,2,142.11,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+10,Jitesh Sharma,WK-Batter,0,1,c Naveen-ul-Haq b Mayank Yadav,Naveen-ul-Haq,6,9,1,0,66.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+10,KL Rahul,WK-Batter,0,0,c Bairstow b Arshdeep Singh,Jonny Bairstow,15,9,1,1,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Jonny Bairstow,WK-Batter,0,0,c Stoinis b Mayank Yadav,Marcus Stoinis,42,29,3,3,144.83,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+10,Devdutt Padikkal,Batter,0,0,c Dhawan b Sam Curran,Shikhar Dhawan,9,6,2,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Shikhar Dhawan,Batter,1,0,c de Kock b Mohsin Khan,Quinton de Kock,70,50,7,3,140.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+10,Marcus Stoinis,Allrounder,0,0,b Rahul Chahar,Rahul Chahar,19,12,0,2,158.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+10,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,42,1,1,0,0,14.00,0,0.0,0
+10,Nicholas Pooran,WK-Batter,1,0,b Rabada,Kagiso Rabada,42,21,3,3,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+10,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,38,1,1,0,0,9.50,0,0.0,0
+10,Ayush Badoni,Allrounder,0,0,c Bairstow b Sam Curran,Jonny Bairstow,8,10,0,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Krunal Pandya,Allrounder,0,0,not out,,43,22,4,2,195.45,3,0,26,0,0,0,0,8.70,0,0.0,0
+10,Ravi Bishnoi,Bowler,0,0,c (sub)T Thyagarajan b Sam Curran,,0,1,0,0,0.00,3,0,25,0,0,0,0,8.30,0,0.0,0
+10,Mohsin Khan,Bowler,0,0,run out (Harshal Patel),Harshal Patel,2,1,0,0,200.00,4,0,34,2,0,0,1,8.50,0,0.0,0
+10,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,0,0,0,4,11.20,0,1.0,0
+10,Naveen-ul-Haq,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,43,0,0,0,1,10.80,2,0.0,0
+10,Mayank Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,3,0,0,0,6.80,0,0.0,0
+10,Manimaran Siddharth,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,21,0,0,0,0,10.50,0,0.0,0
+10,Sam Curran,Allrounder,0,0,c Pooran b Mohsin Khan,Nicholas Pooran,0,1,0,0,0.00,4,0,28,3,0,0,0,7.00,0,0.0,0
+10,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,2,0,0,1,10.00,0,0.0,0
+10,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,14,0,0,0,0,7.00,0,0.0,0
+10,Prabhsimran Singh,WK-Batter,0,0,c Naveen-ul-Haq b Mayank Yadav,Naveen-ul-Haq,19,7,1,2,271.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Liam Livingstone,Allrounder,0,0,not out,,28,17,2,2,164.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+10,Shashank Singh,Batter,0,0,not out,,9,7,1,0,128.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Mayank Agarwal,Batter,0,0,c Darshan Nalkande b Azmatullah,Darshan Nalkande,16,17,2,0,94.12,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Darshan Nalkande,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,18,0,0,0,1,9.00,1,0.0,0
+11,Travis Head,Batter,0,0,b Noor Ahmad,Noor Ahmad,19,14,3,0,135.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,1,1,0,0,8.00,0,0.5,0
+11,Abhishek Sharma,Allrounder,0,0,c Shubman Gill b Mohit Sharma,Shubman Gill,29,20,2,2,145.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+11,Shubman Gill,Batter,1,0,c Abdul Samad b Markande,Abdul Samad,36,28,2,1,128.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+11,Aiden Markram,Batter,0,0,c Rashid Khan b Umesh,Rashid Khan,17,19,0,0,89.47,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Rashid Khan,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,1,0,0,8.20,2,0.0,0
+11,Heinrich Klaasen,WK-Batter,0,1,b Rashid Khan,Rashid Khan,24,13,1,2,184.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Shahbaz Ahmed,Allrounder,0,0,c Rahul Tewatia b Mohit Sharma,Rahul Tewatia,22,20,1,1,110.00,2,0,20,1,0,0,0,10.00,0,0.0,0
+11,Rahul Tewatia,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+11,Abdul Samad,Batter,0,0,run out (Noor Ahmad/W Saha),Noor Ahmad/Wriddhiman Saha,29,14,3,1,207.14,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+11,Wriddhiman Saha,WK-Batter,0,1,c Cummins b Shahbaz Ahmed,Pat Cummins,25,13,1,2,192.31,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+11,Washington Sundar,Allrounder,0,0,c Rashid Khan b Mohit Sharma,Rashid Khan,0,1,0,0,0.00,3,0,27,0,0,0,0,9.00,0,0.0,0
+11,Pat Cummins,Bowler,1,0,not out,,2,2,0,0,100.00,4,0,28,1,0,0,1,7.00,1,0.0,0
+11,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,0,0,0,1,6.80,0,0.0,0
+11,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,33,1,0,0,2,11.00,0,0.0,0
+11,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,33,0,0,0,0,10.40,0,0.0,0
+11,Azmatullah Omarzai,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,24,1,0,0,1,8.00,0,0.0,0
+11,Umesh Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,28,1,0,0,0,9.30,0,0.0,0
+11,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,25,3,0,0,0,6.20,0,0.0,0
+11,Sai Sudharsan,Batter,0,0,c Abhishek Sharma b Cummins,Abhishek Sharma,45,36,4,1,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,David Miller,Batter,0,0,not out,,44,27,4,2,162.96,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+11,Vijay Shankar,Allrounder,0,0,not out,,14,11,2,0,127.27,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Prithvi Shaw,Batter,0,0,c Dhoni b Ravindra Jadeja,MS Dhoni,43,27,4,2,159.26,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,MS Dhoni,WK-Batter,0,1,not out,,37,16,4,3,231.25,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+12,David Warner,Batter,0,0,c Matheesha Pathirana b Mustafizur,Matheesha Pathirana,52,35,5,3,148.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+12,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,3,2,0,2,7.80,1,0.0,0
+12,Rishabh Pant,WK-Batter,0,0,c Ruturaj Gaikwad b Matheesha Pathirana,Ruturaj Gaikwad,51,32,4,3,159.38,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+12,Ruturaj Gaikwad,Batter,1,0,c Pant b Khaleel Ahmed,Rishabh Pant,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+12,Mitchell Marsh,Allrounder,0,0,b Matheesha Pathirana,Matheesha Pathirana,18,12,2,1,150.00,1,0,14,0,0,0,1,14.00,0,0.0,0
+12,Tristan Stubbs,WK-Batter,0,0,b Matheesha Pathirana,Matheesha Pathirana,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+12,Axar Patel,Allrounder,0,0,not out,,7,8,0,0,87.50,3,0,20,1,0,0,0,6.70,1,0.0,0
+12,Abishek Porel,WK-Batter,0,0,not out,,9,6,1,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Anrich Nortje,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,0,0,0,1,10.80,0,0.0,0
+12,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,21,3,0,0,1,7.00,0,0.0,0
+12,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,23,0,0,1,1,7.70,0,0.0,0
+12,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,21,2,0,0,4,5.20,1,0.0,0
+12,Rasikh Dar Salam,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,25,0,0,0,0,12.50,0,0.0,0
+12,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,0,0,0,0,10.50,0,0.0,0
+12,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,24,0,0,0,2,6.00,0,0.0,0
+12,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,1,0,2,1,11.80,0,0.0,0
+12,Ravindra Jadeja,Allrounder,0,0,not out,,21,17,2,0,123.53,4,0,43,1,0,0,0,10.80,0,0.0,0
+12,Rachin Ravindra,Allrounder,0,0,c Tristan Stubbs b Khaleel Ahmed,Tristan Stubbs,2,12,0,0,16.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Ajinkya Rahane,Batter,0,0,c Warner b Mukesh Kumar,David Warner,45,30,5,2,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Daryl Mitchell,Allrounder,0,0,c and b Axar,Axar Patel,34,26,1,2,130.77,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Shivam Dube,Allrounder,0,0,c Tristan Stubbs b Mukesh Kumar,Tristan Stubbs,18,17,1,0,105.88,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+12,Sameer Rizvi,Batter,0,0,c Khaleel Ahmed b Mukesh Kumar,Khaleel Ahmed,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Ishan Kishan,WK-Batter,0,1,c Samson b Nandre Burger,Sanju Samson,16,14,2,1,114.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Sanju Samson,WK-Batter,0,0,b Akash Madhwal,Akash Madhwal,12,10,3,0,120.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+13,Rohit Sharma,Batter,0,0,c Samson b Boult,Sanju Samson,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Naman Dhir,Batter,0,0,lbw b Boult,Trent Boult,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,22,3,1,0,1,5.50,1,0.0,0
+13,Dewald Brevis,Batter,0,0,c Nandre Burger b Boult,Nandre Burger,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Nandre Burger,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,2,0,0,1,8.00,1,0.0,0
+13,Tilak Varma,Batter,0,0,c Ashwin b Chahal,Ravichandran Ashwin,32,29,0,2,110.34,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+13,Ravichandran Ashwin,Allrounder,0,0,c Tilak Varma b Akash Madhwal,Tilak Varma,16,16,1,0,100.00,4,0,27,0,0,0,1,6.80,1,0.0,0
+13,Hardik Pandya,Allrounder,1,0,c (sub)Rovman Powell b Chahal,,34,21,6,0,161.90,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Piyush Chawla,Bowler,0,0,c Hetmyer b Avesh Khan,Shimron Hetmyer,3,6,0,0,50.00,3,0,18,0,0,0,0,6.00,1,0.0,0
+13,Shimron Hetmyer,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+13,Tim David,Batter,0,0,c Boult b Nandre Burger,Trent Boult,17,24,1,0,70.83,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+13,Gerald Coetzee,Bowler,0,0,c Hetmyer b Chahal,Shimron Hetmyer,4,9,0,0,44.44,2.3,0,36,0,0,0,0,14.40,0,0.0,0
+13,Jasprit Bumrah,Bowler,0,0,not out,,8,9,1,0,88.89,4,0,26,0,0,0,9,6.50,0,0.0,0
+13,Akash Madhwal,Bowler,0,0,not out,,4,5,0,0,80.00,4,0,20,3,1,0,1,5.00,0,0.0,0
+13,Kwena Maphaka,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,23,1,0,0,0,11.50,0,0.0,0
+13,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,1,0,0,1,7.50,0,0.0,0
+13,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,11,3,0,0,0,2.80,0,0.0,0
+13,Yashasvi Jaiswal,Batter,0,0,c Tim David b Kwena Maphaka,Tim David,10,6,2,0,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Jos Buttler,WK-Batter,0,0,c Chawla b Akash Madhwal,Piyush Chawla,13,16,2,0,81.25,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Riyan Parag,Allrounder,0,0,not out,,54,39,5,3,138.46,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Shubham Dubey,Batter,0,0,not out,,8,6,1,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+13,Dhruv Jurel,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Quinton de Kock,WK-Batter,0,0,c Mayank Dagar b R Topley,Mayank Dagar,81,56,8,5,144.64,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Mayank Dagar,Bowler,0,0,run out (Pooran),Nicholas Pooran,0,1,0,0,0.00,2,0,23,0,0,0,5,11.50,3,0.0,0
+14,KL Rahul,WK-Batter,0,0,c Mayank Dagar b Maxwell,Mayank Dagar,20,14,0,2,142.86,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+14,Devdutt Padikkal,Batter,0,0,c Anuj Rawat b Siraj,Anuj Rawat,6,11,0,0,54.55,0.0,0,0,0,0,0,0,0.0,3,1.0,0
+14,Anuj Rawat,WK-Batter,0,1,c Padikkal b Stoinis,Devdutt Padikkal,11,21,0,0,52.38,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+14,Marcus Stoinis,Allrounder,0,0,c Mayank Dagar b Maxwell,Mayank Dagar,24,15,1,2,160.00,1,0,9,1,0,0,5,9.00,0,0.0,0
+14,Nicholas Pooran,WK-Batter,0,0,not out,,40,21,1,5,190.48,0.0,0,0,0,0,0,0,0.0,3,1.0,0
+14,Ayush Badoni,Allrounder,0,0,c du Plessis b Yash Dayal,Faf du Plessis,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Faf du Plessis,Batter,1,0,run out (Padikkal),Devdutt Padikkal,19,13,3,0,146.15,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+14,Krunal Pandya,Allrounder,0,0,not out,,0,0,0,0,0.00,1,0,10,0,0,0,0,10.00,0,0.0,0
+14,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,33,0,0,0,2,11.00,0,0.0,0
+14,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,38,1,0,0,0,9.50,0,0.0,0
+14,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.4,0,25,2,0,0,1,6.80,0,0.0,0
+14,Mayank Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,14,3,1,0,0,3.50,0,0.0,0
+14,Manimaran Siddharth,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,21,1,0,0,0,7.00,0,0.0,0
+14,Reece Topley,Bowler,0,0,not out,,3,6,0,0,50.00,4,0,39,1,0,0,1,9.80,0,0.0,0
+14,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,24,1,0,0,0,6.00,0,0.0,0
+14,Mohammed Siraj,Bowler,0,0,c Pooran b Naveen-ul-Haq,Nicholas Pooran,12,8,0,2,150.00,4,0,47,1,0,0,3,11.80,0,0.0,0
+14,Glenn Maxwell,Allrounder,0,0,c Pooran b Mayank Yadav,Nicholas Pooran,0,2,0,0,0.00,4,0,23,2,0,0,1,5.80,0,0.0,0
+14,Cameron Green,Allrounder,0,0,b Mayank Yadav,Mayank Yadav,9,9,1,0,100.00,2,0,25,0,0,0,0,12.50,0,0.0,0
+14,Virat Kohli,Batter,0,0,c Padikkal b M Siddharth,Devdutt Padikkal,22,16,2,1,137.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Rajat Patidar,Batter,0,0,c Padikkal b Mayank Yadav,Devdutt Padikkal,29,21,2,2,138.10,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Mahipal Lomror,Allrounder,0,0,c Pooran b Yash Thakur,Nicholas Pooran,33,13,3,3,253.85,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+14,Dinesh Karthik,WK-Batter,0,0,c Rahul b Naveen-ul-Haq,KL Rahul,4,8,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+15,Philip Salt,WK-Batter,0,1,c Tristan Stubbs b Nortje,Tristan Stubbs,18,12,4,0,150.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+15,Tristan Stubbs,WK-Batter,0,0,c Starc b Chakaravarthy,Mitchell Starc,54,32,4,4,168.75,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+15,Sunil Narine,Allrounder,0,0,c Pant b Mitchell Marsh,Rishabh Pant,85,39,7,7,217.95,4,0,29,1,0,0,0,7.20,1,0.0,0
+15,Rishabh Pant,WK-Batter,0,0,c Shreyas Iyer b Chakaravarthy,Shreyas Iyer,55,25,4,5,220.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+15,Angkrish Raghuvanshi,Allrounder,0,0,c Ishant b Nortje,Ishant Sharma,54,27,5,3,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+15,Ishant Sharma,Bowler,0,0,not out,,1,3,0,0,33.33,3,0,43,2,1,0,0,14.30,1,0.0,0
+15,Andre Russell,Allrounder,0,0,b Ishant,Ishant Sharma,41,19,4,3,215.79,1.2,0,14,1,0,0,0,10.50,0,0.0,0
+15,Shreyas Iyer,Batter,1,0,c Tristan Stubbs b Khaleel Ahmed,Tristan Stubbs,18,11,0,2,163.64,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+15,Rinku Singh,Batter,0,0,c Warner b Nortje,David Warner,26,8,1,3,325.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+15,David Warner,Batter,0,0,b Starc,Mitchell Starc,18,13,2,1,138.46,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+15,Venkatesh Iyer,Allrounder,0,0,not out,,5,2,1,0,250.00,1,0,28,0,0,0,0,28.00,0,0.0,0
+15,Ramandeep Singh,Batter,0,0,c Prithvi Shaw b Ishant,Prithvi Shaw,2,2,0,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+15,Prithvi Shaw,Batter,0,0,c Chakaravarthy b Vaibhav Arora,Varun Chakaravarthy,10,7,2,0,142.86,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+15,Mitchell Starc,Bowler,0,0,not out,,1,1,0,0,100.00,3,0,25,2,1,0,0,8.30,1,0.0,0
+15,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+15,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,3,0,1,2,8.20,1,0.0,0
+15,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,3,0,0,3,6.80,0,0.0,0
+15,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,1,0,1,8,10.80,0,0.0,0
+15,Anrich Nortje,Bowler,0,0,c Shreyas Iyer b Russell,Shreyas Iyer,4,6,0,0,66.67,4,0,59,3,0,0,2,14.80,0,0.0,0
+15,Rasikh Dar Salam,Bowler,0,0,c Salt b Vaibhav Arora,Philip Salt,1,5,0,0,20.00,3,0,47,0,0,0,1,15.70,0,0.0,0
+15,Sumit Kumar,Allrounder,0,0,c (sub)Manish Pandey b Narine,,7,6,0,1,116.67,2,0,19,0,0,0,0,9.50,0,0.0,0
+15,Axar Patel,Allrounder,0,0,c (sub)Manish Pandey b Chakaravarthy,,0,1,0,0,0.00,1,0,18,0,0,0,0,18.00,0,0.0,0
+15,Mitchell Marsh,Allrounder,0,0,c Ramandeep Singh b Starc,Ramandeep Singh,0,2,0,0,0.00,3,0,37,1,0,0,4,12.30,0,0.0,0
+15,Abishek Porel,WK-Batter,0,0,c Narine b Vaibhav Arora,Sunil Narine,0,5,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Wriddhiman Saha,WK-Batter,0,1,c Dhawan b Rabada,Shikhar Dhawan,11,13,2,0,84.62,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+16,Shikhar Dhawan,Batter,1,0,b Umesh,Umesh Yadav,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+16,Shubman Gill,Batter,1,0,not out,,89,48,6,4,185.42,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Kane Williamson,Batter,0,0,c Bairstow b Harpreet Brar,Jonny Bairstow,26,22,4,0,118.18,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+16,Jonny Bairstow,WK-Batter,0,0,b Noor Ahmad,Noor Ahmad,22,13,4,0,169.23,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+16,Sai Sudharsan,Batter,0,0,c Jitesh Sharma b Harshal Patel,Jitesh Sharma,33,19,6,0,173.68,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Jitesh Sharma,WK-Batter,0,1,c Darshan Nalkande b Rashid Khan,Darshan Nalkande,16,8,0,2,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+16,Vijay Shankar,Allrounder,0,0,c Harpreet Brar b Rabada,Harpreet Brar,8,10,0,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Harpreet Brar,Bowler,0,0,not out,,1,2,0,0,50.00,4,0,33,1,0,0,0,8.20,1,0.0,0
+16,Rahul Tewatia,Allrounder,0,0,not out,,23,8,3,1,287.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Azmatullah Omarzai,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,41,1,0,0,1,10.20,0,0.0,0
+16,Rashid Khan,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,40,1,0,0,0,10.00,1,0.0,0
+16,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,2,1,0,3,8.00,0,0.0,0
+16,Umesh Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,35,1,1,0,0,11.70,0,0.0,0
+16,Darshan Nalkande,Bowler,0,0,did not bat,,0,0,0,0,0.0,0.5,0,6,1,0,0,1,7.20,1,0.0,0
+16,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,38,1,0,0,0,9.50,1,0.0,0
+16,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,0,0,0,0,8.20,0,0.0,0
+16,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,44,2,0,0,1,11.00,0,0.0,0
+16,Sam Curran,Allrounder,0,0,c Williamson b Azmatullah,Kane Williamson,5,8,0,0,62.50,2,0,18,0,0,0,0,9.00,0,0.0,0
+16,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,44,1,0,0,3,11.00,0,0.0,0
+16,Sikandar Raza,Allrounder,0,0,c W Saha b Mohit Sharma,Wriddhiman Saha,15,16,0,0,93.75,2,0,22,0,0,0,0,11.00,0,0.0,0
+16,Prabhsimran Singh,WK-Batter,0,0,c Mohit Sharma b Noor Ahmad,Mohit Sharma,35,24,5,1,145.83,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Shashank Singh,Batter,0,0,not out,,61,29,6,4,210.34,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+16,Ashutosh Sharma,Batter,0,0,c Rashid Khan b Darshan Nalkande,Rashid Khan,31,17,3,1,182.35,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Rachin Ravindra,Allrounder,0,0,c Markram b Bhuvneshwar,Aiden Markram,12,9,2,0,133.33,1,0,3,0,0,0,0,3.00,1,0.0,0
+17,Aiden Markram,Batter,0,0,lbw b Moeen,Moeen Ali,50,36,4,1,138.89,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+17,Ruturaj Gaikwad,Batter,1,0,c Abdul Samad b Shahbaz Ahmed,Abdul Samad,26,21,3,1,123.81,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Abdul Samad,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+17,Ajinkya Rahane,Batter,0,0,c Markande b Jaydev Unadkat,Mayank Markande,35,30,2,1,116.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,21,0,0,0,0,10.50,1,0.0,0
+17,Shivam Dube,Allrounder,0,0,c Bhuvneshwar b Cummins,Bhuvneshwar Kumar,45,24,2,4,187.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,1,0,0,0,7.00,1,0.0,0
+17,Ravindra Jadeja,Allrounder,0,0,not out,,31,23,4,0,134.78,4,0,30,0,0,0,0,7.50,1,0.0,0
+17,Daryl Mitchell,Allrounder,0,0,c Abdul Samad b T Natarajan,Abdul Samad,13,11,1,0,118.18,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,MS Dhoni,WK-Batter,0,1,not out,,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Moeen Ali,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,23,2,2,0,1,7.70,0,0.0,0
+17,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,32,1,0,0,0,10.10,0,0.0,0
+17,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,20,0,0,0,0,10.00,0,0.0,0
+17,Maheesh Theekshana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,1,0,0,0,6.80,0,0.0,0
+17,Mukesh Choudhary,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,27,0,0,1,0,27.00,0,0.0,0
+17,Abhishek Sharma,Allrounder,0,0,c Ravindra Jadeja b D Chahar,Ravindra Jadeja,37,12,3,4,308.33,1,0,7,0,0,0,0,7.00,0,0.0,0
+17,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,1,0,0,0,9.80,0,0.0,0
+17,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,0,7.20,0,0.0,0
+17,Shahbaz Ahmed,Allrounder,0,0,lbw b Moeen,Moeen Ali,18,19,0,1,94.74,1,0,11,1,0,0,0,11.00,0,0.0,0
+17,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,1,7.20,0,0.0,0
+17,Travis Head,Batter,0,0,c Rachin Ravindra b M Theekshana,Rachin Ravindra,31,24,3,1,129.17,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Heinrich Klaasen,WK-Batter,0,1,not out,,10,11,1,0,90.91,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+17,Nitish Reddy,Bowler,0,0,not out,,14,8,1,1,175.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Virat Kohli,Batter,0,0,not out,,113,72,12,4,156.94,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+18,Faf du Plessis,Batter,1,0,c Jos Buttler b Chahal,Jos Buttler,44,33,2,2,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Jos Buttler,WK-Batter,0,0,not out,,100,58,9,4,172.41,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+18,Glenn Maxwell,Allrounder,0,0,b Nandre Burger,Nandre Burger,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+18,Nandre Burger,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,1,0,6,8.20,0,0.0,0
+18,Saurav Chauhan,Allrounder,0,0,c Yashasvi Jaiswal b Chahal,Yashasvi Jaiswal,9,6,0,1,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Yashasvi Jaiswal,Batter,0,0,c Maxwell b R Topley,Glenn Maxwell,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+18,Cameron Green,Allrounder,0,0,not out,,5,6,0,0,83.33,3.1,0,27,0,0,0,1,8.50,0,0.0,0
+18,Rajat Patidar,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Dinesh Karthik,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+18,Reece Topley,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,2,0,0,1,6.80,0,0.0,0
+18,Mayank Dagar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,34,0,0,0,0,17.00,0,0.0,0
+18,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,0,1,8.80,0,0.0,0
+18,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,1,0,0,0,9.20,1,0.0,0
+18,Himanshu Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,29,0,0,0,0,14.50,0,0.0,0
+18,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,0,0,0,1,10.00,0,0.0,0
+18,Ravichandran Ashwin,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,28,0,0,0,1,7.00,0,0.0,0
+18,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,46,0,0,0,0,11.50,0,0.0,0
+18,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,2,0,0,1,8.50,0,0.0,0
+18,Riyan Parag,Allrounder,0,0,c Kohli b Yash Dayal,Virat Kohli,4,4,1,0,100.00,1,0,10,0,0,0,0,10.00,0,0.0,0
+18,Sanju Samson,WK-Batter,0,0,c Yash Dayal b Siraj,Yash Dayal,69,42,8,2,164.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Dhruv Jurel,WK-Batter,0,0,c Karthik b R Topley,Dinesh Karthik,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Shimron Hetmyer,Batter,0,0,not out,,11,6,2,0,183.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+18,Shubham Dubey,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Rohit Sharma,Batter,0,0,b Axar,Axar Patel,49,27,6,3,181.48,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+19,Axar Patel,Allrounder,0,0,run out (Nabi/Ishan Kishan),Mohammad Nabi/Ishan Kishan,8,7,1,0,114.29,4,0,35,2,1,0,0,8.80,2,0.0,0
+19,Ishan Kishan,WK-Batter,0,1,c and b Axar,Axar Patel,42,23,4,2,182.61,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+19,Suryakumar Yadav,Batter,0,0,c (sub)Jake Fraser-McGurk b Nortje,,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Hardik Pandya,Allrounder,1,0,c (sub)Jake Fraser-McGurk b Nortje,,39,33,3,1,118.18,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+19,Tilak Varma,Batter,0,0,c Axar b Khaleel Ahmed,Axar Patel,6,5,1,0,120.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+19,Tim David,Batter,0,0,not out,,45,21,2,4,214.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+19,Romario Shepherd,Bowler,0,0,not out,,39,10,3,4,390.00,4,0,54,1,0,0,1,13.50,0,0.0,0
+19,Mohammad Nabi,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,17,0,0,0,0,8.50,0,0.5,0
+19,Piyush Chawla,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,32,0,0,0,0,16.00,0,0.0,0
+19,Gerald Coetzee,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,4,0,0,0,8.50,0,0.0,0
+19,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,22,2,1,0,0,5.50,0,0.0,0
+19,Akash Madhwal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,0,0,1,0,11.20,0,0.0,0
+19,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,1,0,0,0,9.80,0,0.0,0
+19,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,40,0,0,0,8,13.30,0,0.0,0
+19,Jhye Richardson,Bowler,0,0,c Rohit b Gerald Coetzee,Rohit Sharma,2,2,0,0,100.00,4,0,40,0,0,0,2,10.00,0,0.0,0
+19,Lalit Yadav,Allrounder,0,0,c Ishan Kishan b Gerald Coetzee,Ishan Kishan,3,4,0,0,75.00,1,0,15,0,0,0,0,15.00,0,0.0,0
+19,Anrich Nortje,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,65,2,0,1,3,16.20,0,0.0,0
+19,Prithvi Shaw,Batter,0,0,b Bumrah,Jasprit Bumrah,66,40,8,3,165.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,David Warner,Batter,0,0,c Hardik Pandya b Romario Shepherd,Hardik Pandya,10,8,1,1,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Abishek Porel,WK-Batter,0,0,c Tim David b Bumrah,Tim David,41,31,5,0,132.26,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Tristan Stubbs,WK-Batter,0,0,not out,,71,25,3,7,284.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Rishabh Pant,WK-Batter,0,0,c Hardik Pandya b Gerald Coetzee,Hardik Pandya,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+19,Kumar Kushagra,WK-Batter,0,0,c Tilak Varma b Gerald Coetzee,Tilak Varma,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+20,Quinton de Kock,WK-Batter,0,0,c Noor Ahmad b Umesh,Noor Ahmad,6,4,0,1,150.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+20,Noor Ahmad,Bowler,0,0,c de Kock b Yash Thakur,Quinton de Kock,4,2,1,0,200.00,4,0,22,0,0,0,0,5.50,1,0.0,0
+20,KL Rahul,WK-Batter,0,0,c Rahul Tewatia b Darshan Nalkande,Rahul Tewatia,33,31,3,0,106.45,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Rahul Tewatia,Allrounder,0,0,c Pooran b Yash Thakur,Nicholas Pooran,30,25,2,2,120.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Devdutt Padikkal,Batter,0,0,c Vijay Shankar b Umesh,Vijay Shankar,7,7,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+20,Vijay Shankar,Allrounder,0,0,c Rahul b Yash Thakur,KL Rahul,17,17,0,1,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Marcus Stoinis,Allrounder,0,0,c Sharath BR b Darshan Nalkande,Sharath BR,58,43,4,2,134.88,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+20,Sharath BR,WK-Batter,0,1,c Ayush Badoni b Krunal Pandya,Ayush Badoni,2,5,0,0,40.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Nicholas Pooran,WK-Batter,0,0,not out,,32,22,0,3,145.45,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Ayush Badoni,Allrounder,0,0,c Umesh b Rashid Khan,Umesh Yadav,20,11,3,0,181.82,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+20,Umesh Yadav,Bowler,0,0,c de Kock b Naveen-ul-Haq,Quinton de Kock,2,4,0,0,50.00,3,0,22,2,0,0,0,7.30,1,0.0,0
+20,Krunal Pandya,Allrounder,0,0,not out,,2,2,0,0,100.00,4,0,11,3,0,0,0,2.80,0,0.0,0
+20,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,8,1,0,0,1,4.00,2,0.0,0
+20,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.5,1,30,5,1,0,2,7.80,1,0.0,0
+20,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,1,0,1,1,9.20,0,0.0,0
+20,Mayank Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,13,0,0,0,0,13.00,0,0.0,0
+20,Manimaran Siddharth,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,0,0,3,2,7.20,0,0.0,0
+20,Spencer Johnson,Bowler,0,0,not out,,0,1,0,0,0.00,4,0,32,0,0,0,1,8.00,0,0.0,0
+20,Rashid Khan,Allrounder,0,0,c (sub)Deepak Hooda b Yash Thakur,,0,3,0,0,0.00,4,0,28,1,0,0,0,7.00,0,0.0,0
+20,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,0,0,11.30,0,0.0,0
+20,Darshan Nalkande,Bowler,0,0,c Yash Thakur b Krunal Pandya,Yash Thakur,12,11,0,1,109.09,2,0,21,2,0,0,0,10.50,0,0.0,0
+20,Sai Sudharsan,Batter,0,0,c Ravi Bishnoi b Krunal Pandya,Ravi Bishnoi,31,23,4,0,134.78,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+20,Shubman Gill,Batter,1,0,b Yash Thakur,Yash Thakur,19,21,2,0,90.48,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+20,Kane Williamson,Batter,0,0,c and b Ravi Bishnoi,Ravi Bishnoi,1,5,0,0,20.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Philip Salt,WK-Batter,0,1,c Ravindra Jadeja b Tushar Deshpande,Ravindra Jadeja,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Ravindra Jadeja,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,18,3,1,0,1,4.50,2,0.0,0
+21,Sunil Narine,Allrounder,0,0,c M Theekshana b Ravindra Jadeja,Maheesh Theekshana,27,20,3,2,135.00,4,0,30,1,1,0,0,7.50,0,0.0,0
+21,Maheesh Theekshana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,1,1,0,0,7.00,1,0.0,0
+21,Angkrish Raghuvanshi,Allrounder,0,0,lbw b Ravindra Jadeja,Ravindra Jadeja,24,18,3,1,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Shreyas Iyer,Batter,1,0,c Ravindra Jadeja b Mustafizur,Ravindra Jadeja,34,32,3,0,106.25,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Venkatesh Iyer,Allrounder,0,0,c Daryl Mitchell b Ravindra Jadeja,Daryl Mitchell,3,8,0,0,37.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Daryl Mitchell,Allrounder,0,0,b Narine,Sunil Narine,25,19,1,1,131.58,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+21,Ramandeep Singh,Batter,0,0,b M Theekshana,Maheesh Theekshana,13,12,0,1,108.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Rinku Singh,Batter,0,0,b Tushar Deshpande,Tushar Deshpande,9,14,0,0,64.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,3,1,0,2,8.20,0,0.0,0
+21,Andre Russell,Allrounder,0,0,c Daryl Mitchell b Tushar Deshpande,Daryl Mitchell,10,10,2,0,100.00,1,0,8,0,0,0,1,8.00,0,0.0,0
+21,Anukul Roy,Allrounder,0,0,not out,,3,3,0,0,100.00,1.4,0,18,0,0,0,0,10.80,0,0.0,0
+21,Mitchell Starc,Bowler,0,0,c Rachin Ravindra b Mustafizur,Rachin Ravindra,0,3,0,0,0.00,3,0,29,0,0,0,2,9.70,0,0.0,0
+21,Rachin Ravindra,Allrounder,0,0,c Chakaravarthy b Vaibhav Arora,Varun Chakaravarthy,15,8,3,0,187.50,1,0,4,0,0,0,0,4.00,1,0.0,0
+21,Vaibhav Arora,Bowler,0,0,not out,,1,1,0,0,100.00,4,0,28,2,1,0,0,7.00,0,0.0,0
+21,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,26,0,0,0,0,6.50,1,0.0,0
+21,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,22,2,0,1,2,5.50,0,0.0,0
+21,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,27,0,0,1,1,9.00,0,0.0,0
+21,Ruturaj Gaikwad,Batter,1,0,not out,,67,58,9,0,115.52,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Shivam Dube,Allrounder,0,0,b Vaibhav Arora,Vaibhav Arora,28,18,1,3,155.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,MS Dhoni,WK-Batter,0,1,not out,,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Ajinkya Rahane,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+21,Sameer Rizvi,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Travis Head,Batter,0,0,c Dhawan b Arshdeep Singh,Shikhar Dhawan,21,15,4,0,140.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Shikhar Dhawan,Batter,1,0,st Klaasen b Bhuvneshwar,Heinrich Klaasen,14,16,2,0,87.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+22,Abhishek Sharma,Allrounder,0,0,c Shashank Singh b Sam Curran,Shashank Singh,16,11,2,1,145.45,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+22,Shashank Singh,Allrounder,0,0,not out,,46,25,6,1,184.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+22,Aiden Markram,Batter,0,0,c Jitesh Sharma b Arshdeep Singh,Jitesh Sharma,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Jitesh Sharma,WK-Batter,0,1,c Abhishek Sharma b Nitish Reddy,Abhishek Sharma,19,11,1,1,172.73,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+22,Nitish Reddy,Allrounder,0,0,c Rabada b Arshdeep Singh,Kagiso Rabada,64,37,4,5,172.97,3,0,33,1,0,0,1,11.00,1,0.0,0
+22,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,1,1,0,1,8.00,1,0.0,0
+22,Rahul Tripathi,Batter,0,0,c Jitesh Sharma b Harshal Patel,Jitesh Sharma,11,14,1,0,78.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Heinrich Klaasen,WK-Batter,0,1,c Sam Curran b Harshal Patel,Sam Curran,9,9,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,1
+22,Sam Curran,Allrounder,0,0,c Cummins b T Natarajan,Pat Cummins,29,22,2,2,131.82,4,0,41,2,0,0,1,10.20,1,0.0,0
+22,Abdul Samad,Batter,0,0,c Harshal Patel b Arshdeep Singh,Harshal Patel,25,12,5,0,208.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,2,0,0,1,7.50,1,0.0,0
+22,Shahbaz Ahmed,Allrounder,0,0,not out,,14,7,1,1,200.00,1,0,10,0,0,0,0,10.00,0,0.0,0
+22,Pat Cummins,Bowler,1,0,b Rabada,Kagiso Rabada,3,4,0,0,75.00,4,0,22,1,1,0,0,5.50,1,0.0,0
+22,Bhuvneshwar Kumar,Bowler,0,0,c Bairstow b Sam Curran,Jonny Bairstow,6,8,0,0,75.00,4,1,32,2,0,0,2,8.00,0,0.0,0
+22,Jonny Bairstow,WK-Batter,0,0,b Cummins,Pat Cummins,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+22,Jaydev Unadkat,Bowler,0,0,not out,,6,1,0,1,600.00,4,0,49,1,0,0,3,12.20,0,0.0,0
+22,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,0,8.20,0,0.0,0
+22,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,4,0,0,2,7.20,0,0.0,0
+22,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,0,0,0,0,12.00,0,0.0,0
+22,Prabhsimran Singh,WK-Batter,0,0,c Nitish Reddy b Bhuvneshwar,Nitish Reddy,4,6,1,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Sikandar Raza,Allrounder,0,0,c Klaasen b Jaydev Unadkat,Heinrich Klaasen,28,22,2,2,127.27,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+22,Ashutosh Sharma,Batter,0,0,not out,,33,15,3,2,220.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Yashasvi Jaiswal,Batter,0,0,c Wade b Umesh,Matthew Wade,24,19,5,0,126.32,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Matthew Wade,WK-Batter,0,1,b Kuldeep Sen,Kuldeep Sen,4,6,0,0,66.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+23,Jos Buttler,WK-Batter,0,0,c Rahul Tewatia b Rashid Khan,Rahul Tewatia,8,10,0,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+23,Rahul Tewatia,Allrounder,0,0,run out (Jos Buttler/Avesh Khan),Jos Buttler/Avesh Khan,22,11,3,0,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+23,Sanju Samson,WK-Batter,0,0,not out,,68,38,7,2,178.95,0.0,0,0,0,0,0,0,0.0,0,0.0,1
+23,Riyan Parag,Allrounder,0,0,c Vijay Shankar b Mohit Sharma,Vijay Shankar,76,48,3,5,158.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Vijay Shankar,Allrounder,0,0,b Chahal,Yuzvendra Chahal,16,10,3,0,160.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+23,Shimron Hetmyer,Batter,0,0,not out,,13,5,1,1,260.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Dhruv Jurel,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Ravichandran Ashwin,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,40,0,0,0,0,10.00,0,0.0,0
+23,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,8,0,0,0,0,4.00,0,0.0,0
+23,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,1,1,0,2,12.00,0,0.5,0
+23,Kuldeep Sen,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,3,3,1,4,10.20,0,0.0,0
+23,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,2,1,0,1,10.80,0,0.0,0
+23,Keshav Maharaj,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,16,0,0,0,0,8.00,0,0.0,0
+23,Umesh Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,1,0,0,2,11.80,0,0.0,0
+23,Spencer Johnson,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,0,0,0,0,9.20,0,0.0,0
+23,Rashid Khan,Allrounder,0,0,not out,,24,11,4,0,218.18,4,0,18,1,0,0,0,4.50,0,0.0,0
+23,Noor Ahmad,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,43,0,0,0,1,10.80,0,0.0,0
+23,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,51,1,0,0,4,12.80,0,0.0,0
+23,Sai Sudharsan,Batter,0,0,lbw b Kuldeep Sen,Kuldeep Sen,35,29,3,1,120.69,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Shubman Gill,Batter,1,0,st Samson b Chahal,Sanju Samson,72,44,6,2,163.64,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Abhinav Manohar,Batter,0,0,b Kuldeep Sen,Kuldeep Sen,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+23,Shahrukh Khan,Allrounder,0,0,lbw b Avesh Khan,Avesh Khan,14,8,1,1,175.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Virat Kohli,Batter,0,0,c Ishan Kishan b Bumrah,Ishan Kishan,3,9,0,0,33.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+24,Ishan Kishan,WK-Batter,0,1,c Kohli b Akash Deep,Virat Kohli,69,34,7,5,202.94,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+24,Faf du Plessis,Batter,1,0,c Tim David b Bumrah,Tim David,61,40,4,3,152.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Tim David,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+24,Will Jacks,Allrounder,0,0,c Tim David b Akash Madhwal,Tim David,8,6,2,0,133.33,2,0,24,1,0,0,0,12.00,0,0.0,0
+24,Rajat Patidar,Batter,0,0,c Ishan Kishan b Gerald Coetzee,Ishan Kishan,50,26,3,4,192.31,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Glenn Maxwell,Allrounder,0,0,lbw b Shreyas Gopal,Shreyas Gopal,0,4,0,0,0.00,1,0,17,0,0,0,0,17.00,0,0.0,0
+24,Shreyas Gopal,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,32,1,1,0,0,8.00,0,0.0,0
+24,Dinesh Karthik,WK-Batter,0,1,not out,,53,23,5,4,230.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Mahipal Lomror,Allrounder,0,0,lbw b Bumrah,Jasprit Bumrah,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+24,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,21,5,1,0,0,5.20,0,0.0,0
+24,Saurav Chauhan,Allrounder,0,0,c Akash Madhwal b Bumrah,Akash Madhwal,9,8,1,0,112.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Akash Madhwal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,57,1,0,0,3,14.20,1,0.0,0
+24,Vijaykumar Vyshak,Bowler,0,0,c Nabi b Bumrah,Mohammad Nabi,0,1,0,0,0.00,3,0,32,1,0,0,0,10.70,0,0.0,0
+24,Mohammad Nabi,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,7,0,0,0,0,7.00,1,0.0,0
+24,Akash Deep,Bowler,0,0,not out,,2,2,0,0,100.00,3.3,0,55,1,0,0,2,15.70,0,0.0,0
+24,Reece Topley,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,0,1,11.30,1,0.0,0
+24,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,37,0,0,0,0,12.30,0,0.0,0
+24,Gerald Coetzee,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,1,0,0,3,10.50,0,0.0,0
+24,Romario Shepherd,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,22,0,0,0,0,11.00,0,0.0,0
+24,Hardik Pandya,Allrounder,1,0,not out,,21,6,0,3,350.00,1,0,13,0,0,0,2,13.00,0,0.0,0
+24,Rohit Sharma,Batter,0,0,c R Topley b Will Jacks,Reece Topley,38,24,3,3,158.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Suryakumar Yadav,Batter,0,0,c Lomror b Vijaykumar Vyshak,Mahipal Lomror,52,19,5,4,273.68,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+24,Tilak Varma,Batter,0,0,not out,,16,10,3,0,160.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Quinton de Kock,WK-Batter,0,0,lbw b Khaleel Ahmed,Khaleel Ahmed,19,13,4,0,146.15,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,2,2,0,1,10.20,0,0.0,0
+25,KL Rahul,WK-Batter,0,0,c Pant b Kuldeep Yadav,Rishabh Pant,39,22,5,1,177.27,0.0,0,0,0,0,0,0,0.0,0,0.0,1
+25,Rishabh Pant,WK-Batter,0,0,st Rahul b Ravi Bishnoi,KL Rahul,41,24,4,2,170.83,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+25,Devdutt Padikkal,Batter,0,0,lbw b Khaleel Ahmed,Khaleel Ahmed,3,6,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Marcus Stoinis,Allrounder,0,0,c Ishant b Kuldeep Yadav,Ishant Sharma,8,10,1,0,80.00,1,0,10,0,0,0,0,10.00,0,0.0,0
+25,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,1,0,0,4,9.00,1,0.0,0
+25,Nicholas Pooran,WK-Batter,0,0,b Kuldeep Yadav,Kuldeep Yadav,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+25,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,20,3,1,0,1,5.00,0,0.0,0
+25,Deepak Hooda,Allrounder,0,0,c Warner b Ishant,David Warner,10,13,0,0,76.92,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,David Warner,Batter,0,0,b Yash Thakur,Yash Thakur,8,9,1,0,88.89,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+25,Ayush Badoni,Allrounder,0,0,not out,,55,35,5,1,157.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Krunal Pandya,Allrounder,0,0,c Pant b Mukesh Kumar,Rishabh Pant,3,4,0,0,75.00,3,0,45,0,0,0,7,15.00,0,0.0,0
+25,Arshad Khan,Bowler,0,0,not out,,20,16,2,0,125.00,3.1,0,34,0,0,0,0,10.70,1,0.0,0
+25,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,25,2,0,0,0,6.20,0,0.0,0
+25,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,24,1,0,0,0,8.00,0,0.0,0
+25,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,1,1,0,0,7.80,0,0.0,0
+25,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,1,0,0,1,10.20,0,0.0,0
+25,Axar Patel,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,26,0,0,0,0,6.50,0,0.0,0
+25,Prithvi Shaw,Batter,0,0,c Pooran b Ravi Bishnoi,Nicholas Pooran,32,22,6,0,145.45,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Jake Fraser-McGurk,Batter,0,0,c Arshad Khan b Naveen-ul-Haq,Arshad Khan,55,35,2,5,157.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Tristan Stubbs,WK-Batter,0,0,not out,,15,9,0,1,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Shai Hope,WK-Batter,0,0,not out,,11,10,1,0,110.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+25,Abishek Porel,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Atharva Taide,Batter,0,0,c Kuldeep Sen b Avesh Khan,Kuldeep Sen,15,12,2,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Kuldeep Sen,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,0,0,8.80,1,0.0,0
+26,Jonny Bairstow,WK-Batter,0,0,c Hetmyer b Maharaj,Shimron Hetmyer,15,19,1,0,78.95,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Shimron Hetmyer,Batter,0,0,not out,,27,10,1,3,270.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+26,Prabhsimran Singh,WK-Batter,0,0,c Dhruv Jurel b Chahal,Dhruv Jurel,10,14,1,0,71.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Dhruv Jurel,WK-Batter,0,0,c Shashank Singh b Harshal Patel,Shashank Singh,6,11,0,0,54.55,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+26,Sam Curran,Allrounder,1,0,c Dhruv Jurel b Maharaj,Dhruv Jurel,6,10,0,0,60.00,4,0,25,2,0,0,1,6.20,0,0.0,0
+26,Jitesh Sharma,WK-Batter,0,1,c Riyan Parag b Avesh Khan,Riyan Parag,29,24,1,2,120.83,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+26,Riyan Parag,Allrounder,0,0,c Rabada b Arshdeep Singh,Kagiso Rabada,23,18,1,1,127.78,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+26,Shashank Singh,Allrounder,0,0,c Dhruv Jurel b Kuldeep Sen,Dhruv Jurel,9,9,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+26,Liam Livingstone,Allrounder,0,0,run out (Tanush Kotian/Samson),Tanush Kotian/Sanju Samson,21,14,2,1,150.00,3,0,21,1,1,0,1,7.00,1,0.0,0
+26,Tanush Kotian,Allrounder,0,0,b Livingstone,Liam Livingstone,24,31,3,0,77.42,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+26,Sanju Samson,WK-Batter,0,0,lbw b Rabada,Kagiso Rabada,18,14,1,1,128.57,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+26,Ashutosh Sharma,Batter,0,0,c Maharaj b Boult,Keshav Maharaj,31,16,1,3,193.75,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Keshav Maharaj,Bowler,0,0,c Livingstone b Sam Curran,Liam Livingstone,1,2,0,0,50.00,4,0,23,2,0,0,0,5.80,1,0.0,0
+26,Harpreet Brar,Bowler,0,0,not out,,3,3,0,0,100.00,3,0,22,0,0,0,0,7.30,0,0.0,0
+26,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,21,1,0,0,0,10.50,1,0.0,0
+26,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,18,2,1,0,0,4.50,1,0.0,0
+26,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.5,0,45,1,0,0,1,11.70,0,0.0,0
+26,Trent Boult,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,22,1,0,0,3,5.50,0,0.0,0
+26,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,2,0,0,0,8.50,0,0.0,0
+26,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,1,0,1,2,7.80,0,0.0,0
+26,Yashasvi Jaiswal,Batter,0,0,c Harshal Patel b Rabada,Harshal Patel,39,28,4,0,139.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+26,Rovman Powell,Batter,0,0,c Jitesh Sharma b Sam Curran,Jitesh Sharma,11,5,2,0,220.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Quinton de Kock,WK-Batter,0,0,c Narine b Vaibhav Arora,Sunil Narine,10,8,2,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Sunil Narine,Allrounder,0,0,c Stoinis b Mohsin Khan,Marcus Stoinis,6,6,1,0,100.00,4,0,17,1,0,0,0,4.20,1,0.0,0
+27,KL Rahul,WK-Batter,0,0,c Ramandeep Singh b Russell,Ramandeep Singh,39,27,3,2,144.44,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+27,Ramandeep Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+27,Deepak Hooda,Allrounder,0,0,c Ramandeep Singh b Starc,Ramandeep Singh,8,10,1,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Ayush Badoni,Allrounder,0,0,c Angkrish Raghuvanshi b Narine,Angkrish Raghuvanshi,29,27,2,1,107.41,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Angkrish Raghuvanshi,Allrounder,0,0,c Rahul b Mohsin Khan,KL Rahul,7,6,0,1,116.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+27,Marcus Stoinis,Allrounder,0,0,c Salt b Chakaravarthy,Philip Salt,10,5,2,0,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+27,Philip Salt,WK-Batter,0,1,not out,,89,47,14,3,189.36,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+27,Nicholas Pooran,WK-Batter,0,0,c Salt b Starc,Philip Salt,45,32,2,4,140.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Krunal Pandya,Allrounder,0,0,not out,,7,8,0,0,87.50,1,0,14,0,0,0,0,14.00,0,0.0,0
+27,Arshad Khan,Bowler,0,0,b Starc,Mitchell Starc,5,4,1,0,125.00,2,0,24,0,0,0,2,12.00,0,0.0,0
+27,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,3,1,0,1,7.00,0,0.0,0
+27,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.4,0,17,0,0,0,2,6.40,0,0.0,0
+27,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,0,0,1,7.20,0,0.0,0
+27,Shamar Joseph,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,0,0,3,7,11.80,0,0.0,0
+27,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,25,0,0,0,1,12.50,0,0.0,0
+27,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,1,0,1,1,11.30,0,0.0,0
+27,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,0,0,0,2,8.80,0,0.0,0
+27,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,1,0,0,2,7.50,0,0.0,0
+27,Andre Russell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,16,1,0,0,0,16.00,0,0.0,0
+27,Shreyas Iyer,Batter,1,0,not out,,38,38,6,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Venkatesh Iyer,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+27,Rinku Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Ajinkya Rahane,Batter,0,0,c Hardik Pandya b Gerald Coetzee,Hardik Pandya,5,8,1,0,62.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Hardik Pandya,Allrounder,1,0,c Ravindra Jadeja b Tushar Deshpande,Ravindra Jadeja,2,6,0,0,33.33,3,0,43,2,0,0,2,14.30,1,0.0,0
+28,Rachin Ravindra,Allrounder,0,0,c Ishan Kishan b Shreyas Gopal,Ishan Kishan,21,16,2,1,131.25,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+28,Ishan Kishan,WK-Batter,0,1,c Thakur b Matheesha Pathirana,Shardul Thakur,23,15,3,1,153.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+28,Ruturaj Gaikwad,Batter,1,0,c Nabi b Hardik Pandya,Mohammad Nabi,69,40,5,5,172.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Mohammad Nabi,Allrounder,0,0,not out,,4,7,0,0,57.14,3,0,19,0,0,0,0,6.30,2,0.0,0
+28,Shivam Dube,Allrounder,0,0,not out,,66,38,10,2,173.68,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Daryl Mitchell,Allrounder,0,0,c Nabi b Hardik Pandya,Mohammad Nabi,17,14,1,0,121.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,MS Dhoni,WK-Batter,0,1,not out,,20,4,0,3,500.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Ravindra Jadeja,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,37,0,0,0,0,9.20,1,0.0,0
+28,Sameer Rizvi,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,0,0,0,0,8.80,2,0.0,0
+28,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,0,7.20,0,0.0,0
+28,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,55,1,0,0,3,13.80,1,0.0,0
+28,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,4,1,0,2,7.00,0,0.0,0
+28,Gerald Coetzee,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,0,1,8.80,0,0.0,0
+28,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,0,0,0,2,6.80,0,0.0,0
+28,Akash Madhwal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,37,0,0,0,0,12.30,0,0.0,0
+28,Shreyas Gopal,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,9,1,0,0,0,9.00,0,0.0,0
+28,Romario Shepherd,Bowler,0,0,b Matheesha Pathirana,Matheesha Pathirana,1,2,0,0,50.00,2,0,33,0,0,0,0,16.50,0,0.0,0
+28,Rohit Sharma,Batter,0,0,not out,,105,63,11,5,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Suryakumar Yadav,Batter,0,0,c Mustafizur b Matheesha Pathirana,Mustafizur Rahman,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Tilak Varma,Batter,0,0,c Thakur b Matheesha Pathirana,Shardul Thakur,31,20,5,0,155.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+28,Tim David,Batter,0,0,c Rachin Ravindra b Mustafizur,Rachin Ravindra,13,5,0,2,260.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Abhishek Sharma,Allrounder,0,0,c Lockie Ferguson b R Topley,Lockie Ferguson,34,22,2,2,154.55,1,0,10,0,0,0,0,10.00,0,0.0,0
+29,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,52,2,0,0,0,13.00,1,0.0,0
+29,Travis Head,Batter,0,0,c du Plessis b Lockie Ferguson,Faf du Plessis,102,41,9,8,248.78,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Faf du Plessis,Batter,1,0,c Klaasen b Cummins,Heinrich Klaasen,62,28,7,4,221.43,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+29,Heinrich Klaasen,WK-Batter,0,1,c Vijaykumar Vyshak b Lockie Ferguson,Vijaykumar Vyshak,67,31,2,7,216.13,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+29,Vijaykumar Vyshak,Bowler,0,0,not out,,1,2,0,0,50.00,4,0,64,0,0,0,2,16.00,1,0.0,0
+29,Aiden Markram,Batter,0,0,not out,,32,17,2,2,188.24,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Abdul Samad,Batter,0,0,not out,,37,10,4,3,370.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Nitish Reddy,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+29,Shahbaz Ahmed,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,18,0,0,0,0,18.00,0,0.0,0
+29,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,43,3,2,0,1,10.80,0,0.0,0
+29,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,60,0,0,0,4,15.00,0,0.0,0
+29,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,37,0,0,0,1,18.50,0,1.0,0
+29,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,1,0,0,4,11.80,0,0.0,0
+29,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,46,2,1,0,3,11.50,0,0.0,0
+29,Will Jacks,Allrounder,0,0,run out (Jaydev Unadkat),Jaydev Unadkat,7,4,1,0,175.00,3,0,32,0,0,0,2,10.70,0,0.0,0
+29,Reece Topley,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,68,1,0,0,2,17.00,0,0.0,0
+29,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,51,0,0,1,3,12.80,0,0.0,0
+29,Mahipal Lomror,Allrounder,0,0,b Cummins,Pat Cummins,19,11,0,2,172.73,1,0,18,0,0,0,3,18.00,0,0.0,0
+29,Virat Kohli,Batter,0,0,b Markande,Mayank Markande,42,20,6,2,210.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Rajat Patidar,Batter,0,0,c Nitish Reddy b Markande,Nitish Reddy,9,5,0,1,180.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Saurav Chauhan,Allrounder,0,0,lbw b Cummins,Pat Cummins,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Dinesh Karthik,WK-Batter,0,1,c Klaasen b T Natarajan,Heinrich Klaasen,83,35,5,7,237.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+29,Anuj Rawat,WK-Batter,0,0,not out,,25,14,5,0,178.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Philip Salt,WK-Batter,0,1,c and b Avesh Khan,Avesh Khan,10,13,1,0,76.92,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Avesh Khan,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,35,2,0,0,1,8.80,1,0.0,0
+30,Sunil Narine,Allrounder,0,0,b Boult,Trent Boult,109,56,13,6,194.64,4,0,30,2,2,0,3,7.50,1,0.0,0
+30,Trent Boult,Bowler,0,0,run out (Shreyas Iyer/Starc),Shreyas Iyer/Mitchell Starc,0,1,0,0,0.00,4,0,31,1,1,0,0,7.80,0,0.0,0
+30,Angkrish Raghuvanshi,Allrounder,0,0,c Ashwin b Kuldeep Sen,Ravichandran Ashwin,30,18,5,0,166.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+30,Ravichandran Ashwin,Allrounder,0,0,c Angkrish Raghuvanshi b Chakaravarthy,Angkrish Raghuvanshi,8,11,1,0,72.73,4,0,49,0,0,0,9,12.20,1,0.0,0
+30,Shreyas Iyer,Batter,1,0,lbw b Chahal,Yuzvendra Chahal,11,7,1,1,157.14,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+30,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,54,1,1,0,1,13.50,0,0.0,0
+30,Andre Russell,Allrounder,0,0,c Dhruv Jurel b Avesh Khan,Dhruv Jurel,13,10,2,0,130.00,1,0,17,0,0,0,0,17.00,1,0.0,0
+30,Dhruv Jurel,WK-Batter,0,0,lbw b Narine,Sunil Narine,2,4,0,0,50.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+30,Rinku Singh,Batter,0,0,not out,,20,9,1,2,222.22,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Venkatesh Iyer,Allrounder,0,0,c Dhruv Jurel b Kuldeep Sen,Dhruv Jurel,8,6,1,0,133.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+30,Ramandeep Singh,Batter,0,0,not out,,1,1,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,50,0,0,0,9,12.50,0,0.5,0
+30,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,2,0,0,1,9.00,0,0.0,0
+30,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,2,0,0,1,11.20,0,0.0,0
+30,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,45,1,0,1,0,15.00,0,0.0,0
+30,Kuldeep Sen,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,46,2,0,0,2,11.50,0,0.0,0
+30,Yashasvi Jaiswal,Batter,0,0,c Venkatesh Iyer b Vaibhav Arora,Venkatesh Iyer,19,9,3,1,211.11,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Jos Buttler,WK-Batter,0,0,not out,,107,60,9,6,178.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Sanju Samson,WK-Batter,0,0,c Narine b Harshit Rana,Sunil Narine,12,8,2,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Riyan Parag,Allrounder,0,0,c Russell b Harshit Rana,Andre Russell,34,14,4,2,242.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Shimron Hetmyer,Batter,0,0,c Shreyas Iyer b Chakaravarthy,Shreyas Iyer,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+30,Rovman Powell,Batter,0,0,lbw b Narine,Sunil Narine,26,13,1,3,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Wriddhiman Saha,WK-Batter,0,1,b Mukesh Kumar,Mukesh Kumar,2,10,0,0,20.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.3,0,14,3,2,2,1,5.60,0,0.0,0
+31,Shubman Gill,Batter,1,0,c Prithvi Shaw b Ishant,Prithvi Shaw,8,6,2,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Prithvi Shaw,Batter,0,0,c Spencer Johnson b Warrier,Spencer Johnson,7,6,1,0,116.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+31,Sai Sudharsan,Batter,0,0,run out (Sumit Kumar),Sumit Kumar,12,9,2,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Sumit Kumar,Allrounder,0,0,not out,,9,9,2,0,100.00,0.0,0,0,0,0,0,0,0.0,1,1.0,0
+31,David Miller,Batter,0,0,c Pant b Ishant,Rishabh Pant,2,6,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Rishabh Pant,WK-Batter,0,0,not out,,16,11,1,1,145.45,0.0,0,0,0,0,0,0,0.0,2,0.0,2
+31,Abhinav Manohar,Batter,0,0,st Pant b Tristan Stubbs,Rishabh Pant,8,14,1,0,57.14,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+31,Rahul Tewatia,Allrounder,0,0,lbw b Axar,Axar Patel,10,15,1,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Axar Patel,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,17,1,1,0,1,4.20,0,0.0,0
+31,Shahrukh Khan,Allrounder,0,0,st Pant b Tristan Stubbs,Rishabh Pant,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Rashid Khan,Allrounder,0,0,c Pant b Mukesh Kumar,Rishabh Pant,31,24,2,1,129.17,2,0,12,1,0,0,0,6.00,0,0.0,0
+31,Mohit Sharma,Bowler,0,0,c Sumit Kumar b Khaleel Ahmed,Sumit Kumar,2,14,0,0,14.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+31,Noor Ahmad,Bowler,0,0,b Mukesh Kumar,Mukesh Kumar,1,7,0,0,14.29,1.5,0,14,0,0,0,0,7.60,0,0.0,0
+31,Spencer Johnson,Bowler,0,0,not out,,1,1,0,0,100.00,2,0,22,1,0,0,2,11.00,1,0.0,0
+31,Sandeep Warrier,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,40,2,1,0,0,13.30,0,0.0,0
+31,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,18,1,0,0,1,4.50,0,0.0,0
+31,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,8,2,0,0,1,4.00,0,0.0,0
+31,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,16,0,0,0,0,4.00,0,0.0,0
+31,Tristan Stubbs,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,1,0,11,2,0,0,1,11.00,0,0.0,0
+31,Jake Fraser-McGurk,Batter,0,0,c Abhinav Manohar b Spencer Johnson,Abhinav Manohar,20,10,2,2,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Abishek Porel,WK-Batter,0,0,b Warrier,Sandeep Warrier,15,7,2,1,214.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+31,Shai Hope,WK-Batter,0,0,c Mohit Sharma b Rashid Khan,Mohit Sharma,19,10,1,2,190.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Ishan Kishan,WK-Batter,0,1,c Harpreet Brar b Rabada,Harpreet Brar,8,8,1,0,100.00,0.0,0,0,0,0,0,0,0.0,2,0.5,0
+32,Harpreet Brar,Bowler,0,0,c Nabi b Hardik Pandya,Mohammad Nabi,21,20,2,1,105.00,3,0,21,0,0,0,0,7.00,3,0.0,0
+32,Rohit Sharma,Batter,0,0,c Harpreet Brar b Sam Curran,Harpreet Brar,36,25,2,3,144.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Suryakumar Yadav,Batter,0,0,c Prabhsimran b Sam Curran,Prabhsimran Singh,78,53,7,3,147.17,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Prabhsimran Singh,WK-Batter,0,0,c Ishan Kishan b Gerald Coetzee,Ishan Kishan,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+32,Tilak Varma,Batter,0,0,not out,,34,18,2,2,188.89,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+32,Hardik Pandya,Allrounder,1,0,c Harpreet Brar b Harshal Patel,Harpreet Brar,10,6,0,1,166.67,4,0,33,1,0,0,3,8.20,0,0.0,0
+32,Tim David,Batter,0,0,c Sam Curran b Harshal Patel,Sam Curran,14,7,2,1,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Sam Curran,Allrounder,1,0,c Ishan Kishan b Bumrah,Ishan Kishan,6,7,1,0,85.71,4,0,41,2,0,0,2,10.20,1,0.0,0
+32,Romario Shepherd,Bowler,0,0,c Shashank Singh b Harshal Patel,Shashank Singh,1,2,0,0,50.00,2,0,20,0,0,0,0,10.00,0,0.0,0
+32,Shashank Singh,Allrounder,0,0,c Tilak Varma b Bumrah,Tilak Varma,41,25,2,3,164.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+32,Mohammad Nabi,Allrounder,0,0,run out (Harshal Patel),Harshal Patel,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,2,0.5,0
+32,Harshal Patel,Bowler,0,0,not out,,1,4,0,0,25.00,4,0,31,3,0,0,2,7.80,0,1.0,0
+32,Gerald Coetzee,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,3,0,0,6,8.00,1,0.0,0
+32,Shreyas Gopal,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,26,1,0,0,0,13.00,1,0.0,0
+32,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,21,3,1,1,1,5.20,0,0.0,0
+32,Akash Madhwal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,46,1,1,1,4,14.50,0,0.0,0
+32,Liam Livingstone,Allrounder,0,0,c and b Gerald Coetzee,Gerald Coetzee,1,2,0,0,50.00,2,0,16,0,0,0,0,8.00,0,0.0,0
+32,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,35,0,0,0,1,11.70,0,0.0,0
+32,Kagiso Rabada,Bowler,0,0,run out (Nabi/Ishan Kishan),Mohammad Nabi/Ishan Kishan,8,3,0,1,266.67,4,0,42,1,0,0,0,10.50,0,0.0,0
+32,Rilee Rossouw,Batter,0,0,b Bumrah,Jasprit Bumrah,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Harpreet Singh Bhatia,Batter,0,0,c and b Shreyas Gopal,Shreyas Gopal,13,15,2,0,86.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Jitesh Sharma,WK-Batter,0,1,lbw b Akash Madhwal,Akash Madhwal,9,9,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+32,Ashutosh Sharma,Batter,0,0,c Nabi b Gerald Coetzee,Mohammad Nabi,61,28,2,7,217.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Ajinkya Rahane,Batter,0,0,b Krunal Pandya,Krunal Pandya,36,24,5,1,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Krunal Pandya,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,16,2,1,0,0,5.30,0,0.0,0
+33,Rachin Ravindra,Allrounder,0,0,b Mohsin Khan,Mohsin Khan,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,1,1,0,3,9.20,0,0.0,0
+33,Ruturaj Gaikwad,Batter,1,0,c Rahul b Yash Thakur,KL Rahul,17,13,1,0,130.77,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,KL Rahul,WK-Batter,0,0,c Ravindra Jadeja b Matheesha Pathirana,Ravindra Jadeja,82,53,9,3,154.72,0.0,0,0,0,0,0,0,0.0,2,0.0,1
+33,Ravindra Jadeja,Allrounder,0,0,not out,,57,40,5,1,142.50,3,0,32,0,0,0,1,10.70,1,0.0,0
+33,Shivam Dube,Allrounder,0,0,c Rahul b Stoinis,KL Rahul,3,8,0,0,37.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Sameer Rizvi,Batter,0,0,st Rahul b Krunal Pandya,KL Rahul,1,5,0,0,20.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Moeen Ali,Allrounder,0,0,c Ayush Badoni b Ravi Bishnoi,Ayush Badoni,30,20,0,3,150.00,1,0,5,0,0,0,0,5.00,0,0.0,0
+33,Ayush Badoni,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+33,MS Dhoni,WK-Batter,0,1,not out,,28,9,3,2,311.11,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+33,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,26,0,0,0,0,8.70,0,0.0,0
+33,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,0,0,1,4,10.50,0,0.0,0
+33,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,1,0,0,2,10.80,0,0.0,0
+33,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,1,0,0,2,7.20,0,0.0,0
+33,Matt Henry,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,26,0,0,0,0,8.70,0,0.0,0
+33,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,1,0,0,0,11.20,0,0.0,0
+33,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,44,1,0,0,0,11.00,0,0.0,0
+33,Marcus Stoinis,Allrounder,0,0,not out,,8,7,1,0,114.29,2,0,7,1,0,0,0,3.50,0,0.0,0
+33,Quinton de Kock,WK-Batter,0,0,c Dhoni b Mustafizur,MS Dhoni,54,43,5,1,125.58,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Nicholas Pooran,WK-Batter,0,0,not out,,23,12,3,1,191.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+33,Deepak Hooda,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Travis Head,Batter,0,0,c Tristan Stubbs b Kuldeep Yadav,Tristan Stubbs,89,32,11,6,278.12,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Tristan Stubbs,WK-Batter,0,0,c Shahbaz Ahmed b Nitish Reddy,Shahbaz Ahmed,10,11,0,0,90.91,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+34,Abhishek Sharma,Allrounder,0,0,c Axar b Kuldeep Yadav,Axar Patel,46,12,2,6,383.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Axar Patel,Allrounder,0,0,c Cummins b T Natarajan,Pat Cummins,6,8,0,0,75.00,4,0,29,1,1,0,0,7.20,2,0.0,0
+34,Aiden Markram,Batter,0,0,c Axar b Kuldeep Yadav,Axar Patel,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Heinrich Klaasen,WK-Batter,0,1,b Axar,Axar Patel,15,8,0,2,187.50,0.0,0,0,0,0,0,0,0.0,1,0.0,1
+34,Nitish Reddy,Allrounder,0,0,c Warner b Kuldeep Yadav,David Warner,37,27,2,2,137.04,2.1,0,17,2,0,0,1,7.80,0,0.0,0
+34,David Warner,Batter,0,0,c Cummins b Bhuvneshwar,Pat Cummins,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+34,Shahbaz Ahmed,Allrounder,0,0,not out,,59,29,2,5,203.45,1,0,22,0,0,0,0,22.00,1,0.0,0
+34,Abdul Samad,Batter,0,0,c Nortje b Mukesh Kumar,Anrich Nortje,13,8,1,1,162.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+34,Anrich Nortje,Bowler,0,0,b T Natarajan,T Natarajan,0,2,0,0,0.00,3,0,31,0,0,0,1,10.30,1,0.0,0
+34,Pat Cummins,Bowler,1,0,run out (Tristan Stubbs/Mukesh Kumar),Tristan Stubbs/Mukesh Kumar,1,1,0,0,100.00,4,0,35,0,0,0,0,8.80,2,0.0,0
+34,Mukesh Kumar,Bowler,0,0,not out,,0,2,0,0,0.00,4,0,57,1,0,0,0,14.20,0,0.5,0
+34,Washington Sundar,Allrounder,0,0,not out,,0,0,0,0,0.00,2,0,46,1,0,0,0,23.00,0,0.0,0
+34,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,3,8.20,0,0.0,0
+34,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,26,2,0,0,2,13.00,0,0.0,0
+34,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,19,4,3,0,1,4.80,1,0.0,0
+34,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,51,0,0,0,0,17.00,0,0.0,0
+34,Lalit Yadav,Allrounder,0,0,b T Natarajan,T Natarajan,7,8,1,0,87.50,2,0,41,0,0,0,0,20.50,0,0.0,0
+34,Kuldeep Yadav,Bowler,0,0,lbw b T Natarajan,T Natarajan,0,1,0,0,0.00,4,0,55,4,0,0,2,13.80,0,0.0,0
+34,Prithvi Shaw,Batter,0,0,c Abdul Samad b Washington Sundar,Abdul Samad,16,5,4,0,320.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Jake Fraser-McGurk,Batter,0,0,c Klaasen b Markande,Heinrich Klaasen,65,18,5,7,361.11,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Abishek Porel,WK-Batter,0,0,st Klaasen b Markande,Heinrich Klaasen,42,22,7,1,190.91,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+34,Rishabh Pant,WK-Batter,0,0,c T Natarajan b Nitish Reddy,T Natarajan,44,35,5,1,125.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+35,Philip Salt,WK-Batter,0,1,c Rajat Patidar b Siraj,Rajat Patidar,48,14,7,3,342.86,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+35,Rajat Patidar,Batter,0,0,c Harshit Rana b Russell,Harshit Rana,52,23,3,5,226.09,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+35,Sunil Narine,Allrounder,0,0,c Kohli b Yash Dayal,Virat Kohli,10,15,2,0,66.67,4,0,34,2,0,0,0,8.50,1,0.0,0
+35,Virat Kohli,Batter,0,0,c and b Harshit Rana,Harshit Rana,18,7,1,2,257.14,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+35,Angkrish Raghuvanshi,Allrounder,0,0,c Green b Yash Dayal,Cameron Green,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+35,Cameron Green,Allrounder,0,0,c Ramandeep Singh b Narine,Ramandeep Singh,6,4,0,1,150.00,4,0,35,2,0,0,2,8.80,1,0.0,0
+35,Venkatesh Iyer,Allrounder,0,0,c Lomror b Green,Mahipal Lomror,16,8,3,0,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+35,Mahipal Lomror,Allrounder,0,0,c and b Narine,Sunil Narine,4,3,1,0,133.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+35,Shreyas Iyer,Batter,1,0,c du Plessis b Green,Faf du Plessis,50,36,7,1,138.89,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+35,Faf du Plessis,Batter,1,0,c Venkatesh Iyer b Chakaravarthy,Venkatesh Iyer,7,7,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+35,Rinku Singh,Batter,0,0,c Yash Dayal b Lockie Ferguson,Yash Dayal,24,16,2,1,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+35,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,56,2,0,1,3,14.00,1,0.0,0
+35,Andre Russell,Allrounder,0,0,not out,,27,20,4,0,135.00,3,0,25,3,0,0,1,8.30,0,0.0,0
+35,Ramandeep Singh,Batter,0,0,not out,,24,9,2,2,266.67,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+35,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,55,1,0,0,1,18.30,1,0.0,0
+35,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,1,0,0,0,9.00,0,0.0,0
+35,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,2,0,0,1,8.20,2,0.0,0
+35,Suyash Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,33,0,0,0,1,16.50,0,0.0,0
+35,Mohammed Siraj,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,40,1,0,0,2,10.00,0,0.0,0
+35,Lockie Ferguson,Bowler,0,0,run out (Ramandeep Singh /Salt),Ramandeep Singh/Philip Salt,1,1,0,0,100.00,4,0,47,1,0,1,0,11.80,0,0.0,0
+35,Karn Sharma,Bowler,0,0,c and b Starc,Mitchell Starc,20,7,0,3,285.71,4,0,33,0,0,0,0,8.20,0,0.0,0
+35,Will Jacks,Allrounder,0,0,c Angkrish Raghuvanshi b Russell,Angkrish Raghuvanshi,55,32,4,5,171.88,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+35,Suyash Prabhudessai,Batter,0,0,c Angkrish Raghuvanshi b Harshit Rana,Angkrish Raghuvanshi,24,18,3,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+35,Dinesh Karthik,WK-Batter,0,1,c Salt b Russell,Philip Salt,25,18,3,1,138.89,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+36,Sam Curran,Allrounder,1,0,lbw b Rashid Khan,Rashid Khan,20,19,2,0,105.26,2,0,18,1,1,0,0,9.00,0,0.0,0
+36,Rashid Khan,Allrounder,0,0,c Rossouw b Harshal Patel,Rilee Rossouw,3,3,0,0,100.00,4,0,15,1,1,0,0,3.80,0,0.0,0
+36,Prabhsimran Singh,WK-Batter,0,0,c W Saha b Mohit Sharma,Wriddhiman Saha,35,21,3,3,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+36,Wriddhiman Saha,WK-Batter,0,1,c Ashutosh Sharma b Arshdeep Singh,Ashutosh Sharma,13,11,1,0,118.18,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+36,Rilee Rossouw,Batter,0,0,lbw b Noor Ahmad,Noor Ahmad,9,7,2,0,128.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+36,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,20,2,1,0,0,5.00,0,0.0,0
+36,Jitesh Sharma,WK-Batter,0,1,b Sai Kishore,Ravisrinivasan Sai Kishore,13,12,0,1,108.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+36,Ravisrinivasan Sai Kishore,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,33,4,1,0,1,8.20,1,0.0,0
+36,Liam Livingstone,Allrounder,0,0,c Rahul Tewatia b Noor Ahmad,Rahul Tewatia,6,9,1,0,66.67,4,0,19,2,1,0,1,4.80,0,0.0,0
+36,Rahul Tewatia,Allrounder,0,0,not out,,36,18,7,0,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+36,Shashank Singh,Allrounder,0,0,c and b Sai Kishore,Ravisrinivasan Sai Kishore,8,12,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+36,Ashutosh Sharma,Batter,0,0,c Mohit Sharma b Sai Kishore,Mohit Sharma,3,8,0,0,37.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+36,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,2,0,0,1,8.00,1,0.0,0
+36,Harpreet Singh Bhatia,Batter,0,0,run out (Sai Sudharsan/W Saha),Sai Sudharsan/Wriddhiman Saha,14,19,0,0,73.68,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+36,Sai Sudharsan,Batter,0,0,b Sam Curran,Sam Curran,31,34,3,0,91.18,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+36,Harpreet Brar,Bowler,0,0,c Shahrukh Khan b Sai Kishore,Shahrukh Khan,29,12,4,1,241.67,4,0,35,0,0,0,0,8.80,0,0.0,0
+36,Shahrukh Khan,Allrounder,0,0,b Harshal Patel,Harshal Patel,8,4,0,1,200.00,1,0,7,0,0,0,0,7.00,2,0.0,0
+36,Harshal Patel,Bowler,0,0,c Shahrukh Khan b Mohit Sharma,Shahrukh Khan,0,1,0,0,0.00,3,0,15,3,1,0,0,5.00,0,0.0,0
+36,Kagiso Rabada,Bowler,0,0,not out,,1,1,0,0,100.00,4,0,40,0,0,0,0,10.00,1,0.0,0
+36,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.1,0,17,1,0,0,0,7.80,0,0.0,0
+36,Azmatullah Omarzai,Allrounder,0,0,c Jitesh Sharma b Harshal Patel,Jitesh Sharma,13,10,0,1,130.00,2,0,13,0,0,0,0,6.50,0,0.0,0
+36,Sandeep Warrier,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,21,0,0,1,0,21.00,0,0.0,0
+36,Shubman Gill,Batter,1,0,c Rabada b Livingstone,Kagiso Rabada,35,29,5,0,120.69,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+36,David Miller,Batter,0,0,b Livingstone,Liam Livingstone,4,6,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Rohit Sharma,Batter,0,0,c Samson b Boult,Sanju Samson,6,5,1,0,120.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Sanju Samson,WK-Batter,0,0,not out,,38,28,2,2,135.71,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+37,Ishan Kishan,WK-Batter,0,1,c Samson b Sandeep Sharma,Sanju Samson,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Suryakumar Yadav,Batter,0,0,c Rovman Powell b Sandeep Sharma,Rovman Powell,10,8,2,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Rovman Powell,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+37,Tilak Varma,Batter,0,0,c Rovman Powell b Sandeep Sharma,Rovman Powell,65,45,5,3,144.44,0.4,0,8,0,0,0,0,12.00,0,0.0,0
+37,Mohammad Nabi,Allrounder,0,0,c and b Chahal,Yuzvendra Chahal,23,17,2,1,135.29,3,0,30,0,0,0,0,10.00,0,0.0,0
+37,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,1,0,0,2,12.00,1,0.0,0
+37,Nehal Wadhera,Batter,0,0,c Sandeep Sharma b Boult,Sandeep Sharma,49,24,3,4,204.17,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,18,5,0,0,0,4.50,1,0.0,0
+37,Hardik Pandya,Allrounder,1,0,lbw b Avesh Khan,Avesh Khan,10,10,1,0,100.00,2,0,21,0,0,0,0,10.50,0,0.0,0
+37,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,49,1,1,0,3,12.20,0,0.0,0
+37,Tim David,Batter,0,0,c Riyan Parag b Sandeep Sharma,Riyan Parag,3,5,0,0,60.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Riyan Parag,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+37,Gerald Coetzee,Bowler,0,0,c Hetmyer b Sandeep Sharma,Shimron Hetmyer,0,1,0,0,0.00,2,0,25,0,0,0,3,12.50,0,0.0,0
+37,Shimron Hetmyer,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+37,Piyush Chawla,Bowler,0,0,not out,,1,1,0,0,100.00,4,0,33,1,1,0,0,8.20,0,0.0,0
+37,Jasprit Bumrah,Bowler,0,0,not out,,2,1,0,0,200.00,4,0,37,0,0,1,1,9.20,0,0.0,0
+37,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,28,0,0,0,0,9.30,0,0.0,0
+37,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,2,0,0,3,8.00,0,0.0,0
+37,Ravichandran Ashwin,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,31,0,0,0,1,7.80,0,0.0,0
+37,Yashasvi Jaiswal,Batter,0,0,not out,,104,60,9,7,173.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Jos Buttler,WK-Batter,0,0,b Chawla,Piyush Chawla,35,25,6,0,140.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+37,Dhruv Jurel,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Ajinkya Rahane,Batter,0,0,c Rahul b Matt Henry,KL Rahul,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,KL Rahul,WK-Batter,0,0,c Ruturaj Gaikwad b Mustafizur,Ruturaj Gaikwad,16,14,1,1,114.29,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+38,Ruturaj Gaikwad,Batter,1,0,not out,,108,60,12,3,180.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+38,Daryl Mitchell,Allrounder,0,0,c Deepak Hooda b Yash Thakur,Deepak Hooda,11,10,1,0,110.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Deepak Hooda,Allrounder,0,0,not out,,17,6,2,1,283.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+38,Ravindra Jadeja,Allrounder,0,0,c Rahul b Mohsin Khan,KL Rahul,16,19,2,0,84.21,2,0,16,0,0,1,0,8.00,0,0.0,0
+38,Shivam Dube,Allrounder,0,0,run out (de Kock/Stoinis),Quinton de Kock/Marcus Stoinis,66,27,3,7,244.44,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Quinton de Kock,WK-Batter,0,0,b D Chahar,Deepak Chahar,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+38,Marcus Stoinis,Allrounder,0,0,not out,,124,63,13,6,196.83,4,0,49,0,0,0,1,12.20,0,0.5,0
+38,MS Dhoni,WK-Batter,0,1,not out,,4,1,1,0,400.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Moeen Ali,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,21,0,0,0,0,10.50,0,0.0,0
+38,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,11,1,1,0,0,5.50,0,0.0,0
+38,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,1,0,11.30,0,0.0,0
+38,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.3,0,51,1,0,1,0,14.60,0,0.0,0
+38,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,2,1,0,2,8.80,0,0.0,0
+38,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,42,0,0,0,1,14.00,1,0.0,0
+38,Matt Henry,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,1,0,0,0,7.00,0,0.0,0
+38,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,50,1,0,0,0,12.50,0,0.0,0
+38,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,19,0,0,0,0,9.50,0,0.0,0
+38,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,1,0,0,1,11.80,0,0.0,0
+38,Krunal Pandya,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,15,0,0,0,0,7.50,0,0.0,0
+38,Devdutt Padikkal,Batter,0,0,b Matheesha Pathirana,Matheesha Pathirana,13,19,0,0,68.42,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Nicholas Pooran,WK-Batter,0,0,c Thakur b Matheesha Pathirana,Shardul Thakur,34,15,3,2,226.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+38,Ayush Badoni,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Prithvi Shaw,Batter,0,0,c Noor Ahmad b Warrier,Noor Ahmad,11,7,2,0,157.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,36,1,0,0,1,12.00,2,0.0,0
+39,Jake Fraser-McGurk,Batter,0,0,c Noor Ahmad b Warrier,Noor Ahmad,23,14,2,2,164.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+39,Axar Patel,Allrounder,0,0,c Sai Kishore b Noor Ahmad,Ravisrinivasan Sai Kishore,66,43,5,4,153.49,3,0,28,1,0,0,0,9.30,3,0.0,0
+39,Ravisrinivasan Sai Kishore,Bowler,0,0,b Rasikh Salam,Rasikh Dar Salam,13,6,0,2,216.67,1,0,22,0,0,0,0,22.00,1,0.0,0
+39,Shai Hope,WK-Batter,0,0,c Rashid Khan b Warrier,Rashid Khan,5,6,1,0,83.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Rashid Khan,Allrounder,0,0,not out,,21,11,3,1,190.91,4,0,35,0,0,0,0,8.80,1,0.0,0
+39,Rishabh Pant,WK-Batter,0,0,not out,,88,43,5,8,204.65,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+39,Tristan Stubbs,WK-Batter,0,0,not out,,26,7,3,2,371.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Abishek Porel,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,0,0,1,7.20,0,0.0,0
+39,Anrich Nortje,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,48,1,0,0,0,16.00,0,0.0,0
+39,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,26,0,0,0,1,13.00,0,0.0,0
+39,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,1,0,1,0,10.20,0,0.0,0
+39,Rasikh Dar Salam,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,44,3,1,0,1,11.00,1,0.0,0
+39,Azmatullah Omarzai,Allrounder,0,0,c Jake Fraser-McGurk b Axar,Jake Fraser-McGurk,1,2,0,0,50.00,4,0,33,0,0,0,0,8.20,0,0.0,0
+39,Sandeep Warrier,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,15,3,0,0,1,5.00,0,0.0,0
+39,Mohit Sharma,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,73,0,0,0,1,18.20,0,0.0,0
+39,Shahrukh Khan,Allrounder,0,0,c Pant b Rasikh Salam,Rishabh Pant,8,5,0,1,160.00,1,0,8,0,0,0,0,8.00,0,0.0,0
+39,Wriddhiman Saha,WK-Batter,0,1,c Axar b Kuldeep Yadav,Axar Patel,39,25,5,1,156.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Shubman Gill,Batter,1,0,c Axar b Nortje,Axar Patel,6,5,1,0,120.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Sai Sudharsan,Batter,0,0,c Axar b Rasikh Salam,Axar Patel,65,39,7,2,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,David Miller,Batter,0,0,c Rasikh Salam b Mukesh Kumar,Rasikh Dar Salam,55,23,6,3,239.13,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+39,Rahul Tewatia,Allrounder,0,0,c Pant b Kuldeep Yadav,Rishabh Pant,4,5,0,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Virat Kohli,Batter,0,0,c Abdul Samad b Jaydev Unadkat,Abdul Samad,51,43,4,1,118.60,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Abdul Samad,Batter,0,0,c and b Karn Sharma,Karn Sharma,10,6,0,1,166.67,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+40,Faf du Plessis,Batter,1,0,c Markram b T Natarajan,Aiden Markram,25,12,3,1,208.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Aiden Markram,Batter,0,0,lbw b Swapnil Singh,Swapnil Singh,7,8,1,0,87.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+40,Will Jacks,Allrounder,0,0,b Markande,Mayank Markande,6,9,0,0,66.67,2,0,23,1,0,0,0,11.50,0,0.0,0
+40,Mayank Markande,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,42,1,1,0,1,14.00,0,0.0,0
+40,Rajat Patidar,Batter,0,0,c Abdul Samad b Jaydev Unadkat,Abdul Samad,50,20,2,5,250.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Cameron Green,Allrounder,0,0,not out,,37,20,5,0,185.00,2,0,12,2,0,0,1,6.00,1,0.0,0
+40,Mahipal Lomror,Allrounder,0,0,c Cummins b Jaydev Unadkat,Pat Cummins,7,4,1,0,175.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Pat Cummins,Bowler,1,0,c Siraj b Green,Mohammed Siraj,31,15,1,3,206.67,4,0,55,1,0,0,1,13.80,1,0.0,0
+40,Dinesh Karthik,WK-Batter,0,1,c Abdul Samad b Cummins,Abdul Samad,11,6,2,0,183.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+40,Swapnil Singh,Allrounder,0,0,c Abhishek Sharma b T Natarajan,Abhishek Sharma,12,6,1,1,200.00,3,0,40,2,1,1,0,13.30,0,0.0,0
+40,Abhishek Sharma,Allrounder,0,0,c Karthik b Yash Dayal,Dinesh Karthik,31,13,3,2,238.46,1,0,10,0,0,0,0,10.00,1,0.0,0
+40,Karn Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,1,0,2,7.20,2,0.0,0
+40,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,28,0,0,0,0,14.00,0,0.0,0
+40,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,20,0,0,0,2,5.00,2,0.0,0
+40,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,18,1,0,0,3,6.00,0,0.0,0
+40,Bhuvneshwar Kumar,Bowler,0,0,c Siraj b Green,Mohammed Siraj,13,13,3,0,100.00,1,0,14,0,0,0,0,14.00,0,0.0,0
+40,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,2,0,0,1,9.80,0,0.0,0
+40,Shahbaz Ahmed,Allrounder,0,0,not out,,40,37,1,1,108.11,3,0,14,0,0,0,0,4.70,0,0.0,0
+40,Jaydev Unadkat,Bowler,0,0,not out,,8,10,1,0,80.00,4,0,30,3,0,0,2,7.50,0,0.0,0
+40,Travis Head,Batter,0,0,c Karn Sharma b Will Jacks,Karn Sharma,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Nitish Reddy,Allrounder,0,0,b Karn Sharma,Karn Sharma,13,13,0,1,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+40,Heinrich Klaasen,WK-Batter,0,1,c Green b Swapnil Singh,Cameron Green,7,3,0,1,233.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Philip Salt,WK-Batter,0,1,b Sam Curran,Sam Curran,75,37,6,6,202.70,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Sam Curran,Allrounder,1,0,did not bat,,0,0,0,0,0.0,4,0,60,1,1,0,0,15.00,0,0.0,0
+41,Sunil Narine,Allrounder,0,0,c Bairstow b Rahul Chahar,Jonny Bairstow,71,32,9,4,221.88,4,0,24,1,0,0,0,6.00,0,1.0,0
+41,Jonny Bairstow,WK-Batter,0,0,not out,,108,48,8,9,225.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+41,Venkatesh Iyer,Allrounder,0,0,run out (Jitesh Sharma),Jitesh Sharma,39,23,3,2,169.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Jitesh Sharma,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,1.0,0
+41,Andre Russell,Allrounder,0,0,c Harshal Patel b Arshdeep Singh,Harshal Patel,24,12,2,2,200.00,2,0,36,0,0,0,2,18.00,0,0.0,0
+41,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,48,1,0,1,1,16.00,1,0.0,0
+41,Shreyas Iyer,Batter,1,0,c Rabada b Arshdeep Singh,Kagiso Rabada,28,10,1,3,280.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+41,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,52,0,0,0,4,17.30,1,0.0,0
+41,Rinku Singh,Batter,0,0,c Ashutosh Sharma b Harshal Patel,Ashutosh Sharma,5,4,1,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Ashutosh Sharma,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+41,Ramandeep Singh,Batter,0,0,not out,,6,3,0,1,200.00,0.4,0,9,0,0,0,0,13.50,0,0.0,0
+41,Angkrish Raghuvanshi,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Dushmantha Chameera,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,48,0,0,0,1,16.00,0,0.0,0
+41,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,46,0,0,0,0,15.30,0,0.0,0
+41,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,61,0,0,0,1,15.20,0,0.0,0
+41,Anukul Roy,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,36,0,0,0,0,18.00,0,0.0,0
+41,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,2,0,0,5,11.20,0,0.0,0
+41,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,0,8.20,0,0.0,0
+41,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,21,0,0,0,0,10.50,0,0.0,0
+41,Prabhsimran Singh,WK-Batter,0,0,run out (Narine),Sunil Narine,54,20,4,5,270.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Rilee Rossouw,Batter,0,0,c Shreyas Iyer b Narine,Shreyas Iyer,26,16,1,2,162.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+41,Shashank Singh,Allrounder,0,0,not out,,68,28,2,8,242.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Jake Fraser-McGurk,Batter,0,0,c Nabi b Chawla,Mohammad Nabi,84,27,11,6,311.11,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Mohammad Nabi,Allrounder,0,0,c Shai Hope b Rasikh Salam,Shai Hope,7,4,0,1,175.00,2,0,20,1,0,0,0,10.00,1,0.0,0
+42,Abishek Porel,WK-Batter,0,0,c Ishan Kishan b Nabi,Ishan Kishan,36,27,3,1,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Ishan Kishan,WK-Batter,0,1,c Axar b Mukesh Kumar,Axar Patel,20,14,4,0,142.86,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+42,Shai Hope,WK-Batter,0,0,c Tilak Varma b Luke Wood,Tilak Varma,41,17,0,5,241.18,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+42,Tilak Varma,Batter,0,0,run out ((sub)Sumit Kumar/Pant),Rishabh Pant,63,32,4,4,196.88,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+42,Rishabh Pant,WK-Batter,0,0,c Rohit b Bumrah,Rohit Sharma,29,19,2,2,152.63,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+42,Rohit Sharma,Batter,0,0,c Shai Hope b Khaleel Ahmed,Shai Hope,8,8,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+42,Tristan Stubbs,WK-Batter,0,0,not out,,48,25,6,2,192.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Axar Patel,Allrounder,0,0,not out,,11,6,0,1,183.33,2,0,24,0,0,0,0,12.00,1,0.0,0
+42,Kumar Kushagra,WK-Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,47,0,0,0,1,15.70,0,0.0,0
+42,Lizaad Williams,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,1,8,11.30,1,0.0,0
+42,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,59,3,1,0,0,14.80,1,0.0,0
+42,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,2,0,0,0,11.20,0,0.0,0
+42,Rasikh Dar Salam,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,3,0,0,3,8.50,0,0.0,0
+42,Luke Wood,Bowler,0,0,not out,,9,3,0,1,300.00,4,0,68,1,0,0,0,17.00,0,0.0,0
+42,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,1,2,8.80,0,0.0,0
+42,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,56,0,0,0,2,14.00,0,0.0,0
+42,Piyush Chawla,Bowler,0,0,c Shai Hope b Mukesh Kumar,Shai Hope,10,4,1,1,250.00,4,0,36,1,0,0,2,9.00,0,0.0,0
+42,Hardik Pandya,Allrounder,1,0,c Mukesh Kumar b Rasikh Salam,Mukesh Kumar,46,24,4,3,191.67,2,0,41,0,0,0,0,20.50,0,0.0,0
+42,Suryakumar Yadav,Batter,0,0,c Williams b Khaleel Ahmed,Lizaad Williams,26,13,3,2,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Nehal Wadhera,Batter,0,0,c Pant b Rasikh Salam,Rishabh Pant,4,2,1,0,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+42,Tim David,Batter,0,0,lbw b Mukesh Kumar,Mukesh Kumar,37,17,2,3,217.65,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Quinton de Kock,WK-Batter,0,0,b Boult,Trent Boult,8,3,2,0,266.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,1,1,0,6,10.20,2,0.0,0
+43,KL Rahul,WK-Batter,0,0,c Boult b Avesh Khan,Trent Boult,76,48,8,2,158.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Marcus Stoinis,Allrounder,0,0,b Sandeep Sharma,Sandeep Sharma,0,4,0,0,0.00,1,0,3,1,0,0,0,3.00,0,0.0,0
+43,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,2,1,0,1,7.80,0,0.0,0
+43,Deepak Hooda,Allrounder,0,0,c Rovman Powell b Ashwin,Rovman Powell,50,31,7,0,161.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Rovman Powell,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+43,Nicholas Pooran,WK-Batter,0,0,c Boult b Sandeep Sharma,Trent Boult,11,11,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Ayush Badoni,Allrounder,0,0,not out,,18,13,1,0,138.46,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+43,Krunal Pandya,Allrounder,0,0,not out,,15,11,1,0,136.36,4,0,24,0,0,0,0,6.00,0,0.0,0
+43,Matt Henry,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,32,0,0,0,0,10.70,0,0.0,0
+43,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,16,0,0,0,0,16.00,1,0.0,0
+43,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,52,0,0,0,0,13.00,0,0.0,0
+43,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,50,1,1,0,2,12.50,0,0.0,0
+43,Amit Mishra,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,20,1,0,0,0,10.00,0,0.0,0
+43,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,1,0,1,1,10.50,0,0.0,0
+43,Ravichandran Ashwin,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,39,1,0,0,6,9.80,0,0.0,0
+43,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,0,0,0,1,10.20,0,0.0,0
+43,Yashasvi Jaiswal,Batter,0,0,c Ravi Bishnoi b Stoinis,Ravi Bishnoi,24,18,3,1,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Jos Buttler,WK-Batter,0,0,b Yash Thakur,Yash Thakur,34,18,4,1,188.89,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Sanju Samson,WK-Batter,0,0,not out,,71,33,7,4,215.15,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Riyan Parag,Allrounder,0,0,c Ayush Badoni b Amit Mishra,Ayush Badoni,14,11,0,1,127.27,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Dhruv Jurel,WK-Batter,0,0,not out,,52,34,5,2,152.94,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+43,Shimron Hetmyer,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Wriddhiman Saha,WK-Batter,0,1,c Karn Sharma b Swapnil Singh,Karn Sharma,5,4,1,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Karn Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,38,0,0,0,1,12.70,1,0.0,0
+44,Shubman Gill,Batter,1,0,c Green b Maxwell,Cameron Green,16,19,1,0,84.21,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Cameron Green,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,42,0,0,0,1,14.00,1,0.0,0
+44,Sai Sudharsan,Batter,0,0,not out,,84,49,8,4,171.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Shahrukh Khan,Allrounder,0,0,b Siraj,Mohammed Siraj,58,30,3,5,193.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,1,1,0,4,8.50,0,0.0,0
+44,David Miller,Batter,0,0,not out,,26,19,2,1,136.84,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Azmatullah Omarzai,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,18,0,0,0,0,9.00,0,0.0,0
+44,Rahul Tewatia,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Rashid Khan,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,51,0,0,0,0,12.80,0,0.0,0
+44,Ravisrinivasan Sai Kishore,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,1,0,0,0,10.00,0,0.0,0
+44,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,0,0,0,1,10.80,0,0.0,0
+44,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,41,0,0,1,0,20.50,0,0.0,0
+44,Sandeep Warrier,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,15,0,0,0,2,15.00,0,0.0,0
+44,Swapnil Singh,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,23,1,0,0,0,7.70,0,0.0,0
+44,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,0,0,1,3,8.50,0,0.0,0
+44,Glenn Maxwell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,28,1,0,0,0,9.30,0,0.0,0
+44,Virat Kohli,Batter,0,0,not out,,70,44,6,3,159.09,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Faf du Plessis,Batter,1,0,c (sub)Vijay Shankar b Sai Kishore,,24,12,1,3,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Will Jacks,Allrounder,0,0,not out,,100,41,5,10,243.90,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Rajat Patidar,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+44,Dinesh Karthik,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Ajinkya Rahane,Batter,0,0,c Shahbaz Ahmed b Bhuvneshwar,Shahbaz Ahmed,9,12,1,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Shahbaz Ahmed,Allrounder,0,0,c Daryl Mitchell b Mustafizur,Daryl Mitchell,7,5,1,0,140.00,3,0,33,0,0,0,0,11.00,1,0.0,0
+45,Ruturaj Gaikwad,Batter,1,0,c Nitish Reddy b T Natarajan,Nitish Reddy,98,54,10,3,181.48,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Nitish Reddy,Allrounder,0,0,c Dhoni b Ravindra Jadeja,MS Dhoni,15,15,0,0,100.00,1,0,8,0,0,0,1,8.00,2,0.0,0
+45,Daryl Mitchell,Allrounder,0,0,c Nitish Reddy b Jaydev Unadkat,Nitish Reddy,52,32,7,1,162.50,0.0,0,0,0,0,0,0,0.0,5,0.0,0
+45,Shivam Dube,Allrounder,0,0,not out,,39,20,1,4,195.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,MS Dhoni,WK-Batter,0,1,not out,,5,2,1,0,250.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+45,Moeen Ali,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+45,Ravindra Jadeja,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,22,1,0,0,0,5.50,0,0.0,0
+45,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,22,0,0,0,0,7.30,0,0.0,0
+45,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,27,4,0,0,0,9.00,0,0.0,0
+45,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.5,0,19,2,0,0,0,6.70,0,0.0,0
+45,Matheesha Pathirana,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,17,2,1,0,2,8.50,0,0.0,0
+45,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,1,0,1,0,6.80,0,0.0,0
+45,Bhuvneshwar Kumar,Bowler,0,0,not out,,4,3,0,0,133.33,4,0,38,1,0,0,0,9.50,0,0.0,0
+45,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,1,0,0,3,10.80,0,0.0,0
+45,Jaydev Unadkat,Bowler,0,0,c Moeen b Mustafizur,Moeen Ali,1,2,0,0,50.00,4,0,38,1,0,0,1,9.50,0,0.0,0
+45,Pat Cummins,Bowler,1,0,c Daryl Mitchell b Tushar Deshpande,Daryl Mitchell,5,7,1,0,71.43,4,0,49,0,0,0,1,12.20,0,0.0,0
+45,Travis Head,Batter,0,0,c Daryl Mitchell b Tushar Deshpande,Daryl Mitchell,13,7,1,1,185.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Abhishek Sharma,Allrounder,0,0,c Daryl Mitchell b Tushar Deshpande,Daryl Mitchell,15,9,1,1,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Anmolpreet Singh,Batter,0,0,c Moeen b Tushar Deshpande,Moeen Ali,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Aiden Markram,Batter,0,0,b Matheesha Pathirana,Matheesha Pathirana,32,26,4,0,123.08,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Heinrich Klaasen,WK-Batter,0,1,c Daryl Mitchell b Matheesha Pathirana,Daryl Mitchell,20,21,0,1,95.24,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+45,Abdul Samad,Batter,0,0,c (sub)Sameer Rizvi b Thakur,,19,18,1,1,105.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Prithvi Shaw,Batter,0,0,c Salt b Vaibhav Arora,Philip Salt,13,7,3,0,185.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Philip Salt,WK-Batter,0,1,b Axar,Axar Patel,68,33,7,5,206.06,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+46,Jake Fraser-McGurk,Batter,0,0,c Venkatesh Iyer b Starc,Venkatesh Iyer,12,7,1,1,171.43,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+46,Venkatesh Iyer,Allrounder,0,0,not out,,26,23,2,1,113.04,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+46,Abishek Porel,WK-Batter,0,0,b Harshit Rana,Harshit Rana,18,15,2,1,120.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,2,1,0,1,7.00,0,0.0,0
+46,Shai Hope,WK-Batter,0,0,b Vaibhav Arora,Vaibhav Arora,6,3,0,1,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,1,1,2,7.20,0,0.0,0
+46,Rishabh Pant,WK-Batter,0,0,c Shreyas Iyer b Chakaravarthy,Shreyas Iyer,27,20,2,1,135.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Shreyas Iyer,Batter,1,0,not out,,33,23,3,1,143.48,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+46,Axar Patel,Allrounder,0,0,b Narine,Sunil Narine,15,21,2,0,71.43,4,0,25,2,1,0,0,6.20,0,0.0,0
+46,Sunil Narine,Allrounder,0,0,c Jake Fraser-McGurk b Axar,Jake Fraser-McGurk,15,10,3,0,150.00,4,0,24,1,1,0,0,6.00,0,0.0,0
+46,Tristan Stubbs,WK-Batter,0,0,c Salt b Chakaravarthy,Philip Salt,4,7,0,0,57.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Kumar Kushagra,WK-Batter,0,0,c Salt b Chakaravarthy,Philip Salt,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Kuldeep Yadav,Bowler,0,0,not out,,35,26,5,1,134.62,4,0,34,0,0,0,0,8.50,1,0.0,0
+46,Rasikh Dar Salam,Bowler,0,0,c Shreyas Iyer b Harshit Rana,Shreyas Iyer,8,10,1,0,80.00,2.3,0,30,0,0,0,0,12.00,0,0.0,0
+46,Lizaad Williams,Bowler,0,0,not out,,1,2,0,0,50.00,3,0,38,1,0,1,1,12.70,0,0.0,0
+46,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,28,0,0,0,0,9.30,0,0.0,0
+46,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,43,1,0,0,6,14.30,0,0.0,0
+46,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,16,3,0,0,0,4.00,0,0.0,0
+46,Andre Russell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,10,0,0,0,0,10.00,0,0.0,0
+46,Rinku Singh,Batter,0,0,c Kuldeep Yadav b Williams,Kuldeep Yadav,11,11,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Ramandeep Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+46,Angkrish Raghuvanshi,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Ishan Kishan,WK-Batter,0,1,c Mayank Yadav b Ravi Bishnoi,Mayank Yadav,32,36,3,0,88.89,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+47,Mayank Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,31,1,1,1,2,9.80,1,0.0,0
+47,Rohit Sharma,Batter,0,0,c Stoinis b Mohsin Khan,Marcus Stoinis,4,5,1,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Marcus Stoinis,Allrounder,0,0,c Tilak Varma b Nabi,Tilak Varma,62,45,7,2,137.78,3,0,19,1,0,0,1,6.30,1,0.0,0
+47,Suryakumar Yadav,Batter,0,0,c Rahul b Stoinis,KL Rahul,10,6,0,1,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,KL Rahul,WK-Batter,0,0,c Nabi b Hardik Pandya,Mohammad Nabi,28,22,3,1,127.27,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+47,Tilak Varma,Batter,0,0,run out (Ravi Bishnoi),Ravi Bishnoi,7,11,1,0,63.64,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+47,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,1,0,0,1,7.00,0,1.0,0
+47,Hardik Pandya,Allrounder,1,0,c Rahul b Naveen-ul-Haq,KL Rahul,0,1,0,0,0.00,4,0,26,2,0,0,1,6.50,0,0.0,0
+47,Nehal Wadhera,Batter,0,0,b Mohsin Khan,Mohsin Khan,46,41,4,2,112.20,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,2,1,0,0,9.00,0,0.0,0
+47,Tim David,Batter,0,0,not out,,35,18,3,1,194.44,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Mohammad Nabi,Allrounder,0,0,b Mayank Yadav,Mayank Yadav,1,2,0,0,50.00,1.2,0,16,1,0,0,0,12.00,1,0.0,0
+47,Gerald Coetzee,Bowler,0,0,not out,,1,2,0,0,50.00,3,0,29,1,1,0,3,9.70,0,0.0,0
+47,Piyush Chawla,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,23,0,0,0,0,7.70,0,0.0,0
+47,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,17,0,0,0,0,4.20,1,0.0,0
+47,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,1,1,0,3,7.50,0,0.0,0
+47,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.5,0,15,1,0,1,0,3.90,0,0.0,0
+47,Deepak Hooda,Allrounder,0,0,c Bumrah b Hardik Pandya,Jasprit Bumrah,18,18,2,0,100.00,2,0,13,0,0,0,0,6.50,0,0.0,0
+47,Arshin Kulkarni,Allrounder,0,0,lbw b N Thushara,Nuwan Thushara,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Nicholas Pooran,WK-Batter,0,0,not out,,14,14,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Ashton Turner,Allrounder,0,0,b Gerald Coetzee,Gerald Coetzee,5,9,0,0,55.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Ayush Badoni,Allrounder,0,0,run out ((sub)Naman Dhir/Ishan Kishan),Ishan Kishan,6,6,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+47,Krunal Pandya,Allrounder,0,0,not out,,1,1,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Ajinkya Rahane,Batter,0,0,c Rossouw b Harpreet Brar,Rilee Rossouw,29,24,5,0,120.83,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Rilee Rossouw,Batter,0,0,b Thakur,Shardul Thakur,43,23,5,2,186.96,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+48,Ruturaj Gaikwad,Batter,1,0,b Arshdeep Singh,Arshdeep Singh,62,48,5,2,129.17,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+48,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,52,1,1,0,5,13.00,0,0.0,0
+48,Shivam Dube,Allrounder,0,0,lbw b Harpreet Brar,Harpreet Brar,0,1,0,0,0.00,1,0,14,1,0,0,0,14.00,0,0.0,0
+48,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,17,2,1,0,1,4.20,0,0.0,0
+48,Ravindra Jadeja,Allrounder,0,0,lbw b Rahul Chahar,Rahul Chahar,2,4,0,0,50.00,3,0,22,0,0,0,0,7.30,0,0.0,0
+48,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,16,2,2,0,0,4.00,0,0.0,0
+48,Sameer Rizvi,Batter,0,0,c Harshal Patel b Rabada,Harshal Patel,21,23,1,0,91.30,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,12,0,0,0,5,12.00,1,0.5,0
+48,Moeen Ali,Allrounder,0,0,b Rahul Chahar,Rahul Chahar,15,9,1,1,166.67,2,0,22,0,0,0,0,11.00,0,0.0,0
+48,MS Dhoni,WK-Batter,0,1,run out (Harshal Patel/Jitesh Sharma),Harshal Patel/Jitesh Sharma,14,11,1,1,127.27,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+48,Jitesh Sharma,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+48,Daryl Mitchell,Allrounder,0,0,not out,,1,1,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.4,0,48,1,1,1,1,13.10,0,0.0,0
+48,Deepak Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,0.2,0,4,0,0,0,0,12.00,0,0.0,0
+48,Richard Gleeson,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.5,0,30,1,0,1,1,7.80,0,0.0,0
+48,Mustafizur Rahman,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,22,0,0,0,5,5.50,0,0.0,0
+48,Kagiso Rabada,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,1,0,0,1,5.80,0,0.0,0
+48,Sam Curran,Allrounder,1,0,not out,,26,20,3,0,130.00,3,0,37,0,0,1,0,12.30,0,0.0,0
+48,Prabhsimran Singh,WK-Batter,0,0,c Ruturaj Gaikwad b Richard Gleeson,Ruturaj Gaikwad,13,10,1,1,130.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Jonny Bairstow,WK-Batter,0,0,c Dhoni b Shivam Dube,MS Dhoni,46,30,7,1,153.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Shashank Singh,Allrounder,0,0,not out,,25,26,1,1,96.15,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+48,Ashutosh Sharma,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Travis Head,Batter,0,0,b Avesh Khan,Avesh Khan,58,44,6,3,131.82,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,2,1,0,3,9.80,0,0.0,0
+49,Abhishek Sharma,Allrounder,0,0,c Dhruv Jurel b Avesh Khan,Dhruv Jurel,12,10,0,1,120.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+49,Dhruv Jurel,WK-Batter,0,0,c Abhishek Sharma b Cummins,Abhishek Sharma,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+49,Anmolpreet Singh,Batter,0,0,c Yashasvi Jaiswal b Sandeep Sharma,Yashasvi Jaiswal,5,5,1,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Yashasvi Jaiswal,Batter,0,0,b T Natarajan,T Natarajan,67,40,7,2,167.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+49,Nitish Reddy,Allrounder,0,0,not out,,76,42,3,8,180.95,1,0,12,0,0,0,2,12.00,0,0.0,0
+49,Heinrich Klaasen,WK-Batter,0,1,not out,,42,19,3,3,221.05,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Abdul Samad,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Shahbaz Ahmed,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,11,0,0,0,0,11.00,0,0.0,0
+49,Marco Jansen,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,44,0,0,2,4,11.00,3,0.0,0
+49,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,34,2,0,0,0,8.50,0,0.0,0
+49,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,41,3,2,0,0,10.20,0,0.0,0
+49,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,2,1,0,3,8.80,0,0.0,0
+49,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,23,0,0,0,2,11.50,0,0.0,0
+49,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,0,0,0,1,8.20,0,0.0,0
+49,Ravichandran Ashwin,Allrounder,0,0,not out,,2,2,0,0,100.00,4,0,36,0,0,0,1,9.00,0,0.0,0
+49,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,1,0,0,2,7.80,0,0.0,0
+49,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,62,0,0,0,1,15.50,0,0.0,0
+49,Jos Buttler,WK-Batter,0,0,c Marco Jansen b Bhuvneshwar,Marco Jansen,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Sanju Samson,WK-Batter,0,0,b Bhuvneshwar,Bhuvneshwar Kumar,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Riyan Parag,Allrounder,0,0,c Marco Jansen b Cummins,Marco Jansen,77,49,8,4,157.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Shimron Hetmyer,Batter,0,0,c Marco Jansen b T Natarajan,Marco Jansen,13,9,1,1,144.44,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+49,Rovman Powell,Batter,0,0,lbw b Bhuvneshwar,Bhuvneshwar Kumar,27,15,3,1,180.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Philip Salt,WK-Batter,0,1,c Tilak Varma b N Thushara,Tilak Varma,5,3,1,0,166.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+50,Tilak Varma,Batter,0,0,c Narine b Chakaravarthy,Sunil Narine,4,6,0,0,66.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+50,Sunil Narine,Allrounder,0,0,b Hardik Pandya,Hardik Pandya,8,8,0,1,100.00,4,0,22,2,1,0,1,5.50,2,0.0,0
+50,Hardik Pandya,Allrounder,1,0,c Manish Pandey b Russell,Manish Pandey,1,3,0,0,33.33,4,0,44,2,1,0,1,11.00,0,0.5,0
+50,Angkrish Raghuvanshi,Allrounder,0,0,c Suryakumar Yadav b N Thushara,Suryakumar Yadav,13,6,0,2,216.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Suryakumar Yadav,Batter,0,0,c Salt b Russell,Philip Salt,56,35,6,2,160.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+50,Shreyas Iyer,Batter,1,0,c Tim David b N Thushara,Tim David,6,4,1,0,150.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+50,Tim David,Batter,0,0,c Shreyas Iyer b Starc,Shreyas Iyer,24,20,1,1,120.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+50,Venkatesh Iyer,Allrounder,0,0,b Bumrah,Jasprit Bumrah,70,52,6,3,134.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Jasprit Bumrah,Bowler,0,0,not out,,1,1,0,0,100.00,3.5,0,18,3,2,0,0,4.70,0,0.0,0
+50,Rinku Singh,Batter,0,0,c and b Chawla,Piyush Chawla,9,8,2,0,112.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Piyush Chawla,Bowler,0,0,c Narine b Starc,Sunil Narine,0,1,0,0,0.00,3,0,15,1,0,0,0,5.00,1,0.0,0
+50,Manish Pandey,Batter,0,0,c (sub)Dewald Brevis b Hardik Pandya,,42,31,2,2,135.48,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+50,Andre Russell,Allrounder,0,0,run out (N Thushara/Hardik Pandya),Nuwan Thushara/Hardik Pandya,7,2,0,1,350.00,4,0,30,2,0,0,1,7.50,0,0.0,0
+50,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,3,0,1,3,10.50,0,0.5,0
+50,Ramandeep Singh,Batter,0,0,c Gerald Coetzee b Bumrah,Gerald Coetzee,2,4,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Gerald Coetzee,Bowler,0,0,b Starc,Mitchell Starc,8,7,0,1,114.29,2,0,24,0,0,0,0,12.00,1,0.0,0
+50,Mitchell Starc,Bowler,0,0,b Bumrah,Jasprit Bumrah,0,2,0,0,0.00,3.5,0,33,4,2,0,3,8.60,0,0.0,0
+50,Vaibhav Arora,Bowler,0,0,not out,,0,0,0,0,0.00,3,0,35,0,0,1,1,11.70,0,0.0,0
+50,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,22,2,1,0,0,5.50,0,0.0,0
+50,Naman Dhir,Batter,0,0,b Chakaravarthy,Varun Chakaravarthy,11,11,2,0,100.00,3,0,25,0,0,0,1,8.30,0,0.0,0
+50,Ishan Kishan,WK-Batter,0,1,b Starc,Mitchell Starc,13,7,1,1,185.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Rohit Sharma,Batter,0,0,c Manish Pandey b Narine,Manish Pandey,11,12,0,1,91.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+50,Nehal Wadhera,Batter,0,0,b Narine,Sunil Narine,6,11,1,0,54.55,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Wriddhiman Saha,WK-Batter,0,1,c Karthik b Siraj,Dinesh Karthik,1,7,0,0,14.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+51,Dinesh Karthik,WK-Batter,0,1,not out,,21,12,3,0,175.00,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+51,Shubman Gill,Batter,1,0,c Vijaykumar Vyshak b Siraj,Vijaykumar Vyshak,2,7,0,0,28.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Vijaykumar Vyshak,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.3,0,23,2,0,0,1,6.60,2,0.5,0
+51,Sai Sudharsan,Batter,0,0,c Kohli b Green,Virat Kohli,6,14,0,0,42.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Virat Kohli,Batter,0,0,c W Saha b Noor Ahmad,Wriddhiman Saha,42,27,2,4,155.56,0.0,0,0,0,0,0,0,0.0,1,1.0,0
+51,Shahrukh Khan,Allrounder,0,0,run out (Kohli),Virat Kohli,37,24,5,1,154.17,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+51,David Miller,Batter,0,0,c Maxwell b Karn Sharma,Glenn Maxwell,30,20,3,2,150.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+51,Glenn Maxwell,Allrounder,0,0,c David Miller b Joshua Little,David Miller,4,3,1,0,133.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+51,Rahul Tewatia,Allrounder,0,0,c Vijaykumar Vyshak b Yash Dayal,Vijaykumar Vyshak,35,21,5,1,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Rashid Khan,Allrounder,0,0,b Yash Dayal,Yash Dayal,18,14,2,1,128.57,1.4,0,25,0,0,0,0,15.00,0,0.0,0
+51,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,21,2,1,0,0,5.20,0,0.0,0
+51,Vijay Shankar,Allrounder,0,0,c Siraj b Vijaykumar Vyshak,Mohammed Siraj,10,7,2,0,142.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,2,0,0,3,7.20,1,0.0,0
+51,Manav Suthar,Bowler,0,0,c Swapnil Singh b Vijaykumar Vyshak,Swapnil Singh,1,2,0,0,50.00,2,0,26,0,0,0,0,13.00,0,0.0,0
+51,Swapnil Singh,Allrounder,0,0,not out,,15,9,2,1,166.67,1,0,1,0,0,0,0,1.00,1,0.0,0
+51,Mohit Sharma,Bowler,0,0,run out (Karthik/Vijaykumar Vyshak),Dinesh Karthik/Vijaykumar Vyshak,0,1,0,0,0.00,2,0,32,0,0,0,0,16.00,0,0.0,0
+51,Noor Ahmad,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,23,2,0,0,0,5.80,0,0.0,0
+51,Joshua Little,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,4,0,0,1,11.20,0,0.0,0
+51,Cameron Green,Allrounder,0,0,c Shahrukh Khan b Joshua Little,Shahrukh Khan,1,2,0,0,50.00,4,0,28,1,0,0,0,7.00,0,0.0,0
+51,Karn Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,42,1,0,0,0,14.00,0,0.0,0
+51,Faf du Plessis,Batter,1,0,c Shahrukh Khan b Joshua Little,Shahrukh Khan,64,23,10,3,278.26,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Will Jacks,Allrounder,0,0,c Shahrukh Khan b Noor Ahmad,Shahrukh Khan,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+51,Rajat Patidar,Batter,0,0,c David Miller b Joshua Little,David Miller,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Ajinkya Rahane,Batter,0,0,c Rabada b Arshdeep Singh,Kagiso Rabada,9,7,1,0,128.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Kagiso Rabada,Bowler,0,0,not out,,11,10,0,1,110.00,3,0,24,0,0,0,1,8.00,1,0.0,0
+52,Ruturaj Gaikwad,Batter,1,0,c Jitesh Sharma b Rahul Chahar,Jitesh Sharma,32,21,4,1,152.38,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Jitesh Sharma,WK-Batter,0,1,c Dhoni b Simarjeet Singh,MS Dhoni,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+52,Daryl Mitchell,Allrounder,0,0,lbw b Harshal Patel,Harshal Patel,30,19,2,1,157.89,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Harshal Patel,Bowler,0,0,c (sub)Sameer Rizvi b Simarjeet Singh,,12,13,1,1,92.31,4,0,24,3,3,0,2,6.00,0,0.0,0
+52,Shivam Dube,Allrounder,0,0,c Jitesh Sharma b Rahul Chahar,Jitesh Sharma,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Moeen Ali,Allrounder,0,0,c Bairstow b Sam Curran,Jonny Bairstow,17,20,2,0,85.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Jonny Bairstow,WK-Batter,0,0,b Tushar Deshpande,Tushar Deshpande,7,6,1,0,116.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+52,Ravindra Jadeja,Allrounder,0,0,c Sam Curran b Arshdeep Singh,Sam Curran,43,26,3,2,165.38,4,0,20,3,0,0,0,5.00,0,0.0,0
+52,Sam Curran,Allrounder,1,0,c Santner b Ravindra Jadeja,Mitchell Santner,7,11,0,0,63.64,4,0,34,1,0,0,0,8.50,2,0.0,0
+52,Mitchell Santner,Allrounder,0,0,c Sam Curran b Rahul Chahar,Sam Curran,11,11,1,0,100.00,3,0,10,1,0,0,0,3.30,1,0.0,0
+52,Shardul Thakur,Bowler,0,0,b Harshal Patel,Harshal Patel,17,11,2,1,154.55,2,0,12,1,1,0,1,6.00,0,0.0,0
+52,MS Dhoni,WK-Batter,0,1,b Harshal Patel,Harshal Patel,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+52,Tushar Deshpande,Bowler,0,0,not out,,0,1,0,0,0.00,4,0,35,2,2,0,1,8.80,0,0.0,0
+52,Richard Gleeson,Bowler,0,0,not out,,2,2,0,0,100.00,4,0,41,0,0,0,2,10.20,0,0.0,0
+52,Simarjeet Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,16,2,0,0,0,5.30,2,0.0,0
+52,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,2,0,0,1,10.50,0,0.0,0
+52,Harpreet Brar,Bowler,0,0,not out,,17,13,2,0,130.77,1,0,19,0,0,0,0,19.00,0,0.0,0
+52,Rahul Chahar,Bowler,0,0,b Thakur,Shardul Thakur,16,10,2,1,160.00,4,0,23,3,0,0,1,5.80,0,0.0,0
+52,Prabhsimran Singh,WK-Batter,0,0,c (sub)Sameer Rizvi b Ravindra Jadeja,,30,23,2,2,130.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Rilee Rossouw,Batter,0,0,b Tushar Deshpande,Tushar Deshpande,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Shashank Singh,Allrounder,0,0,c Simarjeet Singh b Santner,Simarjeet Singh,27,20,4,0,135.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+52,Ashutosh Sharma,Batter,0,0,c Simarjeet Singh b Ravindra Jadeja,Simarjeet Singh,3,10,0,0,30.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Philip Salt,WK-Batter,0,1,c Rahul b Naveen-ul-Haq,KL Rahul,32,14,5,1,228.57,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+53,KL Rahul,WK-Batter,0,0,c Ramandeep Singh b Harshit Rana,Ramandeep Singh,25,21,3,0,119.05,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+53,Sunil Narine,Allrounder,0,0,c (sub)Padikkal b Ravi Bishnoi,,81,39,6,7,207.69,4,0,22,1,0,0,1,5.50,0,0.0,0
+53,Angkrish Raghuvanshi,Allrounder,0,0,c Rahul b Yudhvir Singh,KL Rahul,32,26,3,1,123.08,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Andre Russell,Allrounder,0,0,c (sub)K Gowtham b Naveen-ul-Haq,,12,8,1,1,150.00,2,0,17,2,0,0,3,8.50,1,0.0,0
+53,Rinku Singh,Batter,0,0,c Stoinis b Naveen-ul-Haq,Marcus Stoinis,16,11,2,0,145.45,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Marcus Stoinis,Allrounder,0,0,c Harshit Rana b Russell,Harshit Rana,36,21,4,2,171.43,2,0,29,0,0,0,0,14.50,1,0.0,0
+53,Shreyas Iyer,Batter,1,0,c Rahul b Yash Thakur,KL Rahul,23,15,3,0,153.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Ramandeep Singh,Batter,0,0,not out,,25,6,1,3,416.67,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+53,Venkatesh Iyer,Allrounder,0,0,not out,,1,1,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,22,1,0,0,0,11.00,1,0.0,0
+53,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,3,1,0,0,10.00,1,0.0,0
+53,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,24,3,1,0,1,7.60,1,0.0,0
+53,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,21,0,0,0,1,10.50,0,0.0,0
+53,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,28,0,0,0,1,14.00,0,0.0,0
+53,Naveen-ul-Haq,Bowler,0,0,not out,,0,0,0,0,0.00,4,0,49,3,0,0,1,12.20,0,0.0,0
+53,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,46,1,0,0,3,11.50,0,0.0,0
+53,Krunal Pandya,Allrounder,0,0,c Salt b Harshit Rana,Philip Salt,5,6,0,0,83.33,2,0,26,0,0,0,6,13.00,0,0.0,0
+53,Ravi Bishnoi,Bowler,0,0,lbw b Harshit Rana,Harshit Rana,2,3,0,0,66.67,4,0,33,1,0,0,2,8.20,0,0.0,0
+53,Yudhvir Singh Charak,Bowler,0,0,c Russell b Chakaravarthy,Andre Russell,7,7,0,1,100.00,2,0,24,1,0,0,0,12.00,0,0.0,0
+53,Arshin Kulkarni,Allrounder,0,0,c Ramandeep Singh b Starc,Ramandeep Singh,9,7,2,0,128.57,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Deepak Hooda,Allrounder,0,0,lbw b Chakaravarthy,Varun Chakaravarthy,5,3,1,0,166.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Nicholas Pooran,WK-Batter,0,0,c Salt b Russell,Philip Salt,10,8,0,1,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Ayush Badoni,Allrounder,0,0,c Starc b Narine,Mitchell Starc,15,12,0,1,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+53,Ashton Turner,Allrounder,0,0,c and b Chakaravarthy,Varun Chakaravarthy,16,9,0,2,177.78,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Travis Head,Batter,0,0,c Tilak Varma b Chawla,Tilak Varma,48,30,7,1,160.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Tilak Varma,Batter,0,0,not out,,37,32,6,0,115.62,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+54,Abhishek Sharma,Allrounder,0,0,c Ishan Kishan b Bumrah,Ishan Kishan,11,16,0,1,68.75,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Ishan Kishan,WK-Batter,0,1,c Mayank Agarwal b Marco Jansen,Mayank Agarwal,9,7,2,0,128.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+54,Mayank Agarwal,Batter,0,0,b Anshul Kamboj,Anshul Kamboj,5,6,1,0,83.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+54,Anshul Kamboj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,1,1,2,1,10.50,1,0.0,0
+54,Nitish Reddy,Allrounder,0,0,c Anshul Kamboj b Hardik Pandya,Anshul Kamboj,20,15,2,0,133.33,2,0,16,0,0,0,0,8.00,0,0.0,0
+54,Heinrich Klaasen,WK-Batter,0,1,b Chawla,Piyush Chawla,2,4,0,0,50.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+54,Piyush Chawla,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,3,2,0,2,8.20,0,0.0,0
+54,Marco Jansen,Allrounder,0,0,b Hardik Pandya,Hardik Pandya,17,12,1,1,141.67,3,0,45,1,0,0,6,15.00,1,0.0,0
+54,Hardik Pandya,Allrounder,1,0,did not bat,,0,0,0,0,0.0,4,0,31,3,1,0,1,7.80,0,0.0,0
+54,Shahbaz Ahmed,Allrounder,0,0,c Suryakumar Yadav b Hardik Pandya,Suryakumar Yadav,10,12,0,0,83.33,1,0,11,0,0,0,0,11.00,0,0.0,0
+54,Suryakumar Yadav,Batter,0,0,not out,,102,51,12,6,200.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+54,Abdul Samad,Batter,0,0,lbw b Chawla,Piyush Chawla,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Pat Cummins,Bowler,1,0,not out,,35,17,2,2,205.88,4,1,35,1,0,0,1,8.80,0,0.0,0
+54,Sanvir Singh,Allrounder,0,0,not out,,8,7,0,0,114.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,22,1,0,0,1,5.50,0,0.0,0
+54,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.2,0,31,0,0,0,0,9.30,0,0.0,0
+54,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,0,0,1,4,10.50,0,0.0,0
+54,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,1,0,0,1,5.80,0,0.0,0
+54,Rohit Sharma,Batter,0,0,c Klaasen b Cummins,Heinrich Klaasen,4,5,1,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Naman Dhir,Batter,0,0,c Marco Jansen b Bhuvneshwar,Marco Jansen,0,9,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+54,Tim David,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Jake Fraser-McGurk,Batter,0,0,c Donovan Ferreira b Ashwin,Donovan Ferreira,50,20,7,3,250.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Donovan Ferreira,WK-Batter,0,0,lbw b Kuldeep Yadav,Kuldeep Yadav,1,3,0,0,33.33,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+55,Abishek Porel,WK-Batter,0,0,c Sandeep Sharma b Ashwin,Sandeep Sharma,65,36,7,3,180.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,1,1,0,0,10.50,1,1.0,0
+55,Shai Hope,WK-Batter,0,0,run out (Sandeep Sharma),Sandeep Sharma,1,1,0,0,100.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+55,Axar Patel,Allrounder,0,0,c Riyan Parag b Ashwin,Riyan Parag,15,10,1,1,150.00,3,0,25,1,1,0,0,8.30,1,0.0,0
+55,Riyan Parag,Allrounder,0,0,b Rasikh Salam,Rasikh Dar Salam,27,22,1,3,122.73,2,0,17,0,0,0,1,8.50,1,0.0,0
+55,Rishabh Pant,WK-Batter,0,0,c Boult b Chahal,Trent Boult,15,13,0,1,115.38,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Trent Boult,Bowler,0,0,not out,,2,3,0,0,66.67,4,0,48,1,0,0,0,12.00,1,0.0,0
+55,Tristan Stubbs,WK-Batter,0,0,lbw b Sandeep Sharma,Sandeep Sharma,41,20,3,3,205.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+55,Gulbadin Naib,Allrounder,0,0,c Ashwin b Boult,Ravichandran Ashwin,19,15,1,1,126.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Ravichandran Ashwin,Allrounder,0,0,c Shai Hope b Kuldeep Yadav,Shai Hope,2,3,0,0,66.67,4,0,24,3,0,0,0,6.00,1,0.0,0
+55,Rasikh Dar Salam,Bowler,0,0,run out (Shubham Dubey/Samson),Shubham Dubey/Sanju Samson,9,3,2,0,300.00,3,0,36,1,1,0,1,12.00,0,0.0,0
+55,Shubham Dubey,Batter,0,0,c Tristan Stubbs b Khaleel Ahmed,Tristan Stubbs,25,12,2,2,208.33,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+55,Sanju Samson,WK-Batter,0,0,c Shai Hope b Mukesh Kumar,Shai Hope,86,46,8,6,186.96,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+55,Kuldeep Yadav,Bowler,0,0,not out,,5,2,1,0,250.00,4,0,25,2,1,1,0,6.20,0,0.0,0
+55,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,2,1,0,1,10.00,0,0.0,0
+55,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,0,0,0,1,11.30,0,0.0,0
+55,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,47,2,0,0,7,11.80,0,0.0,0
+55,Avesh Khan,Bowler,0,0,not out,,7,3,1,0,233.33,2,0,42,0,0,0,0,21.00,0,0.0,0
+55,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,1,0,0,0,12.00,0,0.0,0
+55,Yashasvi Jaiswal,Batter,0,0,c Axar b Khaleel Ahmed,Axar Patel,4,2,1,0,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Jos Buttler,WK-Batter,0,0,b Axar,Axar Patel,19,17,2,1,111.76,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+55,Rovman Powell,Batter,0,0,b Mukesh Kumar,Mukesh Kumar,13,10,1,1,130.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,KL Rahul,WK-Batter,0,0,c T Natarajan b Cummins,T Natarajan,29,33,1,1,87.88,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,50,0,0,0,3,12.50,1,0.0,0
+56,Quinton de Kock,WK-Batter,0,0,c Nitish Reddy b Bhuvneshwar,Nitish Reddy,2,5,0,0,40.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Nitish Reddy,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+56,Marcus Stoinis,Allrounder,0,0,c Sanvir Singh b Bhuvneshwar,Sanvir Singh,3,5,0,0,60.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Sanvir Singh,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+56,Krunal Pandya,Allrounder,0,0,run out (Cummins),Pat Cummins,24,21,0,2,114.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,47,1,0,0,0,11.80,0,1.0,0
+56,Nicholas Pooran,WK-Batter,0,0,not out,,48,26,6,1,184.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Ayush Badoni,Allrounder,0,0,not out,,55,30,9,0,183.33,1,0,19,0,0,0,0,19.00,0,0.0,0
+56,Deepak Hooda,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Krishnappa Gowtham,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,29,0,0,0,1,14.50,0,0.0,0
+56,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,34,0,0,0,0,17.00,0,0.0,0
+56,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,37,0,0,0,0,18.50,0,0.0,0
+56,Yash Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.4,0,47,0,0,0,1,17.60,0,0.0,0
+56,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,12,2,0,0,0,3.00,0,0.0,0
+56,Shahbaz Ahmed,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,9,0,0,0,0,4.50,0,0.0,0
+56,Vijayakanth Viyaskanth,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,0,0,0,0,6.80,0,0.0,0
+56,Jaydev Unadkat,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,19,0,0,0,0,9.50,0,0.0,0
+56,Abhishek Sharma,Allrounder,0,0,not out,,75,28,8,6,267.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Travis Head,Batter,0,0,not out,,89,30,8,8,296.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Heinrich Klaasen,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+56,Abdul Samad,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Virat Kohli,Batter,0,0,c Rossouw b Arshdeep Singh,Rilee Rossouw,92,47,7,6,195.74,0.0,0,0,0,0,0,0,0.0,0,1.0,0
+57,Rilee Rossouw,Batter,0,0,c Will Jacks b Karn Sharma,Will Jacks,61,27,9,3,225.93,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+57,Faf du Plessis,Batter,1,0,c Shashank Singh b Vidhwath Kaverappa,Shashank Singh,9,7,2,0,128.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+57,Shashank Singh,Allrounder,0,0,run out (Kohli),Virat Kohli,37,19,4,2,194.74,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+57,Will Jacks,Allrounder,0,0,c Harshal Patel b Vidhwath Kaverappa,Harshal Patel,12,7,1,1,171.43,1,0,5,0,0,0,0,5.00,1,0.0,0
+57,Harshal Patel,Bowler,0,0,c Lockie Ferguson b Siraj,Lockie Ferguson,0,1,0,0,0.00,4,0,38,3,1,0,1,9.50,1,0.0,0
+57,Rajat Patidar,Batter,0,0,c Bairstow b Sam Curran,Jonny Bairstow,55,23,3,6,239.13,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Jonny Bairstow,WK-Batter,0,1,c du Plessis b Lockie Ferguson,Faf du Plessis,27,16,4,1,168.75,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+57,Cameron Green,Allrounder,0,0,c Sam Curran b Harshal Patel,Sam Curran,46,27,5,1,170.37,1,0,16,0,0,0,0,16.00,0,0.0,0
+57,Sam Curran,Allrounder,1,0,b Lockie Ferguson,Lockie Ferguson,22,16,2,0,137.50,3,0,50,1,0,0,2,16.70,2,0.0,0
+57,Dinesh Karthik,WK-Batter,0,1,c Sam Curran b Harshal Patel,Sam Curran,18,7,1,2,257.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Mahipal Lomror,Allrounder,0,0,b Harshal Patel,Harshal Patel,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Swapnil Singh,Allrounder,0,0,not out,,1,1,0,0,100.00,3,0,28,2,1,0,0,9.30,0,0.0,0
+57,Karn Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,36,2,1,0,0,12.00,2,0.0,0
+57,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,3,1,0,3,10.80,0,0.0,0
+57,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,29,2,1,0,0,9.70,1,0.0,0
+57,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,22,0,0,0,1,11.00,0,0.0,0
+57,Vidhwath Kaverappa,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,2,0,0,0,9.00,0,0.0,0
+57,Arshdeep Singh,Bowler,0,0,c Karn Sharma b Siraj,Karn Sharma,4,3,1,0,133.33,3,0,41,1,0,0,2,13.70,0,0.0,0
+57,Rahul Chahar,Bowler,0,0,not out,,5,5,1,0,100.00,3,0,47,0,0,1,0,15.70,0,0.0,0
+57,Liam Livingstone,Allrounder,0,0,c Karn Sharma b Swapnil Singh,Karn Sharma,0,2,0,0,0.00,3,0,28,0,0,0,1,9.30,0,0.0,0
+57,Prabhsimran Singh,WK-Batter,0,0,lbw b Swapnil Singh,Swapnil Singh,6,4,1,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Jitesh Sharma,WK-Batter,0,0,b Karn Sharma,Karn Sharma,5,4,1,0,125.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+57,Ashutosh Sharma,Batter,0,0,lbw b Siraj,Mohammed Siraj,8,5,0,1,160.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Sai Sudharsan,Batter,0,0,c Shivam Dube b Tushar Deshpande,Shivam Dube,103,51,5,7,201.96,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Shivam Dube,Allrounder,0,0,c Noor Ahmad b Mohit Sharma,Noor Ahmad,21,13,2,1,161.54,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+58,Shubman Gill,Batter,1,0,c Ravindra Jadeja b Tushar Deshpande,Ravindra Jadeja,104,55,9,6,189.09,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Ravindra Jadeja,Allrounder,0,0,c David Miller b Rashid Khan,David Miller,18,10,2,1,180.00,2,0,29,0,0,0,0,14.50,1,0.0,0
+58,David Miller,Batter,0,0,not out,,16,11,1,0,145.45,0.0,0,0,0,0,0,0,0.0,1,1.0,0
+58,Shahrukh Khan,Allrounder,0,0,run out (Rachin Ravindra/Simarjeet Singh),Rachin Ravindra/Simarjeet Singh,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+58,Rachin Ravindra,Allrounder,0,0,run out (David Miller),David Miller,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+58,Simarjeet Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,60,0,0,0,2,15.00,0,0.5,0
+58,Matthew Wade,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Rahul Tewatia,Allrounder,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+58,Rashid Khan,Allrounder,0,0,did not bat,,0,0,0,0,0.0,4,0,38,2,1,0,0,9.50,1,0.0,0
+58,Noor Ahmad,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,25,0,0,0,0,12.50,2,0.0,0
+58,Umesh Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,20,1,0,0,0,6.70,0,0.0,0
+58,Mohit Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,3,0,0,2,7.80,0,0.0,0
+58,Kartik Tyagi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,51,0,0,0,2,12.80,0,0.0,0
+58,Sandeep Warrier,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,28,1,0,0,0,9.30,0,0.0,0
+58,Mitchell Santner,Allrounder,0,0,b Rashid Khan,Rashid Khan,0,2,0,0,0.00,2,0,31,0,0,0,0,15.50,0,0.0,0
+58,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,2,0,0,2,8.20,0,0.0,0
+58,Shardul Thakur,Bowler,0,0,not out,,3,4,0,0,75.00,4,0,25,0,0,0,0,6.20,0,0.0,0
+58,Daryl Mitchell,Allrounder,0,0,c Shahrukh Khan b Mohit Sharma,Shahrukh Khan,63,34,7,3,185.29,4,0,52,0,0,0,1,13.00,0,0.0,0
+58,Ajinkya Rahane,Batter,0,0,c Rahul Tewatia b Warrier,Rahul Tewatia,1,5,0,0,20.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Ruturaj Gaikwad,Batter,1,0,c Rashid Khan b Umesh,Rashid Khan,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,Moeen Ali,Allrounder,0,0,c Noor Ahmad b Mohit Sharma,Noor Ahmad,56,36,4,4,155.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+58,MS Dhoni,WK-Batter,0,1,not out,,26,11,1,3,236.36,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Philip Salt,WK-Batter,0,1,c Anshul Kamboj b N Thushara,Anshul Kamboj,6,5,0,1,120.00,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+59,Anshul Kamboj,Bowler,0,0,not out,,2,2,0,0,100.00,3,0,24,1,1,0,1,8.00,2,0.0,0
+59,Sunil Narine,Allrounder,0,0,b Bumrah,Jasprit Bumrah,0,1,0,0,0.00,3,0,21,1,0,0,0,7.00,1,0.0,0
+59,Jasprit Bumrah,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,39,2,1,0,0,9.80,0,0.0,0
+59,Venkatesh Iyer,Allrounder,0,0,c Suryakumar Yadav b Chawla,Suryakumar Yadav,42,21,6,2,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Suryakumar Yadav,Batter,0,0,c Ramandeep Singh b Russell,Ramandeep Singh,11,14,1,0,78.57,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+59,Shreyas Iyer,Batter,1,0,b Anshul Kamboj,Anshul Kamboj,7,10,1,0,70.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+59,Nitish Rana,Batter,0,0,run out (Tilak Varma),Tilak Varma,33,23,4,1,143.48,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Tilak Varma,Batter,0,0,c Salt b Harshit Rana,Philip Salt,32,17,5,1,188.24,0.0,0,0,0,0,0,0,0.0,0,1.0,0
+59,Andre Russell,Allrounder,0,0,c Anshul Kamboj b Chawla,Anshul Kamboj,24,14,2,2,171.43,3,0,34,2,0,0,2,11.30,0,0.0,0
+59,Rinku Singh,Batter,0,0,c Ishan Kishan b Bumrah,Ishan Kishan,20,12,0,2,166.67,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+59,Ishan Kishan,WK-Batter,0,1,c Rinku Singh b Narine,Rinku Singh,40,22,5,2,181.82,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+59,Ramandeep Singh,Batter,0,0,not out,,17,8,1,1,212.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+59,Mitchell Starc,Bowler,0,0,not out,,2,2,0,0,100.00,1,0,11,0,0,0,0,11.00,0,0.5,0
+59,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,34,2,0,0,1,11.30,0,0.0,0
+59,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,17,2,0,0,1,4.20,0,0.0,0
+59,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,16,0,0,1,1,8.00,1,0.0,0
+59,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,31,1,0,0,2,10.30,0,0.0,0
+59,Hardik Pandya,Allrounder,1,0,c Vaibhav Arora b Chakaravarthy,Vaibhav Arora,2,4,0,0,50.00,3,0,32,0,0,0,0,10.70,0,0.0,0
+59,Piyush Chawla,Bowler,0,0,not out,,1,2,0,0,50.00,3,0,28,2,0,0,0,9.30,0,0.0,0
+59,Rohit Sharma,Batter,0,0,c Narine b Chakaravarthy,Sunil Narine,19,24,1,1,79.17,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Tim David,Batter,0,0,c Shreyas Iyer b Russell,Shreyas Iyer,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Nehal Wadhera,Batter,0,0,run out (Starc/Salt),Mitchell Starc/Philip Salt,3,3,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+59,Naman Dhir,Batter,0,0,c Rinku Singh b Harshit Rana,Rinku Singh,17,6,1,2,283.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Yashasvi Jaiswal,Batter,0,0,c Ruturaj Gaikwad b Simarjeet Singh,Ruturaj Gaikwad,24,21,3,1,114.29,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Ruturaj Gaikwad,Batter,1,0,not out,,42,41,1,2,102.44,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+60,Jos Buttler,WK-Batter,0,0,c Tushar Deshpande b Simarjeet Singh,Tushar Deshpande,21,25,2,0,84.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,30,2,0,0,0,7.50,1,0.0,0
+60,Sanju Samson,WK-Batter,0,0,c Ruturaj Gaikwad b Simarjeet Singh,Ruturaj Gaikwad,15,19,0,0,78.95,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Riyan Parag,Allrounder,0,0,not out,,47,35,1,3,134.29,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+60,Dhruv Jurel,WK-Batter,0,0,c Thakur b Tushar Deshpande,Shardul Thakur,28,18,1,2,155.56,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Shardul Thakur,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,32,0,0,0,0,8.00,1,0.0,0
+60,Shubham Dubey,Batter,0,0,c Shivam Dube b Tushar Deshpande,Shivam Dube,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Shivam Dube,Allrounder,0,0,c Riyan Parag b Ashwin,Riyan Parag,18,11,2,1,163.64,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+60,Ravichandran Ashwin,Allrounder,0,0,not out,,1,1,0,0,100.00,4,0,35,2,0,0,1,8.80,1,0.0,0
+60,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,2.2,0,24,0,0,0,1,10.30,0,0.0,0
+60,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,12,0,0,0,1,6.00,1,0.0,0
+60,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,0,0,0,1,10.00,0,0.0,0
+60,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,22,1,1,0,1,5.50,0,0.0,0
+60,Nandre Burger,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,21,1,0,0,0,7.00,0,0.0,0
+60,Maheesh Theekshana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,0,0,0,0,7.00,0,0.0,0
+60,Simarjeet Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,26,3,0,0,4,6.50,0,0.0,0
+60,Ravindra Jadeja,Allrounder,0,0,obs,,5,7,0,0,71.43,4,0,24,0,0,0,0,6.00,0,0.0,0
+60,Rachin Ravindra,Allrounder,0,0,c and b Ashwin,Ravichandran Ashwin,27,18,1,2,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Daryl Mitchell,Allrounder,0,0,lbw b Chahal,Yuzvendra Chahal,22,13,4,0,169.23,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Moeen Ali,Allrounder,0,0,c Avesh Khan b Nandre Burger,Avesh Khan,10,13,0,0,76.92,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,Sameer Rizvi,Batter,0,0,not out,,15,8,3,0,187.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+60,MS Dhoni,WK-Batter,0,1,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+61,Virat Kohli,Batter,0,0,c Abishek Porel b Ishant,Abishek Porel,27,13,1,3,207.69,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+61,Abishek Porel,WK-Batter,0,1,c Lockie Ferguson b Yash Dayal,Lockie Ferguson,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,2,0.5,0
+61,Faf du Plessis,Batter,1,0,c Jake Fraser-McGurk b Mukesh Kumar,Jake Fraser-McGurk,6,7,1,0,85.71,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+61,Jake Fraser-McGurk,Batter,0,0,run out (Yash Dayal),Yash Dayal,21,8,2,2,262.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+61,Will Jacks,Allrounder,0,0,c Axar b Kuldeep Yadav,Axar Patel,41,29,3,2,141.38,1,0,16,0,0,0,0,16.00,2,0.0,0
+61,Axar Patel,Allrounder,1,0,c du Plessis b Yash Dayal,Faf du Plessis,57,39,5,3,146.15,3,0,24,0,0,0,0,8.00,2,0.0,0
+61,Rajat Patidar,Batter,0,0,c Axar b Rasikh Salam,Axar Patel,52,32,3,3,162.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+61,Cameron Green,Allrounder,0,0,not out,,32,24,1,2,133.33,4,0,19,1,0,0,2,4.80,0,1.0,0
+61,Mahipal Lomror,Allrounder,0,0,c Abishek Porel b Khaleel Ahmed,Abishek Porel,13,8,0,1,162.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+61,Dinesh Karthik,WK-Batter,0,1,c Kuldeep Yadav b Khaleel Ahmed,Kuldeep Yadav,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+61,Kuldeep Yadav,Bowler,0,0,b Yash Dayal,Yash Dayal,6,10,0,0,60.00,4,0,52,1,0,0,1,13.00,1,0.0,0
+61,Swapnil Singh,Allrounder,0,0,c Kushagra b Rasikh Salam,Kumar Kushagra,0,1,0,0,0.00,1,0,9,1,0,0,0,9.00,0,0.0,0
+61,Kumar Kushagra,WK-Batter,0,0,lbw b Siraj,Mohammed Siraj,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+61,Karn Sharma,Bowler,0,0,run out (Shai Hope/Mukesh Kumar),Shai Hope/Mukesh Kumar,6,4,1,0,150.00,2,0,19,0,0,0,0,9.50,1,0.0,0
+61,Shai Hope,WK-Batter,0,0,c Karn Sharma b Lockie Ferguson,Karn Sharma,29,23,4,0,126.09,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+61,Mukesh Kumar,Bowler,0,0,c Lomror b Lockie Ferguson,Mahipal Lomror,3,7,0,0,42.86,3,0,23,1,0,0,0,7.70,0,1.0,0
+61,Mohammed Siraj,Bowler,0,0,run out (Abishek Porel/Mukesh Kumar),Abishek Porel/Mukesh Kumar,0,0,0,0,0.00,4,0,33,1,1,0,2,8.20,0,0.0,0
+61,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,23,2,0,0,0,5.80,1,0.0,0
+61,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3.1,0,20,3,1,0,1,6.30,0,1.0,0
+61,Ishant Sharma,Bowler,0,0,not out,,0,4,0,0,0.00,3,0,31,1,0,0,3,10.30,0,0.0,0
+61,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,2,0,0,0,7.80,0,0.0,0
+61,Rasikh Dar Salam,Bowler,0,0,c Will Jacks b Green,Will Jacks,10,12,1,0,83.33,3,0,23,2,0,0,3,7.70,0,0.0,0
+61,David Warner,Batter,0,0,c Will Jacks b Swapnil Singh,Will Jacks,1,2,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+61,Tristan Stubbs,WK-Batter,0,0,run out (Green),Cameron Green,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+63,Jake Fraser-McGurk,Batter,0,0,c Naveen-ul-Haq b Arshad Khan,Naveen-ul-Haq,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,1.0,0
+63,Naveen-ul-Haq,Bowler,0,0,not out,,2,4,0,0,50.00,4,0,51,2,0,0,1,12.80,1,0.0,0
+63,Abishek Porel,WK-Batter,0,0,c Pooran b Naveen-ul-Haq,Nicholas Pooran,58,33,5,4,175.76,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+63,Nicholas Pooran,WK-Batter,0,0,c Axar b Mukesh Kumar,Axar Patel,61,27,6,4,225.93,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+63,Shai Hope,WK-Batter,0,0,c Rahul b Ravi Bishnoi,KL Rahul,38,27,3,2,140.74,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+63,KL Rahul,WK-Batter,1,0,c Mukesh Kumar b Ishant,Mukesh Kumar,5,3,1,0,166.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+63,Rishabh Pant,WK-Batter,0,0,c Deepak Hooda b Naveen-ul-Haq,Deepak Hooda,33,23,5,0,143.48,0.0,0,0,0,0,0,0,0.0,0,0.0,2
+63,Deepak Hooda,Allrounder,0,0,lbw b Ishant,Ishant Sharma,0,2,0,0,0.00,1,0,9,0,0,0,1,9.00,1,0.0,0
+63,Tristan Stubbs,WK-Batter,0,0,not out,,57,25,3,4,228.00,1,0,4,1,0,0,0,4.00,0,0.0,0
+63,Axar Patel,Allrounder,0,0,not out,,14,10,2,0,140.00,1,0,20,1,0,0,0,20.00,1,0.0,0
+63,Gulbadin Naib,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1,0,12,0,0,0,0,12.00,1,0.0,0
+63,Rasikh Dar Salam,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,30,0,0,0,0,10.00,0,0.0,0
+63,Mukesh Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,2,8.20,2,0.0,0
+63,Kuldeep Yadav,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,1,0,0,0,8.20,0,0.0,0
+63,Khaleel Ahmed,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,22,1,0,0,1,11.00,0,0.0,0
+63,Ishant Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,3,1,0,2,8.50,0,0.0,0
+63,Arshad Khan,Bowler,0,0,not out,,58,33,3,5,175.76,3,0,45,1,0,0,5,15.00,0,0.0,0
+63,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,0,0,0,0,7.20,0,0.0,0
+63,Yudhvir Singh Charak,Bowler,0,0,c Shai Hope b Khaleel Ahmed,Shai Hope,14,7,1,1,200.00,2,0,28,0,0,0,0,14.00,0,0.0,0
+63,Ravi Bishnoi,Bowler,0,0,run out (Jake Fraser-McGurk),Jake Fraser-McGurk,2,2,0,0,100.00,4,0,26,1,0,0,0,6.50,0,0.0,0
+63,Krunal Pandya,Allrounder,0,0,st Pant b Kuldeep Yadav,Rishabh Pant,18,18,2,0,100.00,2,0,20,0,0,0,1,10.00,0,0.0,0
+63,Quinton de Kock,WK-Batter,0,1,c Mukesh Kumar b Ishant,Mukesh Kumar,12,8,2,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+63,Marcus Stoinis,Allrounder,0,0,st Pant b Axar,Rishabh Pant,5,7,1,0,71.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+63,Ayush Badoni,Allrounder,0,0,c Gulbadin b Tristan Stubbs,Gulbadin Naib,6,9,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Yashasvi Jaiswal,Batter,0,0,b Sam Curran,Sam Curran,4,4,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+64,Sam Curran,Allrounder,1,0,not out,,63,41,5,3,153.66,3,0,24,2,1,0,0,8.00,0,0.0,0
+64,Tom Kohler-Cadmore,WK-Batter,0,0,c Jitesh Sharma b Rahul Chahar,Jitesh Sharma,18,23,2,1,78.26,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Jitesh Sharma,WK-Batter,0,0,c Riyan Parag b Chahal,Riyan Parag,22,20,0,2,110.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+64,Sanju Samson,WK-Batter,0,0,c Rahul Chahar b Nathan Ellis,Rahul Chahar,18,15,3,0,120.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,26,2,0,0,0,6.50,2,0.0,0
+64,Riyan Parag,Allrounder,0,0,lbw b Harshal Patel,Harshal Patel,48,34,6,0,141.18,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+64,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,2,1,0,1,7.00,0,0.0,0
+64,Ravichandran Ashwin,Allrounder,0,0,c Shashank Singh b Arshdeep Singh,Shashank Singh,28,19,3,1,147.37,4,0,31,0,0,0,0,7.80,0,0.0,0
+64,Shashank Singh,Allrounder,0,0,lbw b Avesh Khan,Avesh Khan,0,2,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+64,Dhruv Jurel,WK-Batter,0,0,c Harpreet Brar b Sam Curran,Harpreet Brar,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,10,0,0,0,0,10.00,1,0.0,0
+64,Rovman Powell,Batter,0,0,c and b Rahul Chahar,Rahul Chahar,4,5,1,0,80.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Donovan Ferreira,WK-Batter,0,0,c Rossouw b Harshal Patel,Rilee Rossouw,7,8,0,0,87.50,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Rilee Rossouw,Batter,0,0,c Yashasvi Jaiswal b Avesh Khan,Yashasvi Jaiswal,22,13,5,0,169.23,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+64,Trent Boult,Bowler,0,0,run out (Shashank Singh/Bairstow),Shashank Singh/Jonny Bairstow,12,9,2,0,133.33,3,0,27,1,0,0,0,9.00,0,0.0,0
+64,Jonny Bairstow,WK-Batter,0,1,c Riyan Parag b Chahal,Riyan Parag,14,22,1,0,63.64,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+64,Avesh Khan,Bowler,0,0,not out,,3,2,0,0,150.00,3.5,0,28,2,1,0,0,7.30,0,0.0,0
+64,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,0,0,0,0,7.00,0,0.0,0
+64,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,2,0,0,1,7.80,1,0.0,0
+64,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,31,1,0,0,0,7.80,0,0.0,0
+64,Nathan Ellis,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,24,1,0,0,0,6.00,0,0.0,0
+64,Prabhsimran Singh,WK-Batter,0,0,c Chahal b Boult,Yuzvendra Chahal,6,4,1,0,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+64,Ashutosh Sharma,Batter,0,0,not out,,17,11,1,1,154.55,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,KL Rahul,WK-Batter,0,0,c N Thushara b Chawla,Nuwan Thushara,55,41,3,3,134.15,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Nuwan Thushara,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,28,3,1,0,2,7.00,1,0.0,0
+66,Devdutt Padikkal,Batter,0,0,lbw b N Thushara,Nuwan Thushara,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Marcus Stoinis,Allrounder,0,0,lbw b Chawla,Piyush Chawla,28,22,5,0,127.27,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Piyush Chawla,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,29,3,1,0,0,7.20,0,0.0,0
+66,Deepak Hooda,Allrounder,0,0,c Nehal Wadhera b Chawla,Nehal Wadhera,11,9,1,0,122.22,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Nehal Wadhera,Batter,0,0,c Krunal Pandya b Ravi Bishnoi,Krunal Pandya,1,3,0,0,33.33,2,0,13,0,0,0,0,6.50,2,0.0,0
+66,Nicholas Pooran,WK-Batter,0,0,c Suryakumar Yadav b N Thushara,Suryakumar Yadav,75,29,5,8,258.62,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Suryakumar Yadav,Batter,0,0,c Ravi Bishnoi b Krunal Pandya,Ravi Bishnoi,0,3,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+66,Arshad Khan,Bowler,0,0,c Nehal Wadhera b N Thushara,Nehal Wadhera,0,1,0,0,0.00,2,0,11,0,0,0,3,5.50,0,0.0,0
+66,Ayush Badoni,Allrounder,0,0,not out,,22,10,1,2,220.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Krunal Pandya,Allrounder,0,0,not out,,12,7,1,1,171.43,4,0,29,1,0,0,1,7.20,2,0.0,0
+66,Matt Henry,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,24,0,0,0,2,12.00,0,0.0,0
+66,Ravi Bishnoi,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,2,0,0,0,9.20,1,0.0,0
+66,Mohsin Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,45,1,0,0,3,11.20,1,0.0,0
+66,Naveen-ul-Haq,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,50,2,1,1,1,12.50,1,0.0,0
+66,Arjun Tendulkar,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2.2,0,22,0,0,0,1,9.40,0,0.0,0
+66,Anshul Kamboj,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,48,0,0,0,4,16.00,0,0.0,0
+66,Hardik Pandya,Allrounder,1,0,c Naveen-ul-Haq b Mohsin Khan,Naveen-ul-Haq,16,13,1,1,123.08,2,0,27,0,0,0,0,13.50,0,0.0,0
+66,Naman Dhir,Batter,0,0,not out,,62,28,4,5,221.43,0.4,0,17,0,0,0,0,25.50,0,0.0,0
+66,Romario Shepherd,Bowler,0,0,not out,,1,1,0,0,100.00,2,0,30,0,0,0,4,15.00,0,0.0,0
+66,Rohit Sharma,Batter,0,0,c Mohsin Khan b Ravi Bishnoi,Mohsin Khan,68,38,10,3,178.95,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Dewald Brevis,Batter,0,0,c Krunal Pandya b Naveen-ul-Haq,Krunal Pandya,23,20,1,2,115.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+66,Ishan Kishan,WK-Batter,0,1,b Naveen-ul-Haq,Naveen-ul-Haq,14,15,1,0,93.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Virat Kohli,Batter,0,0,c Daryl Mitchell b Santner,Daryl Mitchell,47,29,3,4,162.07,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+67,Daryl Mitchell,Allrounder,0,0,c Kohli b Yash Dayal,Virat Kohli,4,6,0,0,66.67,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+67,Faf du Plessis,Batter,1,0,run out (Santner),Mitchell Santner,54,39,3,3,138.46,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+67,Mitchell Santner,Allrounder,0,0,c du Plessis b Siraj,Faf du Plessis,3,4,0,0,75.00,4,0,23,1,0,0,0,5.80,0,1.0,0
+67,Rajat Patidar,Batter,0,0,c Daryl Mitchell b Thakur,Daryl Mitchell,41,23,2,4,178.26,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Cameron Green,Allrounder,0,0,not out,,38,17,3,3,223.53,2,0,18,1,0,0,1,9.00,0,0.0,0
+67,Dinesh Karthik,WK-Batter,0,1,c Dhoni b Tushar Deshpande,MS Dhoni,14,6,1,1,233.33,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+67,MS Dhoni,WK-Batter,0,1,c Swapnil Singh b Yash Dayal,Swapnil Singh,25,13,3,1,192.31,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+67,Glenn Maxwell,Allrounder,0,0,c Dhoni b Thakur,MS Dhoni,16,5,2,1,320.00,4,0,25,1,0,0,5,6.20,0,0.0,0
+67,Mahipal Lomror,Allrounder,0,0,not out,,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Karn Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,14,0,0,0,0,14.00,0,0.0,0
+67,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,42,2,0,0,0,10.50,1,0.0,0
+67,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,39,1,0,2,0,13.00,1,0.0,0
+67,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,35,1,0,0,1,8.80,0,0.0,0
+67,Swapnil Singh,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2,0,13,0,0,0,1,6.50,1,0.5,0
+67,Tushar Deshpande,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,49,1,0,0,4,12.20,0,0.0,0
+67,Shardul Thakur,Bowler,0,0,not out,,1,2,0,0,50.00,4,0,61,2,0,0,0,15.20,0,0.0,0
+67,Maheesh Theekshana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,25,0,0,0,1,6.20,0,0.0,0
+67,Ravindra Jadeja,Allrounder,0,0,not out,,42,22,3,3,190.91,3,0,40,0,0,0,0,13.30,0,0.0,0
+67,Simarjeet Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,1,0,19,0,0,0,2,19.00,0,0.0,0
+67,Ruturaj Gaikwad,Batter,1,0,c Yash Dayal b Maxwell,Yash Dayal,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Rachin Ravindra,Allrounder,0,0,run out (Swapnil Singh/Karthik),Swapnil Singh/Dinesh Karthik,61,37,5,3,164.86,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Ajinkya Rahane,Batter,0,0,c du Plessis b Lockie Ferguson,Faf du Plessis,33,22,3,1,150.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+67,Shivam Dube,Allrounder,0,0,c Lockie Ferguson b Green,Lockie Ferguson,7,15,0,0,46.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Atharva Taide,Batter,0,0,c Sanvir Singh b T Natarajan,Sanvir Singh,46,27,5,2,170.37,0.1,0,4,0,0,0,0,24.00,0,0.0,0
+68,Sanvir Singh,Allrounder,0,0,not out,,6,4,1,0,150.00,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+68,Prabhsimran Singh,WK-Batter,0,0,c Klaasen b V Viyaskanth,Heinrich Klaasen,71,45,7,4,157.78,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Heinrich Klaasen,WK-Batter,0,1,b Harpreet Brar,Harpreet Brar,42,26,3,2,161.54,0.0,0,0,0,0,0,0,0.0,1,0.5,0
+68,Rilee Rossouw,Batter,0,0,c Abdul Samad b Cummins,Abdul Samad,49,24,3,4,204.17,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Abdul Samad,Batter,0,0,not out,,11,8,0,1,137.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+68,Shashank Singh,Allrounder,0,0,run out (Nitish Reddy/Klaasen),Nitish Reddy/Heinrich Klaasen,2,4,0,0,50.00,1,0,5,1,0,0,0,5.00,1,0.0,0
+68,Nitish Reddy,Allrounder,0,0,c Shivam Singh b Harshal Patel,Shivam Singh,37,25,1,3,148.00,3,0,54,0,0,1,2,18.00,0,0.5,0
+68,Jitesh Sharma,WK-Batter,0,0,not out,,32,15,2,2,213.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Ashutosh Sharma,Batter,0,0,c Sanvir Singh b T Natarajan,Sanvir Singh,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Shivam Singh,Batter,0,0,not out,,2,3,0,0,66.67,0.0,0,0,0,0,0,0,0.0,2,0.0,0
+68,Harpreet Brar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,36,1,1,0,5,12.00,0,0.0,0
+68,Rishi Dhawan,Allrounder,0,0,did not bat,,0,0,0,0,0.0,3,0,35,0,0,0,1,11.70,0,0.0,0
+68,Harshal Patel,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,49,2,0,1,2,12.20,0,0.0,0
+68,Rahul Chahar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,0,0,0,1,10.80,0,0.0,0
+68,Arshdeep Singh,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,2,1,0,1,9.20,1,0.0,0
+68,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,36,0,0,0,0,9.00,0,0.0,0
+68,Pat Cummins,Bowler,1,0,did not bat,,0,0,0,0,0.0,4,0,36,1,0,0,0,9.00,0,0.0,0
+68,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,2,0,0,2,8.20,0,0.0,0
+68,Vijayakanth Viyaskanth,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,1,0,0,0,9.20,0,0.0,0
+68,Shahbaz Ahmed,Allrounder,0,0,c Shashank Singh b Arshdeep Singh,Shashank Singh,3,6,0,0,50.00,1,0,13,0,0,0,0,13.00,0,0.0,0
+68,Travis Head,Batter,0,0,b Arshdeep Singh,Arshdeep Singh,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Abhishek Sharma,Allrounder,0,0,c Shivam Singh b Shashank Singh,Shivam Singh,66,28,5,6,235.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+68,Rahul Tripathi,Batter,0,0,c Arshdeep Singh b Harshal Patel,Arshdeep Singh,33,18,4,2,183.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Travis Head,Batter,0,0,b Starc,Mitchell Starc,0,2,0,0,0.00,1.4,0,32,0,0,0,0,19.20,0,0.0,0
+70,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,3,2,0,1,8.50,0,0.0,0
+70,Abhishek Sharma,Allrounder,0,0,c Russell b Vaibhav Arora,Andre Russell,3,4,0,0,75.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Andre Russell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,1.3,0,15,1,0,0,0,10.00,1,0.5,0
+70,Rahul Tripathi,Batter,0,0,run out (Russell/Gurbaz),Andre Russell/Rahmanullah Gurbaz,55,35,7,1,157.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Rahmanullah Gurbaz,WK-Batter,0,1,c V Viyaskanth b T Natarajan,Vijayakanth Viyaskanth,23,14,2,2,164.29,0.0,0,0,0,0,0,0,0.0,2,0.5,0
+70,Nitish Reddy,Allrounder,0,0,c Gurbaz b Starc,Rahmanullah Gurbaz,9,10,1,0,90.00,1,0,13,0,0,0,0,13.00,0,0.0,0
+70,Shahbaz Ahmed,Allrounder,0,0,b Starc,Mitchell Starc,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Heinrich Klaasen,WK-Batter,0,1,c Rinku Singh b Chakaravarthy,Rinku Singh,32,21,3,1,152.38,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Rinku Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+70,Abdul Samad,Batter,0,0,c Shreyas Iyer b Harshit Rana,Shreyas Iyer,16,12,0,2,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Shreyas Iyer,Batter,1,0,not out,,58,24,5,4,241.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+70,Sanvir Singh,Allrounder,0,0,b Narine,Sunil Narine,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Sunil Narine,Allrounder,0,0,c V Viyaskanth b Cummins,Vijayakanth Viyaskanth,21,16,4,0,131.25,4,0,40,1,1,0,0,10.00,0,0.0,0
+70,Pat Cummins,Bowler,1,0,c Gurbaz b Russell,Rahmanullah Gurbaz,30,24,2,2,125.00,3,0,38,1,0,0,1,12.70,0,0.0,0
+70,Bhuvneshwar Kumar,Bowler,0,0,lbw b Chakaravarthy,Varun Chakaravarthy,0,4,0,0,0.00,3,0,28,0,0,0,0,9.30,0,0.0,0
+70,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,26,2,1,1,1,6.50,0,0.0,0
+70,Vijayakanth Viyaskanth,Bowler,0,0,not out,,7,5,0,0,140.00,2,0,22,0,0,0,0,11.00,2,0.0,0
+70,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,22,1,0,0,1,7.30,0,0.0,0
+70,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,17,1,0,1,2,8.50,0,0.0,0
+70,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,1,0,0,1,6.80,0,0.0,0
+70,Venkatesh Iyer,Allrounder,0,0,not out,,51,28,5,4,182.14,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+70,Ramandeep Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Virat Kohli,Batter,0,0,c (sub)Donovan Ferreira b Chahal,,33,24,3,1,137.50,0.0,0,0,0,0,0,0,0.0,0,0.5,0
+71,Faf du Plessis,Batter,1,0,c Rovman Powell b Boult,Rovman Powell,17,14,2,1,121.43,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+71,Rovman Powell,Batter,0,0,not out,,16,8,2,1,200.00,0.0,0,0,0,0,0,0,0.0,4,0.0,0
+71,Cameron Green,Allrounder,0,0,c Rovman Powell b Ashwin,Rovman Powell,27,21,2,1,128.57,4,0,28,1,0,0,0,7.00,0,0.5,0
+71,Rajat Patidar,Batter,0,0,c Riyan Parag b Avesh Khan,Riyan Parag,34,22,2,2,154.55,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Riyan Parag,Allrounder,0,0,b Siraj,Mohammed Siraj,36,26,2,2,138.46,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+71,Glenn Maxwell,Allrounder,0,0,c Dhruv Jurel b Ashwin,Dhruv Jurel,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Dhruv Jurel,WK-Batter,0,0,run out (Kohli/Green),Virat Kohli/Cameron Green,8,8,1,0,100.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+71,Mahipal Lomror,Allrounder,0,0,c Rovman Powell b Avesh Khan,Rovman Powell,32,17,2,2,188.24,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Dinesh Karthik,WK-Batter,0,1,c Yashasvi Jaiswal b Avesh Khan,Yashasvi Jaiswal,11,13,1,0,84.62,0.0,0,0,0,0,0,0,0.0,1,0.0,1
+71,Yashasvi Jaiswal,Batter,0,0,c Karthik b Green,Dinesh Karthik,45,30,8,0,150.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+71,Swapnil Singh,Allrounder,0,0,not out,,9,4,0,1,225.00,2,0,19,0,0,0,0,9.50,0,0.0,0
+71,Karn Sharma,Bowler,0,0,c Rovman Powell b Sandeep Sharma,Rovman Powell,5,4,1,0,125.00,2,0,19,1,0,0,2,9.50,0,0.0,0
+71,Yash Dayal,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,37,0,0,0,0,12.30,0,0.0,0
+71,Mohammed Siraj,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,33,2,1,0,3,8.20,0,0.0,0
+71,Lockie Ferguson,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,37,1,1,0,0,9.20,0,0.0,0
+71,Trent Boult,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,16,1,0,0,0,4.00,0,0.0,0
+71,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,48,1,0,0,0,12.00,0,0.0,0
+71,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,44,3,0,0,0,11.00,0,0.0,0
+71,Ravichandran Ashwin,Allrounder,0,0,not out,,0,0,0,0,0.00,4,0,19,2,0,0,2,4.80,0,0.0,0
+71,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,43,1,0,0,0,10.80,0,0.0,0
+71,Tom Kohler-Cadmore,WK-Batter,0,0,b Lockie Ferguson,Lockie Ferguson,20,15,4,0,133.33,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Sanju Samson,WK-Batter,0,0,st Karthik b Karn Sharma,Dinesh Karthik,17,13,0,1,130.77,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+71,Shimron Hetmyer,Batter,0,0,c du Plessis b Siraj,Faf du Plessis,26,14,3,1,185.71,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Travis Head,Batter,0,0,c Ashwin b Sandeep Sharma,Ravichandran Ashwin,34,28,3,1,121.43,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Ravichandran Ashwin,Allrounder,0,0,c Klaasen b Shahbaz Ahmed,Heinrich Klaasen,0,3,0,0,0.00,4,0,43,0,0,0,0,10.80,1,0.0,0
+72,Abhishek Sharma,Allrounder,0,0,c Kohler-Cadmore b Boult,Tom Kohler-Cadmore,12,5,1,1,240.00,4,0,24,2,1,0,0,6.00,2,0.0,0
+72,Tom Kohler-Cadmore,WK-Batter,0,0,c Tripathi b Cummins,Rahul Tripathi,10,16,1,0,62.50,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+72,Rahul Tripathi,Batter,0,0,c Chahal b Boult,Yuzvendra Chahal,37,15,5,2,246.67,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+72,Yuzvendra Chahal,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,34,0,0,0,2,8.50,3,0.0,0
+72,Aiden Markram,Batter,0,0,c Chahal b Boult,Yuzvendra Chahal,1,2,0,0,50.00,1,0,10,0,0,1,0,10.00,1,0.0,0
+72,Heinrich Klaasen,WK-Batter,0,1,b Sandeep Sharma,Sandeep Sharma,50,34,0,4,147.06,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+72,Sandeep Sharma,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,25,2,1,0,1,6.20,0,0.0,0
+72,Nitish Reddy,Allrounder,0,0,c Chahal b Avesh Khan,Yuzvendra Chahal,5,10,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Abdul Samad,Batter,0,0,b Avesh Khan,Avesh Khan,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+72,Avesh Khan,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,0,27,3,1,0,2,6.80,0,1.0,0
+72,Shahbaz Ahmed,Allrounder,0,0,c Dhruv Jurel b Avesh Khan,Dhruv Jurel,18,18,0,1,100.00,4,0,23,3,0,0,0,5.80,0,0.0,0
+72,Dhruv Jurel,WK-Batter,0,0,not out,,56,35,7,2,160.00,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+72,Pat Cummins,Bowler,1,0,not out,,5,5,1,0,100.00,4,0,30,1,0,0,1,7.50,0,0.0,0
+72,Jaydev Unadkat,Bowler,0,0,run out (Avesh Khan),Avesh Khan,5,2,1,0,250.00,1,0,5,0,0,0,1,5.00,0,0.0,0
+72,Bhuvneshwar Kumar,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,33,0,0,0,0,11.00,0,0.0,0
+72,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,13,1,0,0,1,4.30,0,0.0,0
+72,Trent Boult,Bowler,0,0,not out,,0,3,0,0,0.00,4,0,45,3,0,0,2,11.20,0,0.0,0
+72,Yashasvi Jaiswal,Batter,0,0,c Abdul Samad b Shahbaz Ahmed,Abdul Samad,42,21,4,3,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Sanju Samson,WK-Batter,0,0,c Markram b Abhishek Sharma,Aiden Markram,10,11,1,0,90.91,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Riyan Parag,Allrounder,0,0,c Abhishek Sharma b Shahbaz Ahmed,Abhishek Sharma,6,10,0,0,60.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Shimron Hetmyer,Batter,0,0,b Abhishek Sharma,Abhishek Sharma,4,10,0,0,40.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+72,Rovman Powell,Batter,0,0,c Abhishek Sharma b T Natarajan,Abhishek Sharma,6,12,0,0,50.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Abhishek Sharma,Allrounder,0,0,b Starc,Mitchell Starc,2,5,0,0,40.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Mitchell Starc,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,14,2,1,0,0,4.70,2,0.0,0
+73,Travis Head,Batter,0,0,c Gurbaz b Vaibhav Arora,Rahmanullah Gurbaz,0,1,0,0,0.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Rahmanullah Gurbaz,WK-Batter,0,1,lbw b Shahbaz Ahmed,Shahbaz Ahmed,39,32,5,2,121.88,0.0,0,0,0,0,0,0,0.0,3,0.0,0
+73,Rahul Tripathi,Batter,0,0,c Ramandeep Singh b Starc,Ramandeep Singh,9,13,1,0,69.23,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Ramandeep Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,1,0.0,0
+73,Aiden Markram,Batter,0,0,c Starc b Russell,Mitchell Starc,20,23,3,0,86.96,1,0,5,0,0,0,0,5.00,0,0.0,0
+73,Nitish Reddy,Allrounder,0,0,c Gurbaz b Harshit Rana,Rahmanullah Gurbaz,13,10,1,1,130.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Heinrich Klaasen,WK-Batter,0,1,b Harshit Rana,Harshit Rana,16,17,1,0,94.12,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Harshit Rana,Bowler,0,0,did not bat,,0,0,0,0,0.0,4,1,24,2,1,0,1,6.00,0,0.0,0
+73,Shahbaz Ahmed,Allrounder,0,0,c Narine b Chakaravarthy,Sunil Narine,8,7,0,1,114.29,2.3,0,22,1,1,0,0,8.80,1,0.0,0
+73,Sunil Narine,Allrounder,0,0,c Shahbaz Ahmed b Cummins,Shahbaz Ahmed,6,2,0,1,300.00,4,0,16,1,1,0,0,4.00,1,0.0,0
+73,Abdul Samad,Batter,0,0,c Gurbaz b Russell,Rahmanullah Gurbaz,4,4,0,0,100.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Pat Cummins,Bowler,1,0,c Starc b Russell,Mitchell Starc,24,19,2,1,126.32,2,0,18,1,0,0,2,9.00,0,0.0,0
+73,Jaydev Unadkat,Bowler,0,0,lbw b Narine,Sunil Narine,4,11,0,0,36.36,1,0,9,0,0,0,0,9.00,0,0.0,0
+73,Bhuvneshwar Kumar,Bowler,0,0,not out,,0,1,0,0,0.00,2,0,25,0,0,0,1,12.50,0,0.0,0
+73,T Natarajan,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,29,0,0,0,2,14.50,0,0.0,0
+73,Vaibhav Arora,Bowler,0,0,did not bat,,0,0,0,0,0.0,3,0,24,1,0,0,4,8.00,0,0.0,0
+73,Andre Russell,Allrounder,0,0,did not bat,,0,0,0,0,0.0,2.3,0,19,3,0,0,1,7.60,0,0.0,0
+73,Varun Chakaravarthy,Bowler,0,0,did not bat,,0,0,0,0,0.0,2,0,9,1,0,0,0,4.50,0,0.0,0
+73,Venkatesh Iyer,Allrounder,0,0,not out,,52,26,4,3,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Shreyas Iyer,Batter,1,0,not out,,6,3,1,0,200.00,0.0,0,0,0,0,0,0,0.0,0,0.0,0
+73,Rinku Singh,Batter,0,0,did not bat,,0,0,0,0,0.0,0.0,0,0,0,0,0,0,0.0,0,0.0,0

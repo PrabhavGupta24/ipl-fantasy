@@ -1,8 +1,8 @@
 import csv
 
 
-infile_path = 'ipl_2024_scorecards.csv'
-outfile_path = 'ipl_2024_scorecards_points.csv'
+infile_path = 'data/ipl_2024_scorecards.csv'
+outfile_path = 'data/ipl_2024_scorecards_points.csv'
 
 with open(infile_path, 'r', newline='') as csvfile:
     reader = csv.DictReader(csvfile)  # Read the file as a dictionary

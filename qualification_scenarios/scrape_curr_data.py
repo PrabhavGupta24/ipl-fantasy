@@ -13,7 +13,7 @@ def get_points_table_data(points_table_link):
 
     for entry in table_entries:
         contents = entry.contents
-        name = contents[0].text.split('(')[0].strip()
+        name = contents[0].text.split('(')[0].strip().title()
         points_table_data[name] = {
             keys[0]: name,
             keys[1]: contents[1].text,
@@ -37,64 +37,91 @@ def get_schedule_data(schedule_link):
     keys = ['Match Number', 'Teams', 'Completed', 'Tied/NR', 'Result String', 'Winner', 'Loser', 'Margin Runs', 'Margin Wickets']
     match_number = 1
 
-    for match in match_entries[:70]:
+    for match in match_entries:
+        if "Qualifier" in match.text:
+            break
+
         internal_links = match.find_all('a')
+        match_number = internal_links[0].text.split(",")[1].strip().split()[0][:-2]
+        # print(match_number)
 
         schedule_data[match_number] = {
             keys[0]: match_number,
-            keys[1]: sorted(internal_links[0].text.split(',')[0].split(' vs ')),
-            keys[2]: 1 if 'complete' in internal_links[1]['class'][0] else 0
+            keys[1]: list(map(str.title, sorted(internal_links[0].text.split(',')[0].split(' vs ')))),
+            keys[2]: 1 if 'complete' in internal_links[1]['class'][0] else 0,
+            keys[3]: 0
         }
 
-        #TODO: Actually account for Tied/No Results
-        #TODO: Account for Super Overs
-        if schedule_data[match_number][keys[2]]:
-            schedule_data[match_number][keys[3]] = 0
-            schedule_data[match_number][keys[4]] = internal_links[1].text
-            result_parts = internal_links[1].text.split(' won by ')
-            schedule_data[match_number][keys[5]] = result_parts[0]
+        if not schedule_data[match_number][keys[2]]:
+            continue
+
+        schedule_data[match_number][keys[4]] = internal_links[1].text
+
+        if (
+            "Match abandoned" in internal_links[1].text
+            or "No result" in internal_links[1].text
+            or "Match rescheduled" in internal_links[1].text
+            or "Match postponed" in internal_links[1].text
+        ):
+            schedule_data[match_number][keys[3]] = 1
+            continue
+
+        if "Match tied" in internal_links[1].text:
+            schedule_data[match_number][keys[5]] = internal_links[1].text.split('(')[1].split('won')[0].strip().title()
             schedule_data[match_number][keys[6]] = (
-                set(schedule_data[match_number][keys[1]]) - {result_parts[0]}
+                set(schedule_data[match_number][keys[1]]) - {schedule_data[match_number][keys[5]]}
             ).pop()
+            continue
 
-            if 'run' in result_parts[1]:
-                schedule_data[match_number][keys[7]] = result_parts[1].split('run')[0].strip()
-            elif "wkt" in result_parts[1]:
-                schedule_data[match_number][keys[8]] = result_parts[1].split('wkt')[0].strip()
-            else:
-                print(match_number, "ERROR:", result_parts[1])
+        result_parts = internal_links[1].text.split(' won by ')
 
-        match_number += 1
+        if len(result_parts) < 2:
+            print("ERROR:", internal_links[1])
+            continue
+
+        schedule_data[match_number][keys[5]] = result_parts[0].title()
+        schedule_data[match_number][keys[6]] = (
+            set(schedule_data[match_number][keys[1]]) - {result_parts[0]}
+        ).pop()
+
+        if 'run' in result_parts[1]:
+            schedule_data[match_number][keys[7]] = result_parts[1].split('run')[0].strip()
+        elif "wkt" in result_parts[1]:
+            schedule_data[match_number][keys[8]] = result_parts[1].split('wkt')[0].strip()
+        else:
+            print(match_number, "ERROR:", result_parts[1])
 
     return schedule_data, keys
 
 
-def export_data(filename, fieldnames, player_entries):
+def export_data(filepath, fieldnames, player_entries):
 
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filepath, "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
         for name in player_entries:
             writer.writerow(player_entries[name])
 
-    print("Data Exported to:", filename)
+    print("Data Exported to:", filepath)
 
 
 def get_curr_tournament_data():
     # main function
     # get points table data -> gets list of teams -> export
     # get match results -> export
-    # schedule_link = 'https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/matches'
-    # points_table_link = 'https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/points-table'
-    schedule_link = 'https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches'
-    points_table_link = 'https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/points-table'
+    schedule_link = 'https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/matches'
+    points_table_link = 'https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/points-table'
+    # schedule_link = 'https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/matches'
+    # points_table_link = 'https://www.cricbuzz.com/cricket-series/7607/indian-premier-league-2024/points-table'
+    # schedule_link = "https://www.cricbuzz.com/cricket-series/3472/indian-premier-league-2021/matches"
+    # points_table_link = "https://www.cricbuzz.com/cricket-series/3472/indian-premier-league-2021/points-table"
 
     points_table_data, points_table_keys = get_points_table_data(points_table_link)
-    export_data('ipl_2024_points_table.csv', points_table_keys, points_table_data)
+    export_data('data/ipl_2025_points_table.csv', points_table_keys, points_table_data)
 
     schedule_data, schedule_keys = get_schedule_data(schedule_link)
-    export_data("ipl_2024_schedule.csv", schedule_keys, schedule_data)
+    export_data("data/ipl_2025_schedule.csv", schedule_keys, schedule_data)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,71 @@
+Match Number,Teams,Completed,Tied/NR,Result String,Winner,Loser,Margin Runs,Margin Wickets
+1,"['Chennai Super Kings', 'Royal Challengers Bengaluru']",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Royal Challengers Bengaluru,,6
+2,"['Delhi Capitals', 'Punjab Kings']",1,0,Punjab Kings won by 4 wkts,Punjab Kings,Delhi Capitals,,4
+3,"['Kolkata Knight Riders', 'Sunrisers Hyderabad']",1,0,Kolkata Knight Riders won by 4 runs,Kolkata Knight Riders,Sunrisers Hyderabad,4,
+4,"['Lucknow Super Giants', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 20 runs,Rajasthan Royals,Lucknow Super Giants,20,
+5,"['Gujarat Titans', 'Mumbai Indians']",1,0,Gujarat Titans won by 6 runs,Gujarat Titans,Mumbai Indians,6,
+6,"['Punjab Kings', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 4 wkts,Royal Challengers Bengaluru,Punjab Kings,,4
+7,"['Chennai Super Kings', 'Gujarat Titans']",1,0,Chennai Super Kings won by 63 runs,Chennai Super Kings,Gujarat Titans,63,
+8,"['Mumbai Indians', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 31 runs,Sunrisers Hyderabad,Mumbai Indians,31,
+9,"['Delhi Capitals', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 12 runs,Rajasthan Royals,Delhi Capitals,12,
+10,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru']",1,0,Kolkata Knight Riders won by 7 wkts,Kolkata Knight Riders,Royal Challengers Bengaluru,,7
+11,"['Lucknow Super Giants', 'Punjab Kings']",1,0,Lucknow Super Giants won by 21 runs,Lucknow Super Giants,Punjab Kings,21,
+12,"['Gujarat Titans', 'Sunrisers Hyderabad']",1,0,Gujarat Titans won by 7 wkts,Gujarat Titans,Sunrisers Hyderabad,,7
+13,"['Chennai Super Kings', 'Delhi Capitals']",1,0,Delhi Capitals won by 20 runs,Delhi Capitals,Chennai Super Kings,20,
+14,"['Mumbai Indians', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 6 wkts,Rajasthan Royals,Mumbai Indians,,6
+15,"['Lucknow Super Giants', 'Royal Challengers Bengaluru']",1,0,Lucknow Super Giants won by 28 runs,Lucknow Super Giants,Royal Challengers Bengaluru,28,
+16,"['Delhi Capitals', 'Kolkata Knight Riders']",1,0,Kolkata Knight Riders won by 106 runs,Kolkata Knight Riders,Delhi Capitals,106,
+17,"['Gujarat Titans', 'Punjab Kings']",1,0,Punjab Kings won by 3 wkts,Punjab Kings,Gujarat Titans,,3
+18,"['Chennai Super Kings', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 6 wkts,Sunrisers Hyderabad,Chennai Super Kings,,6
+19,"['Rajasthan Royals', 'Royal Challengers Bengaluru']",1,0,Rajasthan Royals won by 6 wkts,Rajasthan Royals,Royal Challengers Bengaluru,,6
+20,"['Delhi Capitals', 'Mumbai Indians']",1,0,Mumbai Indians won by 29 runs,Mumbai Indians,Delhi Capitals,29,
+21,"['Gujarat Titans', 'Lucknow Super Giants']",1,0,Lucknow Super Giants won by 33 runs,Lucknow Super Giants,Gujarat Titans,33,
+22,"['Chennai Super Kings', 'Kolkata Knight Riders']",1,0,Chennai Super Kings won by 7 wkts,Chennai Super Kings,Kolkata Knight Riders,,7
+23,"['Punjab Kings', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 2 runs,Sunrisers Hyderabad,Punjab Kings,2,
+24,"['Gujarat Titans', 'Rajasthan Royals']",1,0,Gujarat Titans won by 3 wkts,Gujarat Titans,Rajasthan Royals,,3
+25,"['Mumbai Indians', 'Royal Challengers Bengaluru']",1,0,Mumbai Indians won by 7 wkts,Mumbai Indians,Royal Challengers Bengaluru,,7
+26,"['Delhi Capitals', 'Lucknow Super Giants']",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Lucknow Super Giants,,6
+27,"['Punjab Kings', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 3 wkts,Rajasthan Royals,Punjab Kings,,3
+28,"['Kolkata Knight Riders', 'Lucknow Super Giants']",1,0,Kolkata Knight Riders won by 8 wkts,Kolkata Knight Riders,Lucknow Super Giants,,8
+29,"['Chennai Super Kings', 'Mumbai Indians']",1,0,Chennai Super Kings won by 20 runs,Chennai Super Kings,Mumbai Indians,20,
+30,"['Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 25 runs,Sunrisers Hyderabad,Royal Challengers Bengaluru,25,
+31,"['Kolkata Knight Riders', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 2 wkts,Rajasthan Royals,Kolkata Knight Riders,,2
+32,"['Delhi Capitals', 'Gujarat Titans']",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Gujarat Titans,,6
+33,"['Mumbai Indians', 'Punjab Kings']",1,0,Mumbai Indians won by 9 runs,Mumbai Indians,Punjab Kings,9,
+34,"['Chennai Super Kings', 'Lucknow Super Giants']",1,0,Lucknow Super Giants won by 8 wkts,Lucknow Super Giants,Chennai Super Kings,,8
+35,"['Delhi Capitals', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 67 runs,Sunrisers Hyderabad,Delhi Capitals,67,
+36,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru']",1,0,Kolkata Knight Riders won by 1 run,Kolkata Knight Riders,Royal Challengers Bengaluru,1,
+37,"['Gujarat Titans', 'Punjab Kings']",1,0,Gujarat Titans won by 3 wkts,Gujarat Titans,Punjab Kings,,3
+38,"['Mumbai Indians', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 9 wkts,Rajasthan Royals,Mumbai Indians,,9
+39,"['Chennai Super Kings', 'Lucknow Super Giants']",1,0,Lucknow Super Giants won by 6 wkts,Lucknow Super Giants,Chennai Super Kings,,6
+40,"['Delhi Capitals', 'Gujarat Titans']",1,0,Delhi Capitals won by 4 runs,Delhi Capitals,Gujarat Titans,4,
+41,"['Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",1,0,Royal Challengers Bengaluru won by 35 runs,Royal Challengers Bengaluru,Sunrisers Hyderabad,35,
+42,"['Kolkata Knight Riders', 'Punjab Kings']",1,0,Punjab Kings won by 8 wkts,Punjab Kings,Kolkata Knight Riders,,8
+43,"['Delhi Capitals', 'Mumbai Indians']",1,0,Delhi Capitals won by 10 runs,Delhi Capitals,Mumbai Indians,10,
+44,"['Lucknow Super Giants', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 7 wkts,Rajasthan Royals,Lucknow Super Giants,,7
+45,"['Gujarat Titans', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 9 wkts,Royal Challengers Bengaluru,Gujarat Titans,,9
+46,"['Chennai Super Kings', 'Sunrisers Hyderabad']",1,0,Chennai Super Kings won by 78 runs,Chennai Super Kings,Sunrisers Hyderabad,78,
+47,"['Delhi Capitals', 'Kolkata Knight Riders']",1,0,Kolkata Knight Riders won by 7 wkts,Kolkata Knight Riders,Delhi Capitals,,7
+48,"['Lucknow Super Giants', 'Mumbai Indians']",1,0,Lucknow Super Giants won by 4 wkts,Lucknow Super Giants,Mumbai Indians,,4
+49,"['Chennai Super Kings', 'Punjab Kings']",1,0,Punjab Kings won by 7 wkts,Punjab Kings,Chennai Super Kings,,7
+50,"['Rajasthan Royals', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 1 run,Sunrisers Hyderabad,Rajasthan Royals,1,
+51,"['Kolkata Knight Riders', 'Mumbai Indians']",1,0,Kolkata Knight Riders won by 24 runs,Kolkata Knight Riders,Mumbai Indians,24,
+52,"['Gujarat Titans', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 4 wkts,Royal Challengers Bengaluru,Gujarat Titans,,4
+53,"['Chennai Super Kings', 'Punjab Kings']",1,0,Chennai Super Kings won by 28 runs,Chennai Super Kings,Punjab Kings,28,
+54,"['Kolkata Knight Riders', 'Lucknow Super Giants']",1,0,Kolkata Knight Riders won by 98 runs,Kolkata Knight Riders,Lucknow Super Giants,98,
+55,"['Mumbai Indians', 'Sunrisers Hyderabad']",1,0,Mumbai Indians won by 7 wkts,Mumbai Indians,Sunrisers Hyderabad,,7
+56,"['Delhi Capitals', 'Rajasthan Royals']",1,0,Delhi Capitals won by 20 runs,Delhi Capitals,Rajasthan Royals,20,
+57,"['Lucknow Super Giants', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 10 wkts,Sunrisers Hyderabad,Lucknow Super Giants,,10
+58,"['Punjab Kings', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 60 runs,Royal Challengers Bengaluru,Punjab Kings,60,
+59,"['Chennai Super Kings', 'Gujarat Titans']",1,0,Gujarat Titans won by 35 runs,Gujarat Titans,Chennai Super Kings,35,
+60,"['Kolkata Knight Riders', 'Mumbai Indians']",1,0,Kolkata Knight Riders won by 18 runs - 16 overs game - due to rain,Kolkata Knight Riders,Mumbai Indians,18,
+61,"['Chennai Super Kings', 'Rajasthan Royals']",1,0,Chennai Super Kings won by 5 wkts,Chennai Super Kings,Rajasthan Royals,,5
+62,"['Delhi Capitals', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 47 runs,Royal Challengers Bengaluru,Delhi Capitals,47,
+63,"['Gujarat Titans', 'Kolkata Knight Riders']",1,1,Match abandoned without toss,,,,
+64,"['Delhi Capitals', 'Lucknow Super Giants']",1,0,Delhi Capitals won by 19 runs,Delhi Capitals,Lucknow Super Giants,19,
+65,"['Punjab Kings', 'Rajasthan Royals']",1,0,Punjab Kings won by 5 wkts,Punjab Kings,Rajasthan Royals,,5
+66,"['Gujarat Titans', 'Sunrisers Hyderabad']",1,1,Match abandoned without toss,,,,
+67,"['Lucknow Super Giants', 'Mumbai Indians']",1,0,Lucknow Super Giants won by 18 runs,Lucknow Super Giants,Mumbai Indians,18,
+68,"['Chennai Super Kings', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bengaluru won by 27 runs,Royal Challengers Bengaluru,Chennai Super Kings,27,
+69,"['Punjab Kings', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 4 wkts,Sunrisers Hyderabad,Punjab Kings,,4
+70,"['Kolkata Knight Riders', 'Rajasthan Royals']",1,1,Match abandoned due to rain (with toss),,,,

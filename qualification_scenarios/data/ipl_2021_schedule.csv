@@ -1,57 +1,57 @@
 Match Number,Teams,Completed,Tied/NR,Result String,Winner,Loser,Margin Runs,Margin Wickets
-1,"['Mumbai Indians', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 2 wkts,Royal Challengers Bangalore,Mumbai Indians,,2
-2,"['Chennai Super Kings', 'Delhi Capitals']",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Chennai Super Kings,,7
-3,"['Kolkata Knight Riders', 'Sunrisers Hyderabad']",1,0,Kolkata Knight Riders won by 10 runs,Kolkata Knight Riders,Sunrisers Hyderabad,10,
-4,"['Punjab Kings', 'Rajasthan Royals']",1,0,Punjab Kings won by 4 runs,Punjab Kings,Rajasthan Royals,4,
-5,"['Kolkata Knight Riders', 'Mumbai Indians']",1,0,Mumbai Indians won by 10 runs,Mumbai Indians,Kolkata Knight Riders,10,
-6,"['Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",1,0,Royal Challengers Bangalore won by 6 runs,Royal Challengers Bangalore,Royal Challengers Bengaluru,6,
-7,"['Delhi Capitals', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 3 wkts,Rajasthan Royals,Delhi Capitals,,3
-8,"['Chennai Super Kings', 'Punjab Kings']",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Punjab Kings,,6
-9,"['Mumbai Indians', 'Sunrisers Hyderabad']",1,0,Mumbai Indians won by 13 runs,Mumbai Indians,Sunrisers Hyderabad,13,
-10,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 38 runs,Royal Challengers Bangalore,Royal Challengers Bengaluru,38,
-11,"['Delhi Capitals', 'Punjab Kings']",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Punjab Kings,,6
-12,"['Chennai Super Kings', 'Rajasthan Royals']",1,0,Chennai Super Kings won by 45 runs,Chennai Super Kings,Rajasthan Royals,45,
-13,"['Delhi Capitals', 'Mumbai Indians']",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Mumbai Indians,,6
-14,"['Punjab Kings', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 9 wkts,Sunrisers Hyderabad,Punjab Kings,,9
-15,"['Chennai Super Kings', 'Kolkata Knight Riders']",1,0,Chennai Super Kings won by 18 runs,Chennai Super Kings,Kolkata Knight Riders,18,
-16,"['Rajasthan Royals', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 10 wkts,Royal Challengers Bangalore,Royal Challengers Bengaluru,,10
-17,"['Mumbai Indians', 'Punjab Kings']",1,0,Punjab Kings won by 9 wkts,Punjab Kings,Mumbai Indians,,9
-18,"['Kolkata Knight Riders', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 6 wkts,Rajasthan Royals,Kolkata Knight Riders,,6
-19,"['Chennai Super Kings', 'Royal Challengers Bengaluru']",1,0,Chennai Super Kings won by 69 runs,Chennai Super Kings,Royal Challengers Bengaluru,69,
-20,"['Delhi Capitals', 'Sunrisers Hyderabad']",1,0,Match tied (Delhi Capitals won the Super Over),Delhi Capitals,Sunrisers Hyderabad,,
-21,"['Kolkata Knight Riders', 'Punjab Kings']",1,0,Kolkata Knight Riders won by 5 wkts,Kolkata Knight Riders,Punjab Kings,,5
-22,"['Delhi Capitals', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 1 run,Royal Challengers Bangalore,Delhi Capitals,1,
-23,"['Chennai Super Kings', 'Sunrisers Hyderabad']",1,0,Chennai Super Kings won by 7 wkts,Chennai Super Kings,Sunrisers Hyderabad,,7
-24,"['Mumbai Indians', 'Rajasthan Royals']",1,0,Mumbai Indians won by 7 wkts,Mumbai Indians,Rajasthan Royals,,7
-25,"['Delhi Capitals', 'Kolkata Knight Riders']",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Kolkata Knight Riders,,7
-26,"['Punjab Kings', 'Royal Challengers Bengaluru']",1,0,Punjab Kings won by 34 runs,Punjab Kings,Royal Challengers Bengaluru,34,
-27,"['Chennai Super Kings', 'Mumbai Indians']",1,0,Mumbai Indians won by 4 wkts,Mumbai Indians,Chennai Super Kings,,4
-28,"['Rajasthan Royals', 'Sunrisers Hyderabad']",1,0,Rajasthan Royals won by 55 runs,Rajasthan Royals,Sunrisers Hyderabad,55,
-29,"['Delhi Capitals', 'Punjab Kings']",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Punjab Kings,,7
-30,"['Chennai Super Kings', 'Mumbai Indians']",1,0,Chennai Super Kings won by 20 runs,Chennai Super Kings,Mumbai Indians,20,
-31,"['Kolkata Knight Riders', 'Royal Challengers Bengaluru']",1,0,Kolkata Knight Riders won by 9 wkts,Kolkata Knight Riders,Royal Challengers Bengaluru,,9
-32,"['Punjab Kings', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 2 runs,Rajasthan Royals,Punjab Kings,2,
-33,"['Delhi Capitals', 'Sunrisers Hyderabad']",1,0,Delhi Capitals won by 8 wkts,Delhi Capitals,Sunrisers Hyderabad,,8
-34,"['Kolkata Knight Riders', 'Mumbai Indians']",1,0,Kolkata Knight Riders won by 7 wkts,Kolkata Knight Riders,Mumbai Indians,,7
-35,"['Chennai Super Kings', 'Royal Challengers Bengaluru']",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Royal Challengers Bengaluru,,6
-36,"['Delhi Capitals', 'Rajasthan Royals']",1,0,Delhi Capitals won by 33 runs,Delhi Capitals,Rajasthan Royals,33,
-37,"['Punjab Kings', 'Sunrisers Hyderabad']",1,0,Punjab Kings won by 5 runs,Punjab Kings,Sunrisers Hyderabad,5,
-38,"['Chennai Super Kings', 'Kolkata Knight Riders']",1,0,Chennai Super Kings won by 2 wkts,Chennai Super Kings,Kolkata Knight Riders,,2
-39,"['Mumbai Indians', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 54 runs,Royal Challengers Bangalore,Mumbai Indians,54,
-40,"['Rajasthan Royals', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 7 wkts,Sunrisers Hyderabad,Rajasthan Royals,,7
-41,"['Delhi Capitals', 'Kolkata Knight Riders']",1,0,Kolkata Knight Riders won by 3 wkts,Kolkata Knight Riders,Delhi Capitals,,3
-42,"['Mumbai Indians', 'Punjab Kings']",1,0,Mumbai Indians won by 6 wkts,Mumbai Indians,Punjab Kings,,6
-43,"['Rajasthan Royals', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 7 wkts,Royal Challengers Bangalore,Royal Challengers Bengaluru,,7
-44,"['Chennai Super Kings', 'Sunrisers Hyderabad']",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Sunrisers Hyderabad,,6
-45,"['Kolkata Knight Riders', 'Punjab Kings']",1,0,Punjab Kings won by 5 wkts,Punjab Kings,Kolkata Knight Riders,,5
-46,"['Delhi Capitals', 'Mumbai Indians']",1,0,Delhi Capitals won by 4 wkts,Delhi Capitals,Mumbai Indians,,4
-47,"['Chennai Super Kings', 'Rajasthan Royals']",1,0,Rajasthan Royals won by 7 wkts,Rajasthan Royals,Chennai Super Kings,,7
-48,"['Punjab Kings', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 6 runs,Royal Challengers Bangalore,Royal Challengers Bengaluru,6,
-49,"['Kolkata Knight Riders', 'Sunrisers Hyderabad']",1,0,Kolkata Knight Riders won by 6 wkts,Kolkata Knight Riders,Sunrisers Hyderabad,,6
-50,"['Chennai Super Kings', 'Delhi Capitals']",1,0,Delhi Capitals won by 3 wkts,Delhi Capitals,Chennai Super Kings,,3
-51,"['Mumbai Indians', 'Rajasthan Royals']",1,0,Mumbai Indians won by 8 wkts,Mumbai Indians,Rajasthan Royals,,8
-52,"['Royal Challengers Bengaluru', 'Sunrisers Hyderabad']",1,0,Sunrisers Hyderabad won by 4 runs,Sunrisers Hyderabad,Royal Challengers Bengaluru,4,
-53,"['Chennai Super Kings', 'Punjab Kings']",1,0,Punjab Kings won by 6 wkts,Punjab Kings,Chennai Super Kings,,6
-54,"['Kolkata Knight Riders', 'Rajasthan Royals']",1,0,Kolkata Knight Riders won by 86 runs,Kolkata Knight Riders,Rajasthan Royals,86,
-55,"['Mumbai Indians', 'Sunrisers Hyderabad']",1,0,Mumbai Indians won by 42 runs,Mumbai Indians,Sunrisers Hyderabad,42,
-56,"['Delhi Capitals', 'Royal Challengers Bengaluru']",1,0,Royal Challengers Bangalore won by 7 wkts,Royal Challengers Bangalore,Delhi Capitals,,7
+1,"Mumbai Indians,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 2 wkts,Royal Challengers Bangalore,Mumbai Indians,,2
+2,"Chennai Super Kings,Delhi Capitals",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Chennai Super Kings,,7
+3,"Kolkata Knight Riders,Sunrisers Hyderabad",1,0,Kolkata Knight Riders won by 10 runs,Kolkata Knight Riders,Sunrisers Hyderabad,10,
+4,"Punjab Kings,Rajasthan Royals",1,0,Punjab Kings won by 4 runs,Punjab Kings,Rajasthan Royals,4,
+5,"Kolkata Knight Riders,Mumbai Indians",1,0,Mumbai Indians won by 10 runs,Mumbai Indians,Kolkata Knight Riders,10,
+6,"Royal Challengers Bengaluru,Sunrisers Hyderabad",1,0,Royal Challengers Bangalore won by 6 runs,Royal Challengers Bangalore,Royal Challengers Bengaluru,6,
+7,"Delhi Capitals,Rajasthan Royals",1,0,Rajasthan Royals won by 3 wkts,Rajasthan Royals,Delhi Capitals,,3
+8,"Chennai Super Kings,Punjab Kings",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Punjab Kings,,6
+9,"Mumbai Indians,Sunrisers Hyderabad",1,0,Mumbai Indians won by 13 runs,Mumbai Indians,Sunrisers Hyderabad,13,
+10,"Kolkata Knight Riders,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 38 runs,Royal Challengers Bangalore,Kolkata Knight Riders,38,
+11,"Delhi Capitals,Punjab Kings",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Punjab Kings,,6
+12,"Chennai Super Kings,Rajasthan Royals",1,0,Chennai Super Kings won by 45 runs,Chennai Super Kings,Rajasthan Royals,45,
+13,"Delhi Capitals,Mumbai Indians",1,0,Delhi Capitals won by 6 wkts,Delhi Capitals,Mumbai Indians,,6
+14,"Punjab Kings,Sunrisers Hyderabad",1,0,Sunrisers Hyderabad won by 9 wkts,Sunrisers Hyderabad,Punjab Kings,,9
+15,"Chennai Super Kings,Kolkata Knight Riders",1,0,Chennai Super Kings won by 18 runs,Chennai Super Kings,Kolkata Knight Riders,18,
+16,"Rajasthan Royals,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 10 wkts,Royal Challengers Bangalore,Rajasthan Royals,,10
+17,"Mumbai Indians,Punjab Kings",1,0,Punjab Kings won by 9 wkts,Punjab Kings,Mumbai Indians,,9
+18,"Kolkata Knight Riders,Rajasthan Royals",1,0,Rajasthan Royals won by 6 wkts,Rajasthan Royals,Kolkata Knight Riders,,6
+19,"Chennai Super Kings,Royal Challengers Bengaluru",1,0,Chennai Super Kings won by 69 runs,Chennai Super Kings,Royal Challengers Bengaluru,69,
+20,"Delhi Capitals,Sunrisers Hyderabad",1,0,Match tied (Delhi Capitals won the Super Over),Delhi Capitals,Sunrisers Hyderabad,,
+21,"Kolkata Knight Riders,Punjab Kings",1,0,Kolkata Knight Riders won by 5 wkts,Kolkata Knight Riders,Punjab Kings,,5
+22,"Delhi Capitals,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 1 run,Royal Challengers Bangalore,Delhi Capitals,1,
+23,"Chennai Super Kings,Sunrisers Hyderabad",1,0,Chennai Super Kings won by 7 wkts,Chennai Super Kings,Sunrisers Hyderabad,,7
+24,"Mumbai Indians,Rajasthan Royals",1,0,Mumbai Indians won by 7 wkts,Mumbai Indians,Rajasthan Royals,,7
+25,"Delhi Capitals,Kolkata Knight Riders",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Kolkata Knight Riders,,7
+26,"Punjab Kings,Royal Challengers Bengaluru",1,0,Punjab Kings won by 34 runs,Punjab Kings,Royal Challengers Bengaluru,34,
+27,"Chennai Super Kings,Mumbai Indians",1,0,Mumbai Indians won by 4 wkts,Mumbai Indians,Chennai Super Kings,,4
+28,"Rajasthan Royals,Sunrisers Hyderabad",1,0,Rajasthan Royals won by 55 runs,Rajasthan Royals,Sunrisers Hyderabad,55,
+29,"Delhi Capitals,Punjab Kings",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Punjab Kings,,7
+30,"Chennai Super Kings,Mumbai Indians",1,0,Chennai Super Kings won by 20 runs,Chennai Super Kings,Mumbai Indians,20,
+31,"Kolkata Knight Riders,Royal Challengers Bengaluru",1,0,Kolkata Knight Riders won by 9 wkts,Kolkata Knight Riders,Royal Challengers Bengaluru,,9
+32,"Punjab Kings,Rajasthan Royals",1,0,Rajasthan Royals won by 2 runs,Rajasthan Royals,Punjab Kings,2,
+33,"Delhi Capitals,Sunrisers Hyderabad",1,0,Delhi Capitals won by 8 wkts,Delhi Capitals,Sunrisers Hyderabad,,8
+34,"Kolkata Knight Riders,Mumbai Indians",1,0,Kolkata Knight Riders won by 7 wkts,Kolkata Knight Riders,Mumbai Indians,,7
+35,"Chennai Super Kings,Royal Challengers Bengaluru",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Royal Challengers Bengaluru,,6
+36,"Delhi Capitals,Rajasthan Royals",1,0,Delhi Capitals won by 33 runs,Delhi Capitals,Rajasthan Royals,33,
+37,"Punjab Kings,Sunrisers Hyderabad",1,0,Punjab Kings won by 5 runs,Punjab Kings,Sunrisers Hyderabad,5,
+38,"Chennai Super Kings,Kolkata Knight Riders",1,0,Chennai Super Kings won by 2 wkts,Chennai Super Kings,Kolkata Knight Riders,,2
+39,"Mumbai Indians,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 54 runs,Royal Challengers Bangalore,Mumbai Indians,54,
+40,"Rajasthan Royals,Sunrisers Hyderabad",1,0,Sunrisers Hyderabad won by 7 wkts,Sunrisers Hyderabad,Rajasthan Royals,,7
+41,"Delhi Capitals,Kolkata Knight Riders",1,0,Kolkata Knight Riders won by 3 wkts,Kolkata Knight Riders,Delhi Capitals,,3
+42,"Mumbai Indians,Punjab Kings",1,0,Mumbai Indians won by 6 wkts,Mumbai Indians,Punjab Kings,,6
+43,"Rajasthan Royals,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 7 wkts,Royal Challengers Bangalore,Rajasthan Royals,,7
+44,"Chennai Super Kings,Sunrisers Hyderabad",1,0,Chennai Super Kings won by 6 wkts,Chennai Super Kings,Sunrisers Hyderabad,,6
+45,"Kolkata Knight Riders,Punjab Kings",1,0,Punjab Kings won by 5 wkts,Punjab Kings,Kolkata Knight Riders,,5
+46,"Delhi Capitals,Mumbai Indians",1,0,Delhi Capitals won by 4 wkts,Delhi Capitals,Mumbai Indians,,4
+47,"Chennai Super Kings,Rajasthan Royals",1,0,Rajasthan Royals won by 7 wkts,Rajasthan Royals,Chennai Super Kings,,7
+48,"Punjab Kings,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 6 runs,Royal Challengers Bangalore,Punjab Kings,6,
+49,"Kolkata Knight Riders,Sunrisers Hyderabad",1,0,Kolkata Knight Riders won by 6 wkts,Kolkata Knight Riders,Sunrisers Hyderabad,,6
+50,"Chennai Super Kings,Delhi Capitals",1,0,Delhi Capitals won by 3 wkts,Delhi Capitals,Chennai Super Kings,,3
+51,"Mumbai Indians,Rajasthan Royals",1,0,Mumbai Indians won by 8 wkts,Mumbai Indians,Rajasthan Royals,,8
+52,"Royal Challengers Bengaluru,Sunrisers Hyderabad",1,0,Sunrisers Hyderabad won by 4 runs,Sunrisers Hyderabad,Royal Challengers Bengaluru,4,
+53,"Chennai Super Kings,Punjab Kings",1,0,Punjab Kings won by 6 wkts,Punjab Kings,Chennai Super Kings,,6
+54,"Kolkata Knight Riders,Rajasthan Royals",1,0,Kolkata Knight Riders won by 86 runs,Kolkata Knight Riders,Rajasthan Royals,86,
+55,"Mumbai Indians,Sunrisers Hyderabad",1,0,Mumbai Indians won by 42 runs,Mumbai Indians,Sunrisers Hyderabad,42,
+56,"Delhi Capitals,Royal Challengers Bengaluru",1,0,Royal Challengers Bangalore won by 7 wkts,Royal Challengers Bangalore,Delhi Capitals,,7

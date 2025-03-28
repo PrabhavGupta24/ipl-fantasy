@@ -47,14 +47,14 @@ def get_schedule_data(schedule_link):
 
         schedule_data[match_number] = {
             keys[0]: match_number,
-            keys[1]: list(map(str.title, sorted(internal_links[0].text.split(',')[0].split(' vs ')))),
-            keys[2]: 1 if 'complete' in internal_links[1]['class'][0] else 0,
-            keys[3]: 0
+            keys[1]: ','.join(list(map(str.title, sorted(internal_links[0].text.split(',')[0].split(' vs '))))),
+            keys[2]: 1 if 'complete' in internal_links[1]['class'][0] else 0
         }
 
         if not schedule_data[match_number][keys[2]]:
             continue
 
+        schedule_data[match_number][keys[3]] = 0
         schedule_data[match_number][keys[4]] = internal_links[1].text
 
         if (
@@ -69,7 +69,8 @@ def get_schedule_data(schedule_link):
         if "Match tied" in internal_links[1].text:
             schedule_data[match_number][keys[5]] = internal_links[1].text.split('(')[1].split('won')[0].strip().title()
             schedule_data[match_number][keys[6]] = (
-                set(schedule_data[match_number][keys[1]]) - {schedule_data[match_number][keys[5]]}
+                set(schedule_data[match_number][keys[1]].split(","))
+                - {schedule_data[match_number][keys[5]]}
             ).pop()
             continue
 
@@ -81,7 +82,7 @@ def get_schedule_data(schedule_link):
 
         schedule_data[match_number][keys[5]] = result_parts[0].title()
         schedule_data[match_number][keys[6]] = (
-            set(schedule_data[match_number][keys[1]]) - {result_parts[0]}
+            set(schedule_data[match_number][keys[1]].split(",")) - {result_parts[0]}
         ).pop()
 
         if 'run' in result_parts[1]:
@@ -94,14 +95,14 @@ def get_schedule_data(schedule_link):
     return schedule_data, keys
 
 
-def export_data(filepath, fieldnames, player_entries):
+def export_data(filepath, fieldnames, entries):
 
     with open(filepath, "w", newline="") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
-        for name in player_entries:
-            writer.writerow(player_entries[name])
+        for name in entries:
+            writer.writerow(entries[name])
 
     print("Data Exported to:", filepath)
 

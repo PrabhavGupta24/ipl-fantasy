@@ -91,7 +91,7 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, allow_ties):
     # print(max_flow_path)
     return (
         True,
-        games_to_schedule == max_flow_val,
+        max_flow_val == ((int(allow_ties)) + 1) * games_to_schedule,
         (
             math.floor(max_flow_val / 2) + target_team_games_left
             if allow_ties
@@ -103,10 +103,22 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, allow_ties):
 
 def main():
     target_team = "Delhi Capitals"
-    simple_check, success, scheduled_count, total_matches, max_flow_path = get_possibility(target_team, 
-                                                                             "data/ipl_2024_points_table_edit.csv", 
-                                                                             "data/ipl_2024_schedule_edit.csv", 
-                                                                             allow_ties=True)
+    # simple_check, success, scheduled_count, total_matches, max_flow_path = (
+    #     get_possibility(
+    #         target_team,
+    #         "data/ipl_2024_points_table_edit.csv",
+    #         "data/ipl_2024_schedule_edit.csv",
+    #         allow_ties=True,
+    #     )
+    # )
+    simple_check, success, scheduled_count, total_matches, max_flow_path = (
+        get_possibility(
+            target_team,
+            "data/ipl_2025_points_table.csv",
+            "data/ipl_2025_schedule.csv",
+            allow_ties=True,
+        )
+    )
     if simple_check:
         print(f'{target_team} can end at the top: {success}')
         print(f'Scheduled {scheduled_count} out of {total_matches} matches.')

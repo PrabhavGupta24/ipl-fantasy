@@ -47,13 +47,12 @@ def remove_matches(
                 pt_data[winner]["Won"] = int(pt_data[winner]["Won"]) - 1
                 pt_data[loser]["Lost"] = int(pt_data[loser]["Lost"]) - 1
 
-                pt_data[winner]["Points"] = int(pt_data[team1]["Points"]) - 2
+                pt_data[winner]["Points"] = int(pt_data[winner]["Points"]) - 2
 
+        match['Completed'] = 0
         schedule_data[i] = {k: v for k, v in match.items() if k in s_fieldname_keep}
 
-    print(pt_data.keys())
-    pt_data = OrderedDict(sorted(pt_data.items(), key=lambda item: item[1]['Points'], reverse=True))
-    print(pt_data.keys())
+    pt_data = OrderedDict(sorted(pt_data.items(), key=lambda entry: int(entry[1]['Points']), reverse=True))
 
     return pt_data, schedule_data
 
@@ -67,9 +66,8 @@ def main():
 
     new_pt_filepath = "data/ipl_2024_points_table_edit.csv"
     new_schedule_filepath = "data/ipl_2024_schedule_edit.csv"
-    pt_data, schedule_data = remove_matches(20, pt_data, schedule_data)
+    pt_data, schedule_data = remove_matches(15, pt_data, schedule_data)
     export_data(new_pt_filepath, pt_fieldnames, pt_data)
-    #make ordered dict so that the points table comes out in order
 
     schedule_data = {entry['Match Number']: entry for entry in schedule_data}
     export_data(new_schedule_filepath, schedule_fieldnames, schedule_data)

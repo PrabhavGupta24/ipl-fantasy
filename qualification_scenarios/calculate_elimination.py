@@ -155,7 +155,7 @@ def main():
             top_n=top_n,
         )
     )
-    # simple_check, success, scheduled_count, total_matches, max_flow_path = (
+    # success, scheduled_count, total_matches, max_flow_path = (
     #     get_possibility(
     #         target_team,
     #         "data/ipl_2025_points_table.csv",

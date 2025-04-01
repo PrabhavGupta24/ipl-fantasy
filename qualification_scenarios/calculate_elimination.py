@@ -49,19 +49,13 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, allow_ties, top
     # Get teams and their points, remove target team
     teams_data = get_points_table_data(pt_filepath)
     all_teams = teams_data.keys()
-    target_team_points = teams_data.pop(target_team)
+    target_team_points = teams_data[target_team]
 
     # Get remaining matches
     matches, total_matches = get_schedule_data(schedule_filepath)
+    target_team_games_left = sum(matches[match] for match in matches if target_team in match)
 
-    # Remove target team's matches
-    matches_to_remove = [match for match in matches if target_team in match]
-    target_team_games_left = sum(matches[match] for match in matches_to_remove)
-    games_to_schedule = total_matches - target_team_games_left
-    for match in matches_to_remove:
-        del matches[match]
-
-    # Get max points for target team and set team edge capacities
+    # Get max points for target team
     target_team_max = (
         target_team_points + 2 * target_team_games_left 
         if allow_ties 
@@ -75,23 +69,22 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, allow_ties, top
             if allow_ties
             else target_team_max - math.ceil(teams_data[team] / 2)
         )
+    teams_data[target_team] = 100
 
     # Make the graph
     G, source, sink = create_graph(teams_data, matches, allow_ties)
 
-    # Get parameters for calculating max flow, and calculate 
-    target_max_flow = ((int(allow_ties)) + 1) * games_to_schedule
-    teams = set(all_teams) - {target_team}
+    # Get parameters for calculating max flow, and calculate
+    target_max_flow = ((int(allow_ties)) + 1) * total_matches
 
-    success, max_flow_val, max_flow_path = get_max_flow(G, source, sink, teams, teams_data, target_max_flow, top_n)
-
+    success, max_flow_val, max_flow_path = get_max_flow(G, source, sink, all_teams, teams_data, target_max_flow, top_n)
 
     return (
         success,
         (
-            math.floor(max_flow_val / 2) + target_team_games_left
+            math.floor(max_flow_val / 2)
             if allow_ties
-            else max_flow_val + target_team_games_left
+            else max_flow_val
         ),
         total_matches,
         max_flow_path,
@@ -168,6 +161,9 @@ def main():
     print(f'{target_team} can end in the top {top_n}: {success}')
     print(f'Scheduled {scheduled_count} out of {total_matches} matches.')
 
+    # for edge_flow in max_flow_path:
+    #     print(edge_flow, max_flow_path[edge_flow])
+    # print(max_flow_path)
 
 if __name__ == '__main__':
     main()

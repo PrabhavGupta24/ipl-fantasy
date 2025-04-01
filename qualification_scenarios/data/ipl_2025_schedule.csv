@@ -8,9 +8,9 @@ Match Number,Teams,Completed,Tied/NR,Result String,Winner,Loser,Margin Runs,Marg
 7,"Lucknow Super Giants,Sunrisers Hyderabad",1,0,Lucknow Super Giants won by 5 wkts,Lucknow Super Giants,Sunrisers Hyderabad,,5
 8,"Chennai Super Kings,Royal Challengers Bengaluru",1,0,Royal Challengers Bengaluru won by 50 runs,Royal Challengers Bengaluru,Chennai Super Kings,50,
 9,"Gujarat Titans,Mumbai Indians",1,0,Gujarat Titans won by 36 runs,Gujarat Titans,Mumbai Indians,36,
-10,"Delhi Capitals,Sunrisers Hyderabad",0,,,,,,
-11,"Chennai Super Kings,Rajasthan Royals",0,,,,,,
-12,"Kolkata Knight Riders,Mumbai Indians",0,,,,,,
+10,"Delhi Capitals,Sunrisers Hyderabad",1,0,Delhi Capitals won by 7 wkts,Delhi Capitals,Sunrisers Hyderabad,,7
+11,"Chennai Super Kings,Rajasthan Royals",1,0,Rajasthan Royals won by 6 runs,Rajasthan Royals,Chennai Super Kings,6,
+12,"Kolkata Knight Riders,Mumbai Indians",1,0,Mumbai Indians won by 8 wkts,Mumbai Indians,Kolkata Knight Riders,,8
 13,"Lucknow Super Giants,Punjab Kings",0,,,,,,
 14,"Gujarat Titans,Royal Challengers Bengaluru",0,,,,,,
 15,"Kolkata Knight Riders,Sunrisers Hyderabad",0,,,,,,

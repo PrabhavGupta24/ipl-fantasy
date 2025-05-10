@@ -1,24 +1,6 @@
 import csv
-from scrape_curr_data import export_data
+from tournament_data import export_to_csv, import_from_csv
 from collections import OrderedDict
-
-def extract_data(pt_filepath, schedule_filepath):
-    pt_fieldnames = []
-    pt_data = {}
-    schedule_fieldnames = []
-    schedule_data = {}
-
-    with open(pt_filepath, mode="r", newline="") as file:
-        reader = csv.DictReader(file)
-        pt_data = {row["Name"]: row for row in reader}
-        pt_fieldnames = reader.fieldnames
-
-    with open(schedule_filepath, mode="r", newline="") as file:
-        reader = csv.DictReader(file)
-        schedule_data = list(reader)
-        schedule_fieldnames = reader.fieldnames
-
-    return pt_fieldnames, pt_data, schedule_fieldnames, schedule_data
 
 
 def remove_matches(
@@ -30,7 +12,7 @@ def remove_matches(
     for i in range(len(schedule_data) - 1, len(schedule_data) - 1 - num_to_remove, -1):
         match = schedule_data[i]
 
-        if match['Completed']:
+        if int(match['Completed']):
             team1, team2 = match['Teams'].split(',')
             pt_data[team1]['Matches'] = int(pt_data[team1]['Matches']) - 1
             pt_data[team2]["Matches"] = int(pt_data[team2]["Matches"]) - 1
@@ -58,19 +40,24 @@ def remove_matches(
 
 
 def main():
-    pt_filepath = "data/ipl_2024_points_table.csv"
-    schedule_filepath = "data/ipl_2024_schedule.csv"
-    pt_fieldnames, pt_data, schedule_fieldnames, schedule_data = extract_data(
+    pt_filepath = "data/ipl_2025_points_table.csv"
+    pt_filepath_removed = "data/ipl_2025_points_table_removed.csv"
+    schedule_filepath = "data/ipl_2025_schedule.csv"
+    schedule_filepath_removed = "data/ipl_2025_schedule_removed.csv"
+
+    pt_fieldnames, pt_data, schedule_fieldnames, schedule_data = import_from_csv(
         pt_filepath, schedule_filepath
     )
 
-    new_pt_filepath = "data/ipl_2024_points_table_edit.csv"
-    new_schedule_filepath = "data/ipl_2024_schedule_edit.csv"
-    pt_data, schedule_data = remove_matches(15, pt_data, schedule_data)
-    export_data(new_pt_filepath, pt_fieldnames, pt_data)
+    # new_pt_filepath = "data/ipl_2024_points_table_edit.csv"
+    # new_schedule_filepath = "data/ipl_2024_schedule_edit.csv"
+    pt_data, schedule_data = remove_matches(0, pt_data, schedule_data)
+    # export_to_csv(new_pt_filepath, pt_fieldnames, pt_data)
+    export_to_csv(pt_filepath_removed, pt_fieldnames, pt_data)
 
     schedule_data = {entry['Match Number']: entry for entry in schedule_data}
-    export_data(new_schedule_filepath, schedule_fieldnames, schedule_data)
+    # export_to_csv(new_schedule_filepath, schedule_fieldnames, schedule_data)
+    export_to_csv(schedule_filepath_removed, schedule_fieldnames, schedule_data)
 
 
 if __name__ == '__main__':

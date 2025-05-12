@@ -1,9 +1,9 @@
 import networkx as nx
 from itertools import combinations
 from collections import defaultdict, OrderedDict
-import math
-from typing import cast
 import tournament_data as tournament
+from typing import cast
+from constraint_classes import MatchConstraint, TeamConstraint
 
 
 def get_incomplete_games(schedule_data):
@@ -45,44 +45,75 @@ def create_graph(capacity_per_team, unplayed_match_counts, using_points):
     return G, source, sink
 
 
-def get_possibility(target_team, pt_filepath, schedule_filepath, pt_speculation, schedule_speculation, allow_match_ties=False, reject_pt_ties=False, top_n=4):
+def get_possibility(
+    target_team,
+    pt_filepath,
+    schedule_filepath,
+    pt_speculation,
+    schedule_speculation,
+    match_constraints=[],
+    team_constraints=[],
+    allow_match_ties=False,
+    reject_pt_ties=False,
+    top_n=4,
+):
 
     pt_keys, points_table_data, sched_keys, schedule_data = tournament.import_from_csv(pt_filepath, schedule_filepath)
 
-    incomplete_games, unplayed_match_counts, total_unplayed_matches = get_incomplete_games(
-        schedule_data
+    # APPLY MATCH CONSTRAINTS (using update_tournament_data())
+    for game in match_constraints:
+        game = cast(MatchConstraint, game)
+        update_tournament_data(
+            game.winner,
+            game.loser,
+            schedule_data[int(game.match_number) - 1],
+            points_table_data,
+            game.match_tied,
+        )
+
+    incomplete_games, unplayed_match_counts, total_unplayed_matches = (
+        get_incomplete_games(schedule_data)
     )
     points_per_team = clean_points_table_data(points_table_data)
 
-    # Get teams and their points, remove target team
     all_teams = points_per_team.keys()
-    teams = all_teams - {target_team}
-    target_team_points = points_per_team.pop(target_team)
+    target_team_points = points_per_team[target_team]
 
-    # Get remaining matches
-    target_team_games_left = 0
-    for match, number in list(unplayed_match_counts.items()):
-        if target_team in match:
-            target_team_games_left += number
-            del unplayed_match_counts[match]
-
-    games_to_schedule = total_unplayed_matches - target_team_games_left
+    # Get remaining matches for target team
+    target_team_games_left = sum(
+        unplayed_match_counts[game]
+        for game in unplayed_match_counts
+        if target_team in game
+    )
 
     # Get max points for target team
     target_team_max_points = target_team_points + 2 * target_team_games_left
 
+    target_team_upper_bound = float('inf')
+    for constraint in team_constraints:
+        if constraint.team_name == target_team and constraint.upper_bound is not None:
+            target_team_upper_bound = min(target_team_upper_bound, constraint.upper_bound)
+
+    if not allow_match_ties:
+        target_team_upper_bound = target_team_points + 2 * target_team_upper_bound
+    
+    target_team_max_points = min(target_team_max_points, target_team_upper_bound)
+
     # Set number of points/wins that each team can still get
     # If reject_pt_ties -> decrease number of points that can be earned by 1
     capacity_per_team = {}
-    for team in teams:
+    for team in all_teams:
         capacity_per_team[team] = (
             target_team_max_points - points_per_team[team] - int(reject_pt_ties)
         )
 
     # If allow_match_ties -> pts that can be earned (no change), Else -> games that can be won (int div by 2)
-    if allow_match_ties:
-        for team in teams:
+    if not allow_match_ties:
+        for team in all_teams:
             capacity_per_team[team] //= 2
+
+    target_max_flow = ((int(allow_match_ties)) + 1) * total_unplayed_matches
+    target_team_demand = capacity_per_team[target_team]
 
     # Make the graph
     # allow_match_ties -> using_points -> capacity of 2 along game edges instead of 1
@@ -90,17 +121,32 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, pt_speculation,
         capacity_per_team, unplayed_match_counts, using_points=allow_match_ties
     )
 
-    # Get parameters for calculating max flow, and calculate
-    target_max_flow = ((int(allow_match_ties)) + 1) * games_to_schedule
+    # INSERT DEMAND
+    G.nodes[source]['demand'] = -1 * target_max_flow
+    G.nodes[sink]['demand'] = target_max_flow 
 
-    success, max_flow_val, max_flow_path = get_max_flow(G, source, sink, teams, capacity_per_team, target_max_flow, top_n)
+    # G.nodes[target_team]["demand"] = target_team_demand
+    # G[target_team][sink]["capacity"] -= target_team_demand
+    # capacity_per_team[target_team] -= target_team_demand
+
+    # APPLY TEAM CONSTRAINTS
+    for team_const in team_constraints:
+        apply_team_constraint(G, sink, team_const)
+
+    apply_team_constraint(G, sink, TeamConstraint(target_team, lower_bound=G.nodes[target_team].get("upper_bound", target_team_demand)))
+
+    log_graph(G, all_teams, sink)
+
+    capacity_per_team = {team : G[team][sink]["capacity"] for team in all_teams}
+
+    # Get parameters for calculating max flow, and calculate
+    success, max_flow_path = get_max_flow(G, sink, all_teams, target_team, capacity_per_team, top_n)
 
     if success:
         generate_tournament_results_from_flow(
             max_flow_path,
             points_table_data,
             schedule_data,
-            target_team,
             pt_speculation,
             schedule_speculation,
             allow_match_ties,
@@ -108,61 +154,85 @@ def get_possibility(target_team, pt_filepath, schedule_filepath, pt_speculation,
 
     return (
         success,
-        (math.floor(max_flow_val / 2) if allow_match_ties and max_flow_val > 0 else max_flow_val) + target_team_games_left,
         total_unplayed_matches,
         max_flow_path,
     )
 
-def get_max_flow(G, source, sink, teams, teams_data, target_max_flow, top_n=1):
+
+def apply_team_constraint(G, sink, constraint:TeamConstraint):
+    if constraint.lower_bound is not None:
+        curr_lower_bound = G.nodes[constraint.team_name].get("demand", 0)
+        if curr_lower_bound < constraint.lower_bound:
+            G.nodes[constraint.team_name]["demand"] = constraint.lower_bound
+            G[constraint.team_name][sink]["capacity"] -= (constraint.lower_bound - curr_lower_bound)
+            G.nodes[sink]["demand"] -= (constraint.lower_bound - curr_lower_bound)
+
+            if "upper_bound" in G.nodes[constraint.team_name]:
+                G[constraint.team_name][sink]["upper_bound"] -= (
+                    constraint.lower_bound - curr_lower_bound
+                )
+
+    if constraint.upper_bound is not None:
+        new_capacity = constraint.upper_bound - G.nodes[constraint.team_name].get("demand", 0)
+        G[constraint.team_name][sink]["capacity"] = min(
+            G[constraint.team_name][sink]["capacity"], new_capacity
+        )
+        G.nodes[constraint.team_name]["upper_bound"] = min(
+            G.nodes[constraint.team_name].get("upper_bound", float('inf')), new_capacity
+        )
+
+
+def get_max_flow(G, sink, teams, target_team, teams_data, top_n=1):
+
+    flow_path = None
 
     if top_n <= 1:
         # Check for negative edge weights
-        if any(edge[2]["capacity"] < 0 for edge in G.edges(teams, data=True)):
+        if any(edge[2]['capacity'] < 0 for edge in G.edges(teams, data=True)):
             return False, float('-inf'), None
 
-        max_flow_val, max_flow_path = nx.maximum_flow(G, source, sink)
-        return max_flow_val == target_max_flow, max_flow_val, max_flow_path
+        _, flow_path = nx.network_simplex(G)
+        try:
+            _, flow_path = nx.network_simplex(G)
+        except:
+            pass
+
+        return flow_path != None, flow_path
 
     else:
-        # Track best result
-        max_max_flow, max_max_path = float('-inf'), None
 
         # Loop through every combo of teams to ignore
-        for team_combo in combinations(teams, top_n - 1):
+        for team_combo in combinations(teams - {target_team}, top_n - 1):
 
             # Set ignored edge weights
             for team in team_combo:
-                G[team][sink]['capacity'] = 100
+                G[team][sink]['capacity'] = G.nodes[team].get("upper_bound", 100)
 
             try:
                 # Check for negative edge weights
                 if any(edge[2]['capacity'] < 0 for edge in G.edges(teams, data=True)):
                     continue
 
-                max_flow_val, max_flow_path = nx.maximum_flow(G, source, sink)
+                _, flow_path = nx.network_simplex(G)
 
-                # Check if valid result
-                if max_flow_val == target_max_flow:
-                    return True, max_flow_val, max_flow_path
+                if flow_path:
+                    return True, flow_path
 
-                # Track best result
-                if max_flow_val > max_max_flow:
-                    max_max_flow = max_flow_val
-                    max_max_path = max_flow_path
+            except:
+                pass
 
             # Restore Edge Weights
             finally:
                 for team in team_combo:    
                     G[team][sink]["capacity"] = teams_data[team]
 
-        return False, max_max_flow, max_max_path
+        return False, None
 
 
 def generate_tournament_results_from_flow(
     flow_path,
     points_table_data,
     schedule_data,
-    target_team,
     pt_speculation,
     schedule_speculation,
     using_points=False,
@@ -172,13 +242,6 @@ def generate_tournament_results_from_flow(
     for game in schedule_data:
         if not int(game["Completed"]):
             team1, team2 = tuple(sorted(game["Teams"].split(",")))
-            if team1 == target_team:
-                update_tournament_data(team1, team2, game, points_table_data)
-                continue
-            elif team2 == target_team:
-                update_tournament_data(team2, team1, game, points_table_data)
-                continue
-
             relevant_flow = flow_dict[(team1, team2)]
 
             if relevant_flow[team1] > 0 + adj_for_points:
@@ -211,6 +274,31 @@ def generate_tournament_results_from_flow(
     tournament.export_to_csv(
         schedule_speculation, list(schedule_data.values())[0].keys(), schedule_data
     )
+
+
+def log_graph(G, team_names, sink, flow_dict=None, filename="log.txt"):
+    with open(filename, "w") as f:
+        f.write("=== Node Data (Teams and Sink) ===\n")
+        for node in team_names | {sink}:
+            node_data = G.nodes[node]
+            f.write(f"Node: {node}, Data: {node_data}\n")
+
+        f.write("\n=== Edge Data (Team → Sink) ===\n")
+        for team in team_names:
+            if G.has_edge(team, sink):
+                edge_data = G[team][sink]
+                capacity = edge_data.get("capacity", "N/A")
+                if flow_dict and team in flow_dict and sink in flow_dict[team]:
+                    flow = flow_dict[team][sink]
+                else:
+                    flow = "N/A"
+                f.write(
+                    f"Edge: {team} → {sink}, Capacity: {capacity}, Flow: {flow}, Full Edge Data: {edge_data}\n"
+                )
+            else:
+                f.write(f"Edge: {team} → {sink} does not exist.\n")
+
+    print(f"✅ Log written to: {filename}")
 
 
 def update_tournament_data(winner, loser, game, points_table_data, match_tied=False):
@@ -251,10 +339,17 @@ def update_tournament_data(winner, loser, game, points_table_data, match_tied=Fa
     )
 
 def main():
-    target_team = "Lucknow Super Giants"
+    target_team = "Royal Challengers Bengaluru"
     top_n = 4
     allow_match_ties = False
     reject_pt_ties = False
+
+    match_constraints = []
+    # match_constraints.append(MatchConstraint(65, winner="Gujarat Titans", loser="Lucknow Super Giants"))
+    team_constraints = []
+    team_constraints.append(
+        TeamConstraint("Royal Challengers Bengaluru", upper_bound=0)
+    )
 
     # success, scheduled_count, total_matches, max_flow_path = (
     #     get_possibility(
@@ -266,19 +361,20 @@ def main():
     #         top_n=top_n,
     #     )
     # )
-    success, scheduled_count, total_matches, max_flow_path = get_possibility(
+    success, total_matches, max_flow_path = get_possibility(
         target_team,
         "data/ipl_2025_points_table_removed.csv",
         "data/ipl_2025_schedule_removed.csv",
         "data/ipl_2025_points_table_speculation.csv",
         "data/ipl_2025_schedule_speculation.csv",
+        match_constraints=match_constraints,
+        team_constraints=team_constraints,
         allow_match_ties=allow_match_ties,
         reject_pt_ties=reject_pt_ties,
         top_n=top_n,
     )
 
     print(f'{target_team} can end in the top {top_n}: {success}')
-    print(f'Scheduled {scheduled_count} out of {total_matches} matches.')
 
 
 if __name__ == '__main__':

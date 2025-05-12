@@ -49,14 +49,14 @@ Match Number,Teams,Completed,Tied/NR,Result String,Winner,Loser,Margin Runs,Marg
 48,"Kolkata Knight Riders,Delhi Capitals",1,0,Kolkata Knight Riders won by 14 runs,Kolkata Knight Riders,Delhi Capitals,14,
 49,"Chennai Super Kings,Punjab Kings",1,0,Punjab Kings won by 4 wkts,Punjab Kings,Chennai Super Kings,,4
 50,"Mumbai Indians,Rajasthan Royals",1,0,Mumbai Indians won by 100 runs,Mumbai Indians,Rajasthan Royals,100,
-51,"Gujarat Titans,Sunrisers Hyderabad",1,0,Gujarat Titans won by 38 runs,Gujarat Titans,Sunrisers Hyderabad,38,
-52,"Royal Challengers Bengaluru,Chennai Super Kings",1,0,Royal Challengers Bengaluru won by 2 runs,Royal Challengers Bengaluru,Chennai Super Kings,2,
-53,"Kolkata Knight Riders,Rajasthan Royals",1,0,Kolkata Knight Riders won by 1 run,Kolkata Knight Riders,Rajasthan Royals,1,
-54,"Punjab Kings,Lucknow Super Giants",1,0,Punjab Kings won by 37 runs,Punjab Kings,Lucknow Super Giants,37,
-55,"Delhi Capitals,Sunrisers Hyderabad",1,1,No Result - due to rain,,,,
-56,"Mumbai Indians,Gujarat Titans",1,0,Gujarat Titans won by 3 wkts by DLS Method (Target 147),Gujarat Titans,Mumbai Indians,,3
-57,"Kolkata Knight Riders,Chennai Super Kings",1,0,Chennai Super Kings won by 2 wkts,Chennai Super Kings,Kolkata Knight Riders,,2
-58,"Punjab Kings,Delhi Capitals",1,1,Match abandoned due to significant technical failure,,,,
+51,"Gujarat Titans,Sunrisers Hyderabad",0,,,,,,
+52,"Royal Challengers Bengaluru,Chennai Super Kings",0,,,,,,
+53,"Kolkata Knight Riders,Rajasthan Royals",0,,,,,,
+54,"Punjab Kings,Lucknow Super Giants",0,,,,,,
+55,"Delhi Capitals,Sunrisers Hyderabad",0,,,,,,
+56,"Mumbai Indians,Gujarat Titans",0,,,,,,
+57,"Kolkata Knight Riders,Chennai Super Kings",0,,,,,,
+58,"Punjab Kings,Delhi Capitals",0,,,,,,
 59,"Lucknow Super Giants,Royal Challengers Bengaluru",0,,,,,,
 60,"Sunrisers Hyderabad,Kolkata Knight Riders",0,,,,,,
 61,"Punjab Kings,Mumbai Indians",0,,,,,,

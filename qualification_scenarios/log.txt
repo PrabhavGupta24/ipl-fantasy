@@ -1,0 +1,24 @@
+=== Node Data (Teams and Sink) ===
+Node: Sunrisers Hyderabad, Data: {}
+Node: Delhi Capitals, Data: {}
+Node: Royal Challengers Bengaluru, Data: {'upper_bound': 0}
+Node: Chennai Super Kings, Data: {}
+Node: sink, Data: {'demand': 20}
+Node: Rajasthan Royals, Data: {}
+Node: Gujarat Titans, Data: {}
+Node: Mumbai Indians, Data: {}
+Node: Kolkata Knight Riders, Data: {}
+Node: Punjab Kings, Data: {}
+Node: Lucknow Super Giants, Data: {}
+
+=== Edge Data (Team → Sink) ===
+Edge: Royal Challengers Bengaluru → sink, Capacity: 0, Flow: N/A, Full Edge Data: {'capacity': 0}
+Edge: Mumbai Indians → sink, Capacity: 0, Flow: N/A, Full Edge Data: {'capacity': 0}
+Edge: Punjab Kings → sink, Capacity: 0, Flow: N/A, Full Edge Data: {'capacity': 0}
+Edge: Gujarat Titans → sink, Capacity: 1, Flow: N/A, Full Edge Data: {'capacity': 1}
+Edge: Delhi Capitals → sink, Capacity: 1, Flow: N/A, Full Edge Data: {'capacity': 1}
+Edge: Lucknow Super Giants → sink, Capacity: 2, Flow: N/A, Full Edge Data: {'capacity': 2}
+Edge: Kolkata Knight Riders → sink, Capacity: 2, Flow: N/A, Full Edge Data: {'capacity': 2}
+Edge: Sunrisers Hyderabad → sink, Capacity: 4, Flow: N/A, Full Edge Data: {'capacity': 4}
+Edge: Rajasthan Royals → sink, Capacity: 4, Flow: N/A, Full Edge Data: {'capacity': 4}
+Edge: Chennai Super Kings → sink, Capacity: 5, Flow: N/A, Full Edge Data: {'capacity': 5}

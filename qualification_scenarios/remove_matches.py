@@ -51,7 +51,7 @@ def main():
 
     # new_pt_filepath = "data/ipl_2024_points_table_edit.csv"
     # new_schedule_filepath = "data/ipl_2024_schedule_edit.csv"
-    pt_data, schedule_data = remove_matches(0, pt_data, schedule_data)
+    pt_data, schedule_data = remove_matches(20, pt_data, schedule_data)
     # export_to_csv(new_pt_filepath, pt_fieldnames, pt_data)
     export_to_csv(pt_filepath_removed, pt_fieldnames, pt_data)
 

@@ -59,8 +59,8 @@ def get_possibility(
 ):
 
     pt_keys, points_table_data, sched_keys, schedule_data = tournament.import_from_csv(pt_filepath, schedule_filepath)
-
-    # APPLY MATCH CONSTRAINTS (using update_tournament_data())
+    
+    # Apply match constraints (using update_tournament_data())
     for game in match_constraints:
         game = cast(MatchConstraint, game)
         update_tournament_data(
@@ -215,11 +215,12 @@ def get_max_flow(G, sink, teams, target_team, teams_data, top_n=1):
 
                 _, flow_path = nx.network_simplex(G)
 
-                if flow_path:
-                    return True, flow_path
-
-            except:
+            except nx.NetworkXUnfeasible as e:
                 pass
+                
+            else:
+                log_graph(G, teams, sink, flow_path)
+                return True, flow_path
 
             # Restore Edge Weights
             finally:

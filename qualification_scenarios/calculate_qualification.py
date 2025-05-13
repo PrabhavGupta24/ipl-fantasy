@@ -62,7 +62,7 @@ def get_possibility(
 
     pt_keys, points_table_data, sched_keys, schedule_data = tournament.import_from_csv(pt_filepath, schedule_filepath)
 
-    # Apply Match Constraints (using update_tournament_data())
+    # Apply match constraints (using update_tournament_data())
     for game in match_constraints:
         game = cast(MatchConstraint, game)
         update_tournament_data(
@@ -84,6 +84,7 @@ def get_possibility(
     all_teams = points_per_team.keys()
     target_team_points = points_per_team[target_team]
 
+    # Get min points for target team
     target_team_lower_bound = 0
     for constraint in team_constraints:
         if constraint.team_name == target_team and constraint.lower_bound is not None:

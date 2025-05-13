@@ -18,6 +18,12 @@ class TeamConstraint:
 
 
 # @dataclass
+# class QualificationConstraint:
+#     team_name: str
+#     qualifies: bool
+
+
+# @dataclass
 # class TeamWinsConstraint:
 
 #     class Comparator(Enum):

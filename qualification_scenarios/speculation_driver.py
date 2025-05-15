@@ -135,7 +135,7 @@ def main():
             args.reject_pt_ties,
             args.top_n,
         )
-        print(f'{args.team_name} can end in the top {args.top_n}: {success}')
+        print(f'{args.team_name} can end outside the top {args.top_n}: {success}')
 
     else:
         print("Must select qualified or eliminated.")

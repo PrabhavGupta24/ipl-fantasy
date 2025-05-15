@@ -43,7 +43,10 @@ def scrape_schedule_data(schedule_link):
             break
 
         internal_links = match.find_all('a')
-        match_number = int(internal_links[0].text.split(",")[1].strip().split()[0][:-2])
+        try:
+            match_number = int(internal_links[0].text.split(",")[1].strip().split()[0][:-2])
+        except:
+            continue
 
         schedule_data[match_number] = {
             keys[0]: match_number,

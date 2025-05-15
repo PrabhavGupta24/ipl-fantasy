@@ -1,24 +1,24 @@
 === Node Data (Teams and Sink) ===
-Node: sink, Data: {'demand': 30}
-Node: Gujarat Titans, Data: {'demand': 2, 'upper_bound': 2}
-Node: Chennai Super Kings, Data: {}
-Node: Lucknow Super Giants, Data: {'demand': 8}
-Node: Sunrisers Hyderabad, Data: {}
-Node: Mumbai Indians, Data: {}
-Node: Royal Challengers Bengaluru, Data: {}
-Node: Delhi Capitals, Data: {}
-Node: Punjab Kings, Data: {}
-Node: Kolkata Knight Riders, Data: {}
-Node: Rajasthan Royals, Data: {}
+Node: Mumbai Indians, Data: {'lower_bound': 0, 'demand': 3}
+Node: Kolkata Knight Riders, Data: {'lower_bound': 0, 'demand': 0}
+Node: Lucknow Super Giants, Data: {'lower_bound': 0, 'demand': 0}
+Node: Punjab Kings, Data: {'lower_bound': 0, 'demand': 1}
+Node: Delhi Capitals, Data: {'lower_bound': 0, 'demand': 3}
+Node: Chennai Super Kings, Data: {'lower_bound': 0, 'demand': 0}
+Node: Sunrisers Hyderabad, Data: {'lower_bound': 0, 'demand': 0}
+Node: Gujarat Titans, Data: {'lower_bound': 0}
+Node: Rajasthan Royals, Data: {'lower_bound': 0, 'demand': 0}
+Node: sink, Data: {'demand': 16}
+Node: Royal Challengers Bengaluru, Data: {'lower_bound': 0, 'demand': 1}
 
 === Edge Data (Team → Sink) ===
-Edge: Royal Challengers Bengaluru → sink, Capacity: 3, Flow: 3, Full Edge Data: {'capacity': 3}
-Edge: Mumbai Indians → sink, Capacity: 3, Flow: 3, Full Edge Data: {'capacity': 3}
-Edge: Punjab Kings → sink, Capacity: 4, Flow: 4, Full Edge Data: {'capacity': 4}
-Edge: Gujarat Titans → sink, Capacity: 2, Flow: 2, Full Edge Data: {'capacity': 2}
-Edge: Delhi Capitals → sink, Capacity: 5, Flow: 4, Full Edge Data: {'capacity': 5}
-Edge: Lucknow Super Giants → sink, Capacity: 0, Flow: 0, Full Edge Data: {'capacity': 0}
-Edge: Kolkata Knight Riders → sink, Capacity: 8, Flow: 5, Full Edge Data: {'capacity': 8}
-Edge: Sunrisers Hyderabad → sink, Capacity: 100, Flow: 5, Full Edge Data: {'capacity': 100}
-Edge: Rajasthan Royals → sink, Capacity: 11, Flow: 2, Full Edge Data: {'capacity': 11}
-Edge: Chennai Super Kings → sink, Capacity: 100, Flow: 2, Full Edge Data: {'capacity': 100}
+Edge: Gujarat Titans → sink, Capacity: 0, Flow: 0, Full Edge Data: {'capacity': 0}
+Edge: Royal Challengers Bengaluru → sink, Capacity: N/A, Flow: 1, Full Edge Data: {}
+Edge: Punjab Kings → sink, Capacity: N/A, Flow: 1, Full Edge Data: {}
+Edge: Mumbai Indians → sink, Capacity: N/A, Flow: 0, Full Edge Data: {}
+Edge: Delhi Capitals → sink, Capacity: N/A, Flow: 0, Full Edge Data: {}
+Edge: Kolkata Knight Riders → sink, Capacity: N/A, Flow: 4, Full Edge Data: {}
+Edge: Lucknow Super Giants → sink, Capacity: N/A, Flow: 6, Full Edge Data: {}
+Edge: Sunrisers Hyderabad → sink, Capacity: N/A, Flow: 0, Full Edge Data: {}
+Edge: Rajasthan Royals → sink, Capacity: N/A, Flow: 0, Full Edge Data: {}
+Edge: Chennai Super Kings → sink, Capacity: N/A, Flow: 4, Full Edge Data: {}

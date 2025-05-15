@@ -20,6 +20,6 @@ python speculation_driver.py \
   --team_constraints '[{"team_name": "TeamC", "lower_bound": 2, "upper_bound": 5}]'
 ```
 
-Todo:
+Future Task Ideas:
 - make this a website
 - allow "target_team" to be multiple teams, with some qualifying and some not

@@ -3,10 +3,12 @@
 
 ## How to Run
 
+
+### Qualification Scenarios
 Use the terminal to run the script with your desired arguments. Example (-e for "is team eliminated", -q for "has team qualified"):
 
 ```bash
-python main.py \
+python speculation_driver.py \
   --team_name "TeamX" \
   --ipl_year 2025 \
   --removed_games 0\

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from enum import Enum
+from typing import Optional
 
 
 @dataclass
@@ -13,8 +14,8 @@ class MatchConstraint:
 @dataclass
 class TeamConstraint:
     team_name: str
-    lower_bound: int = None
-    upper_bound: int = None
+    lower_bound: Optional[int] = None
+    upper_bound: Optional[int] = None
 
 
 # @dataclass

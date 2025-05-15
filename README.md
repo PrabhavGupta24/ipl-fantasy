@@ -3,12 +3,15 @@
 
 ## How to Run
 
-Use the terminal to run the script with your desired arguments. Example:
+Use the terminal to run the script with your desired arguments. Example (-e for "is team eliminated", -q for "has team qualified"):
 
 ```bash
 python main.py \
   --team_name "TeamX" \
+  --ipl_year 2025 \
+  --removed_games 0\
   --top_n 4 \
+  -e \
   --allow_match_ties \
   --reject_pt_ties \
   --match_constraints '[{"match_number": 1, "winner": "TeamA", "loser": "TeamB", "match_tied": false}]' \

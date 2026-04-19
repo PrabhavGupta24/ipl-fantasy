@@ -65,10 +65,14 @@ def get_possibility(
     # Apply match constraints (using update_tournament_data())
     for game in match_constraints:
         game = cast(MatchConstraint, game)
+        schedule_row = schedule_data[int(game.match_number) - 1]
+        if int(schedule_row["Completed"]):
+            print(f"Warning: match {game.match_number} is already completed; skipping constraint.")
+            continue
         update_tournament_data(
             game.winner,
             game.loser,
-            schedule_data[int(game.match_number) - 1],
+            schedule_row,
             points_table_data,
             game.match_tied,
         )
@@ -256,7 +260,7 @@ def generate_tournament_results_from_flow(
 
             elif relevant_flow[team2] > 0 + adj_for_points:
                 update_tournament_data(team2, team1, game, points_table_data)
-                relevant_flow[team1] -= (1 + adj_for_points)
+                relevant_flow[team2] -= (1 + adj_for_points)
 
             elif using_points and relevant_flow[team1] == 1 and relevant_flow[team2] == 1:
                 update_tournament_data(team1, team2, game, points_table_data, match_tied=True)

@@ -195,7 +195,7 @@ def generate_tournament_results_from_flow(
 
             elif relevant_flow[team2] > 0 + adj_for_points:
                 update_tournament_data(team2, team1, game, points_table_data)
-                relevant_flow[team1] -= (1 + adj_for_points)
+                relevant_flow[team2] -= (1 + adj_for_points)
 
             elif using_points and relevant_flow[team1] == 1 and relevant_flow[team2] == 1:
                 update_tournament_data(team1, team2, game, points_table_data, match_tied=True)

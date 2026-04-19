@@ -63,10 +63,14 @@ def get_possibility(
     # Apply match constraints (using update_tournament_data())
     for game in match_constraints:
         game = cast(MatchConstraint, game)
+        schedule_row = schedule_data[int(game.match_number) - 1]
+        if int(schedule_row["Completed"]):
+            print(f"Warning: match {game.match_number} is already completed; skipping constraint.")
+            continue
         update_tournament_data(
             game.winner,
             game.loser,
-            schedule_data[int(game.match_number) - 1],
+            schedule_row,
             points_table_data,
             game.match_tied,
         )
@@ -168,7 +172,7 @@ def apply_team_constraint(G, sink, constraint:TeamConstraint):
             G.nodes[sink]["demand"] -= (constraint.lower_bound - curr_lower_bound)
 
             if "upper_bound" in G.nodes[constraint.team_name]:
-                G[constraint.team_name][sink]["upper_bound"] -= (
+                G.nodes[constraint.team_name]["upper_bound"] -= (
                     constraint.lower_bound - curr_lower_bound
                 )
 
@@ -189,12 +193,11 @@ def get_max_flow(G, sink, teams, target_team, teams_data, top_n=1):
     if top_n <= 1:
         # Check for negative edge weights
         if any(edge[2]['capacity'] < 0 for edge in G.edges(teams, data=True)):
-            return False, float('-inf'), None
+            return False, None
 
-        _, flow_path = nx.network_simplex(G)
         try:
             _, flow_path = nx.network_simplex(G)
-        except:
+        except nx.NetworkXUnfeasible:
             pass
 
         return flow_path != None, flow_path
@@ -251,7 +254,7 @@ def generate_tournament_results_from_flow(
 
             elif relevant_flow[team2] > 0 + adj_for_points:
                 update_tournament_data(team2, team1, game, points_table_data)
-                relevant_flow[team1] -= (1 + adj_for_points)
+                relevant_flow[team2] -= (1 + adj_for_points)
 
             elif using_points and relevant_flow[team1] == 1 and relevant_flow[team2] == 1:
                 update_tournament_data(team1, team2, game, points_table_data, match_tied=True)

@@ -145,6 +145,18 @@ def build_model(
     return model, vars_dict, metadata
 
 
+def read_unplayed_matches(schedule_filepath):
+    """Return list of (match_num, team_a, team_b) for matches not yet completed."""
+    import csv
+    unplayed = []
+    with open(schedule_filepath) as f:
+        for row in csv.DictReader(f):
+            if not int(row["Completed"]):
+                teams = [t.strip() for t in row["Teams"].split(",")]
+                unplayed.append((int(row["Match Number"]), teams[0], teams[1]))
+    return unplayed
+
+
 def add_in_top_n_constraint(model, vars_dict, top_n: int):
     """Target is in the top N ⟺ at most top_n - 1 other teams are above."""
     model.Add(sum(vars_dict["above_target"].values()) <= top_n - 1)

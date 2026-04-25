@@ -13,7 +13,7 @@ Example:
 import argparse
 
 import remove_matches
-from queries import can_qualify, has_qualified
+from queries import can_qualify, has_qualified, must_win_analysis, print_must_win_report
 
 
 def parse_args():
@@ -28,9 +28,10 @@ def parse_args():
                         help="Rewind the tournament by N completed matches before solving.")
     parser.add_argument("--top-n", type=int, default=4,
                         help="Qualification cutoff (top 4 for IPL playoffs).")
-    parser.add_argument("--mode", choices=["eliminated", "qualified"], required=True,
+    parser.add_argument("--mode", choices=["eliminated", "qualified", "must-win"], required=True,
                         help="'eliminated' asks whether target IS eliminated from top N; "
-                             "'qualified' asks whether target HAS clinched top N.")
+                             "'qualified' asks whether target HAS clinched top N; "
+                             "'must-win' reports per-match outcomes required for qualification.")
     parser.add_argument("--allow-match-ties", action="store_true",
                         help="Permit tied matches (default: no ties).")
     parser.add_argument("--reject-pt-ties", action="store_true",
@@ -88,6 +89,17 @@ def main():
         )
         verdict = "HAS qualified for" if clinched else "has NOT yet qualified for"
         print(f"{args.target} {verdict} the top {args.top_n}.")
+
+    elif args.mode == "must-win":
+        report = must_win_analysis(
+            target_team=args.target,
+            pt_filepath=pt_filepath,
+            schedule_filepath=schedule_filepath,
+            top_n=args.top_n,
+            allow_match_ties=args.allow_match_ties,
+            reject_pt_ties=args.reject_pt_ties,
+        )
+        print_must_win_report(report, args.target, args.top_n)
 
 
 if __name__ == "__main__":

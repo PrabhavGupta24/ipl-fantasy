@@ -134,6 +134,8 @@ def build_model(
         "win_b": win_b,
         "tied": tied,
         "above_target": above_target,
+        "team_wins": team_wins,   # team -> list of win BoolVars across remaining matches
+        "team_ties": team_ties,   # team -> list of tie BoolVars across remaining matches
     }
     metadata = {
         "target_team": target_team,

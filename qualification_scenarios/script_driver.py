@@ -11,7 +11,12 @@ faster to invoke.
 """
 
 import remove_matches
-from queries import can_qualify, has_qualified, must_win_analysis, print_must_win_report
+from queries import (
+    can_qualify, has_qualified,
+    must_win_analysis, print_must_win_report,
+    minimum_points_needed, print_minimum_points_report,
+    elimination_certificate, print_elimination_certificate,
+)
 from constraint_classes import MatchConstraint, TeamConstraint, MatchOutcome
 
 
@@ -44,7 +49,7 @@ TEAM_CONSTRAINTS = [
     # TeamConstraint("Delhi Capitals", upper_bound=4, unit="points"),# ≤ 4 more points
 ]
 
-# "eliminated", "qualified", or "must_win"
+# "eliminated", "qualified", "must_win", "min_points", or "why_eliminated"
 QUERY = "eliminated"
 
 # ============================================================
@@ -94,8 +99,21 @@ def main():
                   if k not in ("pt_outpath", "schedule_outpath")}
         report = must_win_analysis(**kwargs)
         print_must_win_report(report, TARGET_TEAM, TOP_N)
+    elif QUERY == "min_points":
+        kwargs = {k: v for k, v in common_kwargs.items()
+                  if k not in ("pt_outpath", "schedule_outpath")}
+        min_points = minimum_points_needed(**kwargs)
+        print_minimum_points_report(min_points, TARGET_TEAM, TOP_N, schedule_filepath)
+    elif QUERY == "why_eliminated":
+        kwargs = {k: v for k, v in common_kwargs.items()
+                  if k not in ("pt_outpath", "schedule_outpath")}
+        cert = elimination_certificate(**kwargs)
+        print_elimination_certificate(cert, TARGET_TEAM, TOP_N)
     else:
-        raise ValueError(f"QUERY must be 'eliminated', 'qualified', or 'must_win', got {QUERY!r}")
+        raise ValueError(
+            f"QUERY must be 'eliminated', 'qualified', 'must_win', 'min_points', or "
+            f"'why_eliminated', got {QUERY!r}"
+        )
 
 
 if __name__ == "__main__":

@@ -59,6 +59,7 @@ def enumerate_scenarios(
     qualifying_count = 0
     per_match_t1_wins = defaultdict(int)
     sample_qualifying = None
+    min_target_inc_points = None  # min target incremental points across qualifying scenarios
 
     for outcomes in product((0, 1), repeat=m):
         points = dict(curr_points)
@@ -78,6 +79,9 @@ def enumerate_scenarios(
 
         if above <= top_n - 1:
             qualifying_count += 1
+            target_inc = target_pts - curr_points[target_team]
+            if min_target_inc_points is None or target_inc < min_target_inc_points:
+                min_target_inc_points = target_inc
             if sample_qualifying is None:
                 sample_qualifying = outcomes
             for (match_num, _, _), result in zip(unplayed, outcomes):
@@ -93,6 +97,7 @@ def enumerate_scenarios(
         "unplayed_matches": unplayed,
         "per_match_t1_wins": dict(per_match_t1_wins),
         "sample_qualifying": sample_qualifying,
+        "min_target_inc_points": min_target_inc_points,
     }
 
     if verbose:

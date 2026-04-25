@@ -201,3 +201,166 @@ def print_must_win_report(report: dict, target_team: str, top_n: int) -> None:
         else:
             line = f"{m['team_a']} vs {m['team_b']} — flexible"
         print(f"  Match {m['match_number']:>3}: {line}")
+
+
+def minimum_points_needed(
+    target_team: str,
+    pt_filepath: str,
+    schedule_filepath: str,
+    top_n: int = 4,
+    match_constraints: Optional[List[MatchConstraint]] = None,
+    team_constraints: Optional[List[TeamConstraint]] = None,
+    allow_match_ties: bool = False,
+    reject_pt_ties: bool = False,
+) -> Optional[int]:
+    """Minimum additional points target needs to (possibly) qualify for top N.
+
+    Returns the minimum, or None if target is eliminated regardless.
+
+    Points (not wins) is the right unit because qualifying depends on points: with
+    ties allowed, the solver could swap wins for ties, making "min wins" misleading.
+    With ties off (default), the answer is exactly 2 × the equivalent min-wins value.
+    """
+    model, vars_dict, _ = build_model(
+        target_team, pt_filepath, schedule_filepath,
+        match_constraints=match_constraints,
+        team_constraints=team_constraints,
+        allow_match_ties=allow_match_ties,
+        reject_pt_ties=reject_pt_ties,
+    )
+    add_in_top_n_constraint(model, vars_dict, top_n)
+    # Incremental points: 2 per win + 1 per tie (current points are constant, ignored)
+    incremental_points = (
+        2 * sum(vars_dict["team_wins"][target_team])
+        + sum(vars_dict["team_ties"][target_team])
+    )
+    model.Minimize(incremental_points)
+
+    solver = cp_model.CpSolver()
+    status = solver.Solve(model)
+    if status == cp_model.OPTIMAL:
+        return int(solver.ObjectiveValue())
+    return None
+
+
+def print_minimum_points_report(min_points: Optional[int], target_team: str, top_n: int,
+                                 schedule_filepath: str) -> None:
+    """Format a minimum_points_needed result as human-readable stdout."""
+    if min_points is None:
+        print(f"{target_team} is ELIMINATED from top {top_n} — cannot qualify regardless of outcomes.")
+        return
+
+    remaining = sum(1 for _, a, b in read_unplayed_matches(schedule_filepath)
+                    if target_team in (a, b))
+    max_possible = 2 * remaining
+    print(f"{target_team} needs at least {min_points} more point(s) "
+          f"({remaining} match(es) remaining, max {max_possible}) "
+          f"to have a chance at top {top_n}.")
+
+
+def elimination_certificate(
+    target_team: str,
+    pt_filepath: str,
+    schedule_filepath: str,
+    top_n: int = 4,
+    match_constraints: Optional[List[MatchConstraint]] = None,
+    team_constraints: Optional[List[TeamConstraint]] = None,
+    allow_match_ties: bool = False,
+    reject_pt_ties: bool = False,
+) -> Optional[dict]:
+    """When target is eliminated, return the most favorable scenario for target.
+
+    Returns None if target is not eliminated.
+    Otherwise returns:
+        {
+          "min_count_above": int,                    # fewest teams above target across all completions
+          "target_final_points": int,                # target's points in that scenario
+          "teams_above": [(team_name, points), ...], # sorted desc by points
+        }
+
+    Computed via two ILP solves (lexicographic):
+      1. Minimize count of teams above target.
+      2. Among scenarios with that minimum count, maximize target's points.
+
+    The returned scenario is the strongest case for target — and yet, by elimination,
+    still has >= top_n teams beating them.
+    """
+    common_kwargs = dict(
+        target_team=target_team,
+        pt_filepath=pt_filepath,
+        schedule_filepath=schedule_filepath,
+        top_n=top_n,
+        match_constraints=match_constraints,
+        team_constraints=team_constraints,
+        allow_match_ties=allow_match_ties,
+        reject_pt_ties=reject_pt_ties,
+    )
+
+    if can_qualify(**common_kwargs):
+        return None  # not eliminated
+
+    # build_model doesn't take top_n (rank constraint is added separately, not used here)
+    build_kwargs = {k: v for k, v in common_kwargs.items() if k != "top_n"}
+
+    # Solve 1: minimize teams above target
+    model, vars_dict, _ = build_model(**build_kwargs)
+    model.Minimize(sum(vars_dict["above_target"].values()))
+    solver = cp_model.CpSolver()
+    if solver.Solve(model) != cp_model.OPTIMAL:
+        return None
+    min_count = int(solver.ObjectiveValue())
+
+    # Solve 2: lock the count, maximize target's incremental points
+    model, vars_dict, metadata = build_model(**build_kwargs)
+    model.Add(sum(vars_dict["above_target"].values()) == min_count)
+    target_incremental_points = (
+        2 * sum(vars_dict["team_wins"][target_team])
+        + sum(vars_dict["team_ties"][target_team])
+    )
+    model.Maximize(target_incremental_points)
+    solver = cp_model.CpSolver()
+    if solver.Solve(model) != cp_model.OPTIMAL:
+        return None
+
+    # Decode the witness into final points per team
+    curr_points = {team: int(data["Points"])
+                   for team, data in metadata["points_table_data"].items()}
+
+    def final_points(team):
+        wins = sum(solver.Value(v) for v in vars_dict["team_wins"][team])
+        ties = sum(solver.Value(v) for v in vars_dict["team_ties"][team])
+        return curr_points[team] + 2 * wins + ties
+
+    teams_above = []
+    for t in metadata["all_teams"]:
+        if t == target_team:
+            continue
+        if solver.Value(vars_dict["above_target"][t]):
+            teams_above.append((t, final_points(t)))
+    teams_above.sort(key=lambda tp: -tp[1])  # descending by points
+
+    return {
+        "min_count_above": min_count,
+        "target_final_points": final_points(target_team),
+        "teams_above": teams_above,
+    }
+
+
+def print_elimination_certificate(cert: Optional[dict], target_team: str, top_n: int) -> None:
+    """Format an elimination_certificate result as human-readable stdout."""
+    if cert is None:
+        print(f"{target_team} is NOT eliminated from top {top_n}; no certificate to produce.")
+        return
+
+    print(f"\n{target_team} is ELIMINATED from top {top_n}.\n")
+    print(f"Most favorable scenario for {target_team}:")
+    print(f"  {target_team} finishes with {cert['target_final_points']} points, "
+          f"but {cert['min_count_above']} team(s) still finish above:")
+    for team, pts in cert["teams_above"]:
+        print(f"    - {team}: {pts} pts")
+
+    # Gap to the top_n-th finisher (0-indexed: position top_n - 1 in the sorted-above list)
+    if len(cert["teams_above"]) >= top_n:
+        top_n_th_pts = cert["teams_above"][top_n - 1][1]
+        gap = top_n_th_pts - cert["target_final_points"]
+        print(f"\n  Gap from {target_team} to {top_n}th place: {gap} point(s).")

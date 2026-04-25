@@ -13,7 +13,12 @@ Example:
 import argparse
 
 import remove_matches
-from queries import can_qualify, has_qualified, must_win_analysis, print_must_win_report
+from queries import (
+    can_qualify, has_qualified,
+    must_win_analysis, print_must_win_report,
+    minimum_points_needed, print_minimum_points_report,
+    elimination_certificate, print_elimination_certificate,
+)
 
 
 def parse_args():
@@ -28,10 +33,15 @@ def parse_args():
                         help="Rewind the tournament by N completed matches before solving.")
     parser.add_argument("--top-n", type=int, default=4,
                         help="Qualification cutoff (top 4 for IPL playoffs).")
-    parser.add_argument("--mode", choices=["eliminated", "qualified", "must-win"], required=True,
-                        help="'eliminated' asks whether target IS eliminated from top N; "
-                             "'qualified' asks whether target HAS clinched top N; "
-                             "'must-win' reports per-match outcomes required for qualification.")
+    parser.add_argument(
+        "--mode",
+        choices=["eliminated", "qualified", "must-win", "min-points", "why-eliminated"],
+        required=True,
+        help="'eliminated' / 'qualified': yes/no status; "
+             "'must-win': per-match required outcomes; "
+             "'min-points': fewest more points target needs; "
+             "'why-eliminated': teams guaranteed above target (when eliminated).",
+    )
     parser.add_argument("--allow-match-ties", action="store_true",
                         help="Permit tied matches (default: no ties).")
     parser.add_argument("--reject-pt-ties", action="store_true",
@@ -100,6 +110,28 @@ def main():
             reject_pt_ties=args.reject_pt_ties,
         )
         print_must_win_report(report, args.target, args.top_n)
+
+    elif args.mode == "min-points":
+        min_points = minimum_points_needed(
+            target_team=args.target,
+            pt_filepath=pt_filepath,
+            schedule_filepath=schedule_filepath,
+            top_n=args.top_n,
+            allow_match_ties=args.allow_match_ties,
+            reject_pt_ties=args.reject_pt_ties,
+        )
+        print_minimum_points_report(min_points, args.target, args.top_n, schedule_filepath)
+
+    elif args.mode == "why-eliminated":
+        cert = elimination_certificate(
+            target_team=args.target,
+            pt_filepath=pt_filepath,
+            schedule_filepath=schedule_filepath,
+            top_n=args.top_n,
+            allow_match_ties=args.allow_match_ties,
+            reject_pt_ties=args.reject_pt_ties,
+        )
+        print_elimination_certificate(cert, args.target, args.top_n)
 
 
 if __name__ == "__main__":
